@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k010">
+  <edu id="e1"><![CDATA[Considering what's on television these days,]]></edu>
+  <edu id="e2"><![CDATA[it would be appropriate to only have those people pay who actually (want to) follow the programming.]]></edu>
+  <edu id="e3"><![CDATA[In some cases there are only shows for older generations on at prime times,]]></edu>
+  <edu id="e4"><![CDATA[so why then should everyone pay for this?]]></edu>
+  <edu id="e5"><![CDATA[By now you have advertising on all channels,]]></edu>
+  <edu id="e6"><![CDATA[so there's no advantage for the current paying viewers of the public broadcasters.]]></edu>
+  <edu id="e7"><![CDATA[Nevertheless one has to point out that there'd probably be way fewer stations]]></edu>
+  <edu id="e8"><![CDATA[if it weren’t the whole of Germany that’s obliged to pay.]]></edu>
+  <edu id="e9"><![CDATA[That shouldn't be an issue though,]]></edu>
+  <edu id="e10"><![CDATA[given the sheer number of programmes and stations that essentially show the same things anyway.]]></edu>
+  <joint id="j1"/>
+  <joint id="j2"/>
+  <joint id="j3"/>
+  <joint id="j4"/>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c1" src="e1" trg="j1" type="seg"/>
+  <edge id="c2" src="e2" trg="j1" type="seg"/>
+  <edge id="c3" src="e3" trg="j2" type="seg"/>
+  <edge id="c4" src="e4" trg="j2" type="seg"/>
+  <edge id="c5" src="e5" trg="a3" type="seg"/>
+  <edge id="c6" src="e6" trg="a4" type="seg"/>
+  <edge id="c7" src="e7" trg="j3" type="seg"/>
+  <edge id="c8" src="e8" trg="j3" type="seg"/>
+  <edge id="c9" src="e9" trg="j4" type="seg"/>
+  <edge id="c10" src="e10" trg="j4" type="seg"/>
+  <edge id="c11" src="j1" trg="a1" type="seg"/>
+  <edge id="c12" src="j2" trg="a2" type="seg"/>
+  <edge id="c13" src="j3" trg="a5" type="seg"/>
+  <edge id="c14" src="j4" trg="a6" type="seg"/>
+  <edge id="c15" src="a3" trg="a4" type="sup"/>
+  <edge id="c16" src="a2" trg="a1" type="sup"/>
+  <edge id="c17" src="a5" trg="a1" type="reb"/>
+  <edge id="c18" src="a4" trg="a1" type="sup"/>
+  <edge id="c19" src="a6" trg="c17" type="und"/>
+</arggraph>

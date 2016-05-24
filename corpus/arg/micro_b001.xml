@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b001">
+  <edu id="e1"><![CDATA[Yes, it's annoying and cumbersome to separate your rubbish properly all the time.]]></edu>
+  <edu id="e2"><![CDATA[Three different bin bags stink away in the kitchen]]></edu>
+  <edu id="e3"><![CDATA[and have to be sorted into different wheelie bins.]]></edu>
+  <edu id="e4"><![CDATA[But still Germany produces way too much rubbish]]></edu>
+  <edu id="e5"><![CDATA[and too many resources are lost]]></edu>
+  <edu id="e6"><![CDATA[when what actually should be separated and recycled is burnt.]]></edu>
+  <edu id="e7"><![CDATA[We Berliners should take the chance and become pioneers in waste separation!]]></edu>
+  <joint id="j1"/>
+  <joint id="j2"/>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c1" src="e1" trg="a1" type="seg"/>
+  <edge id="c2" src="e2" trg="j1" type="seg"/>
+  <edge id="c3" src="e3" trg="j1" type="seg"/>
+  <edge id="c4" src="e4" trg="a3" type="seg"/>
+  <edge id="c5" src="e5" trg="j2" type="seg"/>
+  <edge id="c6" src="e6" trg="j2" type="seg"/>
+  <edge id="c7" src="e7" trg="a5" type="seg"/>
+  <edge id="c8" src="j1" trg="a2" type="seg"/>
+  <edge id="c9" src="j2" trg="a4" type="seg"/>
+  <edge id="c10" src="a2" trg="a1" type="sup"/>
+  <edge id="c11" src="a1" trg="a5" type="reb"/>
+  <edge id="c12" src="a3" trg="c11" type="und"/>
+  <edge id="c13" src="a4" trg="c12" type="add"/>
+</arggraph>

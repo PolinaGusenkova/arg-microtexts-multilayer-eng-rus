@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotations>
+<metadata corpusHashcode="413-5889411" />
+<unit id="stergos_1433160140454">
+<metadata>
+<author>stergos</author>
+<creation-date>1433160140454</creation-date>
+<lastModifier>stergos</lastModifier>
+<lastModificationDate>1433160145718</lastModificationDate>
+</metadata>
+<characterisation>
+<type>EDU</type>
+<featureSet>
+<feature name="type">EDU</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0" />
+</start>
+<end>
+<singlePosition index="90" />
+</end>
+</positioning>
+</unit>
+<unit id="stergos_1433160148058">
+<metadata>
+<author>stergos</author>
+<creation-date>1433160148058</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>EDU</type>
+<featureSet>
+<feature name="type">EDU</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="91" />
+</start>
+<end>
+<singlePosition index="204" />
+</end>
+</positioning>
+</unit>
+<unit id="stergos_1433160150095">
+<metadata>
+<author>stergos</author>
+<creation-date>1433160150095</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>EDU</type>
+<featureSet>
+<feature name="type">EDU</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="205" />
+</start>
+<end>
+<singlePosition index="273" />
+</end>
+</positioning>
+</unit>
+<unit id="stergos_1433160152829">
+<metadata>
+<author>stergos</author>
+<creation-date>1433160152829</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>EDU</type>
+<featureSet>
+<feature name="type">EDU</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="274" />
+</start>
+<end>
+<singlePosition index="366" />
+</end>
+</positioning>
+</unit>
+<unit id="stergos_1433160155101">
+<metadata>
+<author>stergos</author>
+<creation-date>1433160155101</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>EDU</type>
+<featureSet>
+<feature name="type">EDU</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="367" />
+</start>
+<end>
+<singlePosition index="417" />
+</end>
+</positioning>
+</unit>
+<relation id="stergos_1433160175857">
+<metadata>
+<author>stergos</author>
+<creation-date>1433160175857</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>result</type>
+<featureSet>
+<feature name="type">résultat</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="stergos_1433160140454" />
+<term id="stergos_1433160148058" />
+</positioning>
+</relation>
+<relation id="stergos_1433160233626">
+<metadata>
+<author>stergos</author>
+<creation-date>1433160233626</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>contrast</type>
+<featureSet>
+<feature name="type">contraste</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="stergos_1433160152829" />
+<term id="stergos_1433160155101" />
+</positioning>
+</relation>
+<relation id="stergos_1438077680733">
+<metadata>
+<author>stergos</author>
+<creation-date>1438077680733</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>explanation</type>
+<featureSet>
+<feature name="type">explication</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="stergos_1438077660316" />
+<term id="stergos_1433160150095" />
+</positioning>
+</relation>
+<relation id="stergos_1438077731291">
+<metadata>
+<author>stergos</author>
+<creation-date>1438077731291</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>contrast</type>
+<featureSet>
+<feature name="type">contraste</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="stergos_1438077696395" />
+<term id="stergos_1433160152829" />
+</positioning>
+</relation>
+<schema id="stergos_1438077660316">
+<metadata>
+<author>stergos</author>
+<creation-date>1438077660316</creation-date>
+<lastModifier>stergos</lastModifier>
+<lastModificationDate>1438077662688</lastModificationDate>
+</metadata>
+<characterisation>
+<type>CDU</type>
+<featureSet>
+<feature name="type">CDU</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<embedded-unit id="stergos_1433160140454" />
+<embedded-unit id="stergos_1433160148058" />
+</positioning>
+</schema>
+<schema id="stergos_1438077696395">
+<metadata>
+<author>stergos</author>
+<creation-date>1438077696395</creation-date>
+<lastModifier>stergos</lastModifier>
+<lastModificationDate>1438077705466</lastModificationDate>
+</metadata>
+<characterisation>
+<type>CDU</type>
+<featureSet>
+<feature name="type">CDU</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<embedded-unit id="stergos_1433160150095" />
+<embedded-schema id="stergos_1438077660316" />
+</positioning>
+</schema>
+</annotations>

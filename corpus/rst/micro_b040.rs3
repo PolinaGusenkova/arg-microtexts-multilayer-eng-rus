@@ -1,0 +1,57 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="e-elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="evaluation-s" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="cause" type="rst" />
+      <rel name="result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="preparation" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="unconditional" type="rst" />
+      <rel name="unless" type="rst" />
+      <rel name="unstated-relation" type="rst" />
+      <rel name="evaluation-n" type="rst" />
+      <rel name="reason" type="rst" />
+      <rel name="conjunction" type="multinuc" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="disjunction" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="restatement-mn" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="12" relname="span">There should be much higher fines for dog dirt left on pavements.</segment>
+    <segment id="2" parent="8" relname="conjunction"> Stepping in dog dirt is gross</segment>
+    <segment id="3" parent="15" relname="span"> and absolutely ruins your day</segment>
+    <segment id="14" parent="3" relname="reason"> due to the dirt, the stench and the often considerable effort to get rid of it.</segment>
+    <segment id="4" parent="9" relname="span"> Besides, the fines for public urination by a human are higher than for leaving behind dog dirt on the pavement,</segment>
+    <segment id="5" parent="4" relname="elaboration"> which is disproportionate.</segment>
+    <segment id="6" parent="7" relname="antithesis"> Some dog owners assume that paying a dog licence fee covers the removal of such waste,</segment>
+    <segment id="7" parent="10" relname="span"> but according to this logic one could hardly make the taxpayer accountable for almost any offense.</segment>
+<group id="8" type="multinuc" parent="11" relname="list" />
+<group id="9" type="span" parent="11" relname="list" />
+<group id="10" type="span" parent="12" relname="elaboration" />
+<group id="11" type="multinuc" parent="1" relname="reason" />
+<group id="12" type="span" parent="13" relname="span" />
+<group id="13" type="span" />
+<group id="15" type="span" parent="8" relname="conjunction" />
+  </body>
+</rst>

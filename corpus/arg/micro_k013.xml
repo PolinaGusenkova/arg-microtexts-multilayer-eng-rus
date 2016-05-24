@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k013">
+  <edu id="e1"><![CDATA[Supermarket employees and people who work in shopping centres also have the right to a Sunday off work.]]></edu>
+  <edu id="e2"><![CDATA[Likewise public holidays should remain what they are:]]></edu>
+  <edu id="e3"><![CDATA[for some a day of introspection, for others a paid day off that is not taken away from the annual paid leave proper.]]></edu>
+  <edu id="e4"><![CDATA[Hence it is good when shops are not open on Sundays and public holidays.]]></edu>
+  <edu id="e5"><![CDATA[People, however, who work during the week and on Saturdays then have a problem:]]></edu>
+  <edu id="e6"><![CDATA[everyone else can shop weekdays,]]></edu>
+  <edu id="e7"><![CDATA[but they can't.]]></edu>
+  <edu id="e8"><![CDATA[For those people the late opening hours, which meanwhile already extend to 12:00 midnight, present a good alternative.]]></edu>
+  <joint id="j1"/>
+  <joint id="j2"/>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c1" src="e1" trg="a1" type="seg"/>
+  <edge id="c2" src="e2" trg="j1" type="seg"/>
+  <edge id="c3" src="e3" trg="j1" type="seg"/>
+  <edge id="c4" src="e4" trg="a3" type="seg"/>
+  <edge id="c5" src="e5" trg="j2" type="seg"/>
+  <edge id="c6" src="e6" trg="j2" type="seg"/>
+  <edge id="c7" src="e7" trg="j2" type="seg"/>
+  <edge id="c8" src="e8" trg="a5" type="seg"/>
+  <edge id="c9" src="j1" trg="a2" type="seg"/>
+  <edge id="c10" src="j2" trg="a4" type="seg"/>
+  <edge id="c11" src="a2" trg="a3" type="sup"/>
+  <edge id="c12" src="a1" trg="a3" type="sup"/>
+  <edge id="c13" src="a4" trg="a3" type="reb"/>
+  <edge id="c14" src="a5" trg="c13" type="und"/>
+</arggraph>

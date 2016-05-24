@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k009">
+  <edu id="e1"><![CDATA[Germany should by no means introduce capital punishment.]]></edu>
+  <edu id="e2"><![CDATA[If there were capital punishment,]]></edu>
+  <edu id="e3"><![CDATA[this would mean people are allowed to put themselves above others and rule over their lives.]]></edu>
+  <edu id="e4"><![CDATA[Capital punishment would be murder]]></edu>
+  <edu id="e5"><![CDATA[and would have to be punished with the death penalty itself.]]></edu>
+  <edu id="e6"><![CDATA[What, then, ought to be done with criminals who have committed truly awful crimes such as murder or rape -]]></edu>
+  <edu id="e7"><![CDATA[should they simply be allowed to live on]]></edu>
+  <edu id="e8"><![CDATA[although they have taken or destroyed another life?]]></edu>
+  <edu id="e9"><![CDATA[Yes, for it is a much graver punishment to be imprisoned forever and be tortured by one's own thoughts than to be killed quickly and easily by an injection.]]></edu>
+  <joint id="j1"/>
+  <joint id="j2"/>
+  <joint id="j3"/>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c1" src="e1" trg="a1" type="seg"/>
+  <edge id="c2" src="e2" trg="j1" type="seg"/>
+  <edge id="c3" src="e3" trg="j1" type="seg"/>
+  <edge id="c4" src="e4" trg="j2" type="seg"/>
+  <edge id="c5" src="e5" trg="j2" type="seg"/>
+  <edge id="c6" src="e6" trg="j3" type="seg"/>
+  <edge id="c7" src="e7" trg="j3" type="seg"/>
+  <edge id="c8" src="e8" trg="a5" type="seg"/>
+  <edge id="c9" src="e9" trg="a6" type="seg"/>
+  <edge id="c10" src="j1" trg="a2" type="seg"/>
+  <edge id="c11" src="j2" trg="a3" type="seg"/>
+  <edge id="c12" src="j3" trg="a4" type="seg"/>
+  <edge id="c13" src="a3" trg="a1" type="sup"/>
+  <edge id="c14" src="a2" trg="a1" type="sup"/>
+  <edge id="c15" src="a5" trg="a4" type="reb"/>
+  <edge id="c16" src="a4" trg="a1" type="sup"/>
+  <edge id="c17" src="a6" trg="c15" type="und"/>
+</arggraph>

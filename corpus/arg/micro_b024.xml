@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b024">
+  <edu id="e1"><![CDATA[A stop must be put to exorbitant rents]]></edu>
+  <edu id="e2"><![CDATA[by imposing a limit on rent increases when changing residences.]]></edu>
+  <edu id="e3"><![CDATA[For affordable living space is scarce.]]></edu>
+  <edu id="e4"><![CDATA[Besides, a higher degree of luxury (expensive flats) is not necessary for the majority of the people,]]></edu>
+  <edu id="e5"><![CDATA[but rather a flat at all.]]></edu>
+  <edu id="e6"><![CDATA[Plus everyone has to move approx. 3-10 times in his or her life,]]></edu>
+  <edu id="e7"><![CDATA[because the size of the desired accommodation changes over the course of a lifetime.]]></edu>
+  <joint id="j1"/>
+  <joint id="j2"/>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c1" src="e1" trg="j1" type="seg"/>
+  <edge id="c2" src="e2" trg="j1" type="seg"/>
+  <edge id="c3" src="e3" trg="a2" type="seg"/>
+  <edge id="c4" src="e4" trg="j2" type="seg"/>
+  <edge id="c5" src="e5" trg="j2" type="seg"/>
+  <edge id="c6" src="e6" trg="a4" type="seg"/>
+  <edge id="c7" src="e7" trg="a5" type="seg"/>
+  <edge id="c8" src="j1" trg="a1" type="seg"/>
+  <edge id="c9" src="j2" trg="a3" type="seg"/>
+  <edge id="c10" src="a5" trg="a4" type="sup"/>
+  <edge id="c11" src="a3" trg="a1" type="sup"/>
+  <edge id="c12" src="a2" trg="a1" type="sup"/>
+  <edge id="c13" src="a4" trg="a1" type="sup"/>
+</arggraph>

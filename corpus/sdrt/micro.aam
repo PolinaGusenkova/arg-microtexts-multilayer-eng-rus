@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotationModel>
+	<units>
+		<type name="EDU">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="EDU" />
+				</feature>
+			</featureSet>
+		</type>				
+	</units>
+	<relations>
+		<type name="explanation">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="explication" />
+				</feature>
+			</featureSet>
+		</type>
+		<type name="goal">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="but" />
+				</feature>
+			</featureSet>
+		</type>
+		<type name="result">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="résultat" />
+				</feature>
+			</featureSet>
+		</type>
+		<type name="parallel">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="parallèle" />
+				</feature>
+			</featureSet>
+		</type>
+		<type name="contrast">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="contraste" />
+				</feature>
+			</featureSet>
+		</type>
+		<type name="continuation">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="continuation" />
+				</feature>
+			</featureSet>
+		</type>
+		<type name="conditional">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="conditionnel" />
+				</feature>
+			</featureSet>
+		</type>		
+		<type name="alternation">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="alternation" />
+				</feature>
+			</featureSet>
+		</type>		
+		<type name="attribution">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="attribution" />
+				</feature>
+			</featureSet>
+		</type>		
+		<type name="background">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="arrière-plan" />
+				</feature>
+			</featureSet>
+		</type>
+		<type name="narration">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="narration" />
+				</feature>
+			</featureSet>
+		</type>
+		<type name="flashback">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="flashback" />
+				</feature>
+			</featureSet>
+		</type>
+		<type name="frame">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="encadrement" />
+				</feature>
+			</featureSet>
+		</type>
+		<type name="temploc">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="localisation_temporelle" />
+				</feature>
+			</featureSet>
+		</type>
+		<type name="elaboration">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="élaboration" />
+				</feature>
+			</featureSet>
+		</type>
+		<type name="e-elab">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="élaboration d'entité" />
+				</feature>
+			</featureSet>
+		</type>	
+		<type name="comment">
+					<featureSet>
+						<feature name="type">
+							<value type="free" default="commentaire" />
+						</feature>
+					</featureSet>
+		</type>	
+		<type name="fusion">
+							<featureSet>
+								<feature name="type">
+									<value type="free" default="fusion" />
+								</feature>
+							</featureSet>
+		</type>	
+	</relations>
+	<schemas>
+		<type name="CDU">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="CDU" />
+				</feature>
+			</featureSet>
+		</type>
+	</schemas>	
+</annotationModel>

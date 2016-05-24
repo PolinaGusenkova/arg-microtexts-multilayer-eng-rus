@@ -1,0 +1,55 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="e-elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="evaluation-s" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="cause" type="rst" />
+      <rel name="result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="preparation" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="unconditional" type="rst" />
+      <rel name="unless" type="rst" />
+      <rel name="unstated-relation" type="rst" />
+      <rel name="evaluation-n" type="rst" />
+      <rel name="reason" type="rst" />
+      <rel name="conjunction" type="multinuc" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="disjunction" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="restatement-mn" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="13" relname="span">The TV license fee should only be collected from those who actually make use of the programming of the public broadcasters.</segment>
+    <segment id="2" parent="3" relname="antithesis"> After all there are many people in Germany who pay the fee</segment>
+    <segment id="3" parent="10" relname="span"> although they merely use a computer to work.</segment>
+    <segment id="4" parent="9" relname="span"> Yet the fees are demanded from everybody who does not apply for a waiver,</segment>
+    <segment id="5" parent="8" relname="conjunction"> no matter how many receiver devices actually exist in the household</segment>
+    <segment id="6" parent="8" relname="conjunction"> and how they are being used.</segment>
+    <segment id="7" parent="11" relname="elaboration"> However it is obvious that the license fee officers are not in a position to check the usage of every single device.</segment>
+<group id="8" type="multinuc" parent="4" relname="elaboration" />
+<group id="9" type="span" parent="11" relname="contrast" />
+<group id="10" type="span" parent="11" relname="contrast" />
+<group id="11" type="multinuc" parent="12" relname="span" />
+<group id="12" type="span" parent="1" relname="reason" />
+<group id="13" type="span" />
+  </body>
+</rst>

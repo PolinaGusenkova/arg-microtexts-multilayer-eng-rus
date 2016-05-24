@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b015">
+  <edu id="e1"><![CDATA[Well, I as an employee find it very practical to be able to shop at least on weekends.]]></edu>
+  <edu id="e2"><![CDATA[Sure, other people have to work in the shops on the weekend,]]></edu>
+  <edu id="e3"><![CDATA[but they can have days off during the week]]></edu>
+  <edu id="e4"><![CDATA[and run errands at their leisure]]></edu>
+  <edu id="e5"><![CDATA[while I'm stuck in the office.]]></edu>
+  <edu id="e6"><![CDATA[Plus, the state wants me to spend my money,]]></edu>
+  <edu id="e7"><![CDATA[and how am I supposed to do that when the shops aren't open when I'm off work?]]></edu>
+  <joint id="j1"/>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c1" src="e1" trg="a1" type="seg"/>
+  <edge id="c2" src="e2" trg="a2" type="seg"/>
+  <edge id="c3" src="e3" trg="j1" type="seg"/>
+  <edge id="c4" src="e4" trg="j1" type="seg"/>
+  <edge id="c5" src="e5" trg="j1" type="seg"/>
+  <edge id="c6" src="e6" trg="a4" type="seg"/>
+  <edge id="c7" src="e7" trg="a5" type="seg"/>
+  <edge id="c8" src="j1" trg="a3" type="seg"/>
+  <edge id="c9" src="a2" trg="a1" type="reb"/>
+  <edge id="c10" src="a4" trg="a1" type="sup"/>
+  <edge id="c11" src="a5" trg="c10" type="add"/>
+  <edge id="c12" src="a3" trg="c9" type="und"/>
+</arggraph>

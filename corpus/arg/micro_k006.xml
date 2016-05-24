@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k006">
+  <edu id="e1"><![CDATA[If Germany were to introduce the death penalty,]]></edu>
+  <edu id="e2"><![CDATA[convicted felons could not be paroled]]></edu>
+  <edu id="e3"><![CDATA[or break out of prison]]></edu>
+  <edu id="e4"><![CDATA[and commit new felonies.]]></edu>
+  <edu id="e5"><![CDATA[However, a death would not be of any more use to those affected and their relatives than if the felon receives a long sentence.]]></edu>
+  <edu id="e6"><![CDATA[Plus we don't live in medieval times anymore.]]></edu>
+  <edu id="e7"><![CDATA[Handing out capital punishment is unethical.]]></edu>
+  <edu id="e8"><![CDATA[We don't need it.]]></edu>
+  <joint id="j1"/>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c1" src="e1" trg="j1" type="seg"/>
+  <edge id="c2" src="e2" trg="j1" type="seg"/>
+  <edge id="c3" src="e3" trg="j1" type="seg"/>
+  <edge id="c4" src="e4" trg="j1" type="seg"/>
+  <edge id="c5" src="e5" trg="a2" type="seg"/>
+  <edge id="c6" src="e6" trg="a3" type="seg"/>
+  <edge id="c7" src="e7" trg="a4" type="seg"/>
+  <edge id="c8" src="e8" trg="a5" type="seg"/>
+  <edge id="c9" src="j1" trg="a1" type="seg"/>
+  <edge id="c10" src="a3" trg="a5" type="sup"/>
+  <edge id="c11" src="a1" trg="a5" type="reb"/>
+  <edge id="c12" src="a4" trg="a5" type="sup"/>
+  <edge id="c13" src="a2" trg="c11" type="und"/>
+</arggraph>

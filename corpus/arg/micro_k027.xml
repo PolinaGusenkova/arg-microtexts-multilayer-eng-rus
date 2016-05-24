@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k027">
+  <edu id="e1"><![CDATA[The TV license fee should only be collected from those who actually make use of the programming of the public broadcasters.]]></edu>
+  <edu id="e2"><![CDATA[After all there are many people in Germany who pay the fee]]></edu>
+  <edu id="e3"><![CDATA[although they merely use a computer to work.]]></edu>
+  <edu id="e4"><![CDATA[Yet the fees are demanded from everybody who does not apply for a waiver,]]></edu>
+  <edu id="e5"><![CDATA[no matter how many receiver devices actually exist in the household]]></edu>
+  <edu id="e6"><![CDATA[and how they are being used.]]></edu>
+  <edu id="e7"><![CDATA[However it is obvious that the license fee officers are not in a position to check the usage of every single device.]]></edu>
+  <joint id="j1"/>
+  <joint id="j2"/>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <edge id="c1" src="e1" trg="a1" type="seg"/>
+  <edge id="c2" src="e2" trg="j1" type="seg"/>
+  <edge id="c3" src="e3" trg="j1" type="seg"/>
+  <edge id="c4" src="e4" trg="j2" type="seg"/>
+  <edge id="c5" src="e5" trg="j2" type="seg"/>
+  <edge id="c6" src="e6" trg="j2" type="seg"/>
+  <edge id="c7" src="e7" trg="a4" type="seg"/>
+  <edge id="c8" src="j1" trg="a2" type="seg"/>
+  <edge id="c9" src="j2" trg="a3" type="seg"/>
+  <edge id="c10" src="a2" trg="a1" type="sup"/>
+  <edge id="c11" src="a3" trg="a1" type="sup"/>
+  <edge id="c12" src="a4" trg="a1" type="reb"/>
+</arggraph>

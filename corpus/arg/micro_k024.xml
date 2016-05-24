@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k024">
+  <edu id="e1"><![CDATA[Dog owners should pay higher fines for dog dirt left on pavements,]]></edu>
+  <edu id="e2"><![CDATA[although there aren't enough bins and bag-dispensers for dog dirt.]]></edu>
+  <edu id="e3"><![CDATA[One reason for this is that they have thus far hardly had to fear the consequences despite the obligation to clean up.]]></edu>
+  <edu id="e4"><![CDATA[A higher fine,]]></edu>
+  <edu id="e5"><![CDATA[so dog owners would have to dig deeper into their pockets,]]></edu>
+  <edu id="e6"><![CDATA[is supposed to be a deterrent after all.]]></edu>
+  <edu id="e7"><![CDATA[The city, especially the green spaces, should be kept tidy after all,]]></edu>
+  <edu id="e8"><![CDATA[for they are there for our recreation.]]></edu>
+  <edu id="e9"><![CDATA[Besides you're not allowed to leave other rubbish without punishment.]]></edu>
+  <joint id="j1"/>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c1" src="e1" trg="a1" type="seg"/>
+  <edge id="c2" src="e2" trg="a2" type="seg"/>
+  <edge id="c3" src="e3" trg="a3" type="seg"/>
+  <edge id="c4" src="e4" trg="j1" type="seg"/>
+  <edge id="c5" src="e5" trg="j1" type="seg"/>
+  <edge id="c6" src="e6" trg="j1" type="seg"/>
+  <edge id="c7" src="e7" trg="a5" type="seg"/>
+  <edge id="c8" src="e8" trg="a6" type="seg"/>
+  <edge id="c9" src="e9" trg="a7" type="seg"/>
+  <edge id="c10" src="j1" trg="a4" type="seg"/>
+  <edge id="c11" src="a3" trg="a1" type="sup"/>
+  <edge id="c12" src="a2" trg="a1" type="reb"/>
+  <edge id="c13" src="a7" trg="a1" type="sup"/>
+  <edge id="c14" src="a6" trg="a5" type="sup"/>
+  <edge id="c15" src="a5" trg="a1" type="sup"/>
+  <edge id="c16" src="a4" trg="a1" type="sup"/>
+</arggraph>

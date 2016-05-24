@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b057">
+  <edu id="e1"><![CDATA[Retirement at 63, that's something everyone who has toiled away (nonstop) up to this point surely deserves.]]></edu>
+  <edu id="e2"><![CDATA[Only the question remains whether this early 'leisure' will be nicer]]></edu>
+  <edu id="e3"><![CDATA[if you have no idea what do to all day]]></edu>
+  <edu id="e4"><![CDATA[and you statistically still have almost 20 (!!!) years to go?]]></edu>
+  <edu id="e5"><![CDATA[Also, one isn't taking responsibility for society]]></edu>
+  <edu id="e6"><![CDATA[if one gives up one's experienced, healthy and highly qualified capabilities earlier than necessary for private/personal reasons.]]></edu>
+  <edu id="e7"><![CDATA[Especially now,]]></edu>
+  <edu id="e8"><![CDATA[as there is a lack of skilled labour,]]></edu>
+  <edu id="e9"><![CDATA[it's irresponsible for the economy and prosperity to retire at 63.]]></edu>
+  <joint id="j1"/>
+  <joint id="j2"/>
+  <joint id="j3"/>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c1" src="e1" trg="a1" type="seg"/>
+  <edge id="c2" src="e2" trg="j1" type="seg"/>
+  <edge id="c3" src="e3" trg="j1" type="seg"/>
+  <edge id="c4" src="e4" trg="j1" type="seg"/>
+  <edge id="c5" src="e5" trg="j2" type="seg"/>
+  <edge id="c6" src="e6" trg="j2" type="seg"/>
+  <edge id="c7" src="e7" trg="j3" type="seg"/>
+  <edge id="c8" src="e8" trg="j3" type="seg"/>
+  <edge id="c9" src="e9" trg="j3" type="seg"/>
+  <edge id="c10" src="j1" trg="a2" type="seg"/>
+  <edge id="c11" src="j2" trg="a3" type="seg"/>
+  <edge id="c12" src="j3" trg="a4" type="seg"/>
+  <edge id="c13" src="a2" trg="a4" type="sup"/>
+  <edge id="c14" src="a3" trg="a4" type="sup"/>
+  <edge id="c15" src="a1" trg="a4" type="reb"/>
+</arggraph>

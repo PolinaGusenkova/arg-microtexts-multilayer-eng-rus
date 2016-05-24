@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k008">
+  <edu id="e1"><![CDATA[If there were higher fines for leaving dog dirt on pavements,]]></edu>
+  <edu id="e2"><![CDATA[there would presumably be less dog dirt,]]></edu>
+  <edu id="e3"><![CDATA[which in turn would result in generally clean pavements.]]></edu>
+  <edu id="e4"><![CDATA[Higher fines may not be ideal, particularly for financially weaker individuals,]]></edu>
+  <edu id="e5"><![CDATA[but cleaning up after their dogs does happen to be the obligation of the owners.]]></edu>
+  <joint id="j1"/>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c1" src="e1" trg="j1" type="seg"/>
+  <edge id="c2" src="e2" trg="j1" type="seg"/>
+  <edge id="c3" src="e3" trg="a2" type="seg"/>
+  <edge id="c4" src="e4" trg="a3" type="seg"/>
+  <edge id="c5" src="e5" trg="a4" type="seg"/>
+  <edge id="c6" src="j1" trg="a1" type="seg"/>
+  <edge id="c7" src="a2" trg="a1" type="sup"/>
+  <edge id="c8" src="a3" trg="a1" type="reb"/>
+  <edge id="c9" src="a4" trg="c8" type="und"/>
+</arggraph>

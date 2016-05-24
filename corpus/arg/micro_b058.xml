@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b058">
+  <edu id="e1"><![CDATA[Video games, namely FIFA in my case, can fascinate young people for hours more intensively and emotionally than any sport in the world!]]></edu>
+  <edu id="e2"><![CDATA[It would be fair to make them into an Olympic event.]]></edu>
+  <edu id="e3"><![CDATA[Perhaps it is less thrilling for a spectator than for the player,]]></edu>
+  <edu id="e4"><![CDATA[but also for contemporary Olympic events,]]></edu>
+  <edu id="e5"><![CDATA[I recall curling and 50km cross-country skiing,]]></edu>
+  <edu id="e6"><![CDATA[you have to be more than a freak]]></edu>
+  <edu id="e7"><![CDATA[to follow those more properly than only in the roundup of highlights.]]></edu>
+  <edu id="e8"><![CDATA[Plus the hurdle to make video games Olympic events is minimal,]]></edu>
+  <edu id="e9"><![CDATA[as you don't even need doping tests, only a neutral console.]]></edu>
+  <edu id="e10"><![CDATA[And many a video game is physically and particularly mentally more demanding, when I think of the last FIFA tournament's final, than kicking a ball 20 metres.]]></edu>
+  <joint id="j1"/>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c1" src="e1" trg="a1" type="seg"/>
+  <edge id="c2" src="e2" trg="a2" type="seg"/>
+  <edge id="c3" src="e3" trg="a3" type="seg"/>
+  <edge id="c4" src="e4" trg="j1" type="seg"/>
+  <edge id="c5" src="e5" trg="j1" type="seg"/>
+  <edge id="c6" src="e6" trg="j1" type="seg"/>
+  <edge id="c7" src="e7" trg="j1" type="seg"/>
+  <edge id="c8" src="e8" trg="a5" type="seg"/>
+  <edge id="c9" src="e9" trg="a6" type="seg"/>
+  <edge id="c10" src="e10" trg="a7" type="seg"/>
+  <edge id="c11" src="j1" trg="a4" type="seg"/>
+  <edge id="c12" src="a1" trg="a2" type="sup"/>
+  <edge id="c13" src="a3" trg="a2" type="reb"/>
+  <edge id="c14" src="a7" trg="a2" type="sup"/>
+  <edge id="c15" src="a6" trg="a5" type="sup"/>
+  <edge id="c16" src="a5" trg="a2" type="sup"/>
+  <edge id="c17" src="a4" trg="c13" type="und"/>
+</arggraph>

@@ -1,0 +1,51 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="e-elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="evaluation-s" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="cause" type="rst" />
+      <rel name="result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="preparation" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="unconditional" type="rst" />
+      <rel name="unless" type="rst" />
+      <rel name="unstated-relation" type="rst" />
+      <rel name="evaluation-n" type="rst" />
+      <rel name="reason" type="rst" />
+      <rel name="conjunction" type="multinuc" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="disjunction" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="restatement-mn" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="9" relname="span">No one should have the possibility to pick up the morning-after pill over the counter at the pharmacy.</segment>
+    <segment id="2" parent="6" relname="concession"> Though there&apos;d be the advantage of forgoing the embarrassment of a visit to the doctor or a nighttime trip to the walk-in clinic,</segment>
+    <segment id="3" parent="6" relname="conjunction"> women should still be informed about the risks</segment>
+    <segment id="4" parent="6" relname="conjunction"> and have a gynaecological examination before taking it.</segment>
+    <segment id="5" parent="8" relname="list"> Furthermore there&apos;s the risk that women could use the over-the-counter morning-after pill as a substitute for contraception.</segment>
+<group id="6" type="multinuc" parent="7" relname="span" />
+<group id="7" type="span" parent="8" relname="list" />
+<group id="8" type="multinuc" parent="1" relname="reason" />
+<group id="9" type="span" />
+  </body>
+</rst>
