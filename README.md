@@ -1,7 +1,7 @@
 arg-microtexts-multilayer
 =========================
 
-This repository holds a corpus of 112 short argumentative tests, annotated according to three different theories of *discourse structure*.
+This repository holds a corpus of 112 short argumentative texts, annotated according to three different theories of *discourse structure*.
 
 
 Layers of annotation
@@ -15,8 +15,8 @@ Layers of annotation
 Source data
 -----------
 
-The original text corpus and the annotation of argumentation structures has been described in (Peldszus and Stede, 2015).
-The annotation of argumentation structure in this repository has a finer segmentation into Elementary Discourse Units (EDU), whereas the original annotation is segmented into coarse Argumentative Discourse Units (ADU). See the For details, see 
+The original text corpus and the annotation of argumentation structures has been described in (Peldszus and Stede, 2015) and is made available [here](https://github.com/peldszus/arg-microtexts).
+The annotation of argumentation structure in this repository has a finer segmentation into Elementary Discourse Units (EDU), whereas the original annotation is segmented into coarse Argumentative Discourse Units (ADU). 
 
 
 Code 
