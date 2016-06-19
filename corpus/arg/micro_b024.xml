@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b024">
+<arggraph id="micro_b024" topic_id="cap_rent_increases" stance="pro">
   <edu id="e1"><![CDATA[A stop must be put to exorbitant rents]]></edu>
   <edu id="e2"><![CDATA[by imposing a limit on rent increases when changing residences.]]></edu>
   <edu id="e3"><![CDATA[For affordable living space is scarce.]]></edu>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b002">
+<arggraph id="micro_b002" topic_id="higher_dog_poo_fines" stance="pro">
   <edu id="e1"><![CDATA[One can hardly move in Friedrichshain or Neukölln these days]]></edu>
   <edu id="e2"><![CDATA[without permanently scanning the ground for dog dirt.]]></edu>
   <edu id="e3"><![CDATA[And when bad luck does strike]]></edu>

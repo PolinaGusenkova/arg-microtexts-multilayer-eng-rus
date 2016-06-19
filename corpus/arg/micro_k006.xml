@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k006">
+<arggraph id="micro_k006" topic_id="introduce_capital_punishment" stance="con">
   <edu id="e1"><![CDATA[If Germany were to introduce the death penalty,]]></edu>
   <edu id="e2"><![CDATA[convicted felons could not be paroled]]></edu>
   <edu id="e3"><![CDATA[or break out of prison]]></edu>

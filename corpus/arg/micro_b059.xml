@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b059">
+<arggraph id="micro_b059" topic_id="cap_rent_increases" stance="con">
   <edu id="e1"><![CDATA[Rent prices are already regulated in favour of tenants]]></edu>
   <edu id="e2"><![CDATA[due to existing laws and the rent index.]]></edu>
   <edu id="e3"><![CDATA[In view of the high prices for buying flats with existing rent contracts,]]></edu>
