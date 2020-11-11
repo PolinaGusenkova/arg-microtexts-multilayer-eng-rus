@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b044" topic_id="TXL_airport_remain_operational_after_BER_opening" stance="pro">
+  <edu id="e1" lang="en">As a central airport Berlin Tegel is particularly attractive for business travellers and should by all means remain operational.</edu>
+  <edu id="e1" lang="ru" trans="promt">Поскольку центральный аэропорт Берлин-Тегель особенно привлекателен для бизнес-туристов и должен любой ценой остаться функционирующим.</edu>
+  <edu id="e1" lang="ru" trans="google">В качестве центрального аэропорта Берлин Тегель особенно привлекателен для деловых путешественников и должен непременно оставаться в рабочем состоянии.</edu>
+  <edu id="e1" lang="ru" trans="yandex">В качестве центрального аэропорта Берлин-Тегель является особенно привлекательным для деловых путешественников и должны сохранять работоспособность.</edu>
+  <edu id="e2" lang="en">It is an asset for the economy.</edu>
+  <edu id="e2" lang="ru" trans="promt">Это - актив для экономики.</edu>
+  <edu id="e2" lang="ru" trans="google">Это актив для экономики.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Она является благом для экономики.</edu>
+  <edu id="e3" lang="en">The negative impact of air traffic however is considerable.</edu>
+  <edu id="e3" lang="ru" trans="promt">Негативное воздействие воздушного движения, однако, значительно.</edu>
+  <edu id="e3" lang="ru" trans="google">Однако негативное воздействие воздушного движения является значительным.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Однако негативное влияние воздушного движения является значительным.</edu>
+  <edu id="e4" lang="en">Air traffic is extremely environmentally unfriendly.</edu>
+  <edu id="e4" lang="ru" trans="promt">Воздушное движение чрезвычайно экологически недружелюбно.</edu>
+  <edu id="e4" lang="ru" trans="google">Воздушный транспорт крайне экологически недружелюбен.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Воздушного движения является крайне неэкологичным.</edu>
+  <edu id="e5" lang="en">Particularly in Tegel, the residents have been bearing the stress of aircraft noise for decades.</edu>
+  <edu id="e5" lang="ru" trans="promt">Особенно в Тегеле, жители переносили напряжение шума от самолетов в течение многих десятилетий.</edu>
+  <edu id="e5" lang="ru" trans="google">В частности, в Тегеле на протяжении десятилетий жители испытывают стресс авиационного шума.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Особенно в Тегель, жители несут стресс из-за шума самолетов в течение десятилетий.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="opp"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="reb"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+  <edge id="c5" src="a5" trg="a3" type="sup"/>
+</arggraph>

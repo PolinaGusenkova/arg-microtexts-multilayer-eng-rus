@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d04">
+  <edu id="e1" lang="en">Anti-virus software protects the users of a computer from dangers from the internet.</edu>
+  <edu id="e1" lang="ru" trans="human">Антивирусное ПО защищает пользователей компьютера от опасностей интернета.</edu>
+  <edu id="e2" lang="en">That's why everyone should have an anti-virus programme on his or her Windows machine.</edu>
+  <edu id="e2" lang="ru" trans="human">Поэтому каждый должен иметь антивирусную программу на своём ПК.</edu>
+  <edu id="e3" lang="en">Admittedly they do not generally prevent you from catching a virus,</edu>
+  <edu id="e3" lang="ru" trans="human">Стоит признать, что обычно они не могут защитить вас от заражения вирусом,</edu>
+  <edu id="e4" lang="en">since they can only react to publicly known threats.</edu>
+  <edu id="e4" lang="ru" trans="human">потому что они реагируют только на известные угрозы.</edu>
+  <edu id="e5" lang="en">But once a safeguard has been found against a new virus, everyone gets it in no time through the automatic update.</edu>
+  <edu id="e5" lang="ru" trans="human">Но как только находится защита от нового вируса, все получают её в кратчайшие сроки через автоматическое обновление.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a2" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="reb"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+  <edge id="c5" src="a5" trg="a2" type="sup"/>
+</arggraph>

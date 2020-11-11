@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b055" topic_id="over_the_counter_morning_after_pill" stance="pro">
+  <edu id="e1" lang="en">Being a pharmacist myself,</edu>
+  <edu id="e1" lang="ru" trans="promt">Будучи фармацевтом самостоятельно,</edu>
+  <edu id="e1" lang="ru" trans="google">Являясь самим фармацевтом,</edu>
+  <edu id="e1" lang="ru" trans="yandex">Быть аптекарем себя,</edu>
+  <edu id="e2" lang="en">I argue categorically in favour of over-the-counter availability of the morning-after pill in pharmacies.</edu>
+  <edu id="e2" lang="ru" trans="promt">Я спорю категорически в пользу внебиржевой доступности таблетки от похмелья в аптеках.</edu>
+  <edu id="e2" lang="ru" trans="google">Я категорически выступаю против внебиржевой доступности утренней таблетки в аптеках.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Я утверждаю категорически в пользу внебиржевом наличие таблетки в аптеках.</edu>
+  <edu id="e3" lang="en">From a medical perspective the morning-after pill works best when taken as soon as possible after intercourse.</edu>
+  <edu id="e3" lang="ru" trans="promt">С медицинской точки зрения таблетка от похмелья работает лучше всего, когда взято как можно скорее после общения.</edu>
+  <edu id="e3" lang="ru" trans="google">С медицинской точки зрения утренняя таблетка лучше всего подходит, когда принимается как можно скорее после полового акта.</edu>
+  <edu id="e3" lang="ru" trans="yandex">С медицинской точки зрения утром-после таблетки работает лучше всего, когда принято как можно скорее после полового акта.</edu>
+  <edu id="e4" lang="en">Always having to visit the doctor first (including travel and waiting time, possible embarrassment, etc.) leads to more unwanted pregnancies.</edu>
+  <edu id="e4" lang="ru" trans="promt">Всегда необходимость посетить доктора сначала (включая время прохождения и время ожидания, возможное затруднение, и т.д.) приводит к большему количеству нежелательных беременностей.</edu>
+  <edu id="e4" lang="ru" trans="google">Всегда сначала обратиться к врачу (включая время поездки и ожидания, возможное смущение и т. Д.) Приводит к более нежелательной беременности.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Всегда приходится посещать врача в первую очередь (включая проезд и время ожидания, возможно, смущение и т. д.) приводит к нежелательной беременности.</edu>
+  <edu id="e5" lang="en">Many opponents of the pill point out that this does away with the consultation at the doctor's and many women take it unnecessarily.</edu>
+  <edu id="e5" lang="ru" trans="promt">Многие противники таблетки указывают, что это покончило с консультацией в докторе, и многие женщины берут его излишне.</edu>
+  <edu id="e5" lang="ru" trans="google">Многие противники пилюли указывают, что это устраняет консультацию у врача, и многие женщины делают это без необходимости.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Многие противники таблетках указывают, что это избавляет от необходимости консультации у врача и многие женщины принимают это без надобности.</edu>
+  <edu id="e6" lang="en">However, the fact is that we pharmacists are legally required to inform the patients and possess the same subject matter expertise as doctors.</edu>
+  <edu id="e6" lang="ru" trans="promt">Однако факт - то, что мы фармацевты по закону обязаны сообщать пациентам и обладать тем же самым экспертным знанием темы как врачи.</edu>
+  <edu id="e6" lang="ru" trans="google">Тем не менее, факт заключается в том, что мы, фармацевты, юридически обязаны информировать пациентов и обладать теми же предметными знаниями, что и врачи.</edu>
+  <edu id="e6" lang="ru" trans="yandex">Однако, дело в том, что мы фармацевты по закону обязаны информировать пациентов и обладают такой же предмет экспертизы как врачи.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a2" type="sup"/>
+  <edge id="c3" src="a3" trg="a2" type="sup"/>
+  <edge id="c4" src="a4" trg="c3" type="add"/>
+  <edge id="c5" src="a5" trg="a2" type="reb"/>
+  <edge id="c6" src="a6" trg="c5" type="und"/>
+</arggraph>

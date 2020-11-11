@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d01">
+  <edu id="e1" lang="en">Freddy and I must be siblings.</edu>
+  <edu id="e1" lang="ru" trans="human">Фредди и я, должно быть, братья</edu>
+  <edu id="e2" lang="en">We both have the exact same two moles on our left arm</edu>
+  <edu id="e2" lang="ru" trans="human">У нас у обоих одинаковая пара родинок на левых руках,</edu>
+  <edu id="e3" lang="en">and you only get that with siblings.</edu>
+  <edu id="e3" lang="ru" trans="human">а это бывает только у братьев.</edu>
+  <edu id="e4" lang="en">My parents say this could also be pure coincidence.</edu>
+  <edu id="e4" lang="ru" trans="human">Мои родители говорят, что это может быть чистое совпадение.</edu>
+  <edu id="e5" lang="en">But that much of a coincidence is simply impossible.</edu>
+  <edu id="e5" lang="ru" trans="human">Но таких совпадений просто не бывает.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="c2" type="add"/>
+  <edge id="c4" src="a4" trg="a3" type="reb"/>
+  <edge id="c5" src="a5" trg="a4" type="reb"/>
+</arggraph>

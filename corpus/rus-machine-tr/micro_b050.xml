@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b050" topic_id="keep_retirement_at_63" stance="con">
+  <edu id="e1" lang="en">Germany's aging society is undergoing demographic change,</edu>
+  <edu id="e1" lang="ru" trans="promt">Стареющее общество Германии претерпевает демографическое изменение,</edu>
+  <edu id="e1" lang="ru" trans="google">Стареющее общество Германии переживает демографические изменения,</edu>
+  <edu id="e1" lang="ru" trans="yandex">Старение общества Германии переживает демографические изменения,</edu>
+  <edu id="e2" lang="en">and the age of those who are physically and mentally fit is increasing steadily.</edu>
+  <edu id="e2" lang="ru" trans="promt">и возраст тех, кто физически и умственно здоров, увеличивается постоянно.</edu>
+  <edu id="e2" lang="ru" trans="google">и возраст тех, кто физически и умственно подходит, неуклонно растет.</edu>
+  <edu id="e2" lang="ru" trans="yandex">и возраст тех, кто физически и психически здоров, неуклонно растет.</edu>
+  <edu id="e3" lang="en">Thus social security and pension costs are increasing.</edu>
+  <edu id="e3" lang="ru" trans="promt">Таким образом социальное обеспечение и затраты пенсии увеличиваются.</edu>
+  <edu id="e3" lang="ru" trans="google">Таким образом, расходы на социальное обеспечение и пенсионное обеспечение растут.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Таким образом, социальные и пенсионные расходы увеличиваются.</edu>
+  <edu id="e4" lang="en">Yet no one should be required to work for more than 40 years.</edu>
+  <edu id="e4" lang="ru" trans="promt">Все же никто не должен быть обязан работать больше 40 лет.</edu>
+  <edu id="e4" lang="ru" trans="google">Но никто больше не должен работать более 40 лет.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Пока никто не должен работать более 40 лет.</edu>
+  <edu id="e5" lang="en">Raising the relative retirement age on the basis of the physical fitness of the average citizen is fair.</edu>
+  <edu id="e5" lang="ru" trans="promt">Подъем относительного пенсионного возраста на основе физической подготовки среднего гражданина справедлив.</edu>
+  <edu id="e5" lang="ru" trans="google">Повышение относительного пенсионного возраста на основе физической пригодности среднего гражданина является справедливым.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Повышение относительной пенсионного возраста на основании физической подготовленности рядового гражданина является справедливым.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="sup"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="sup"/>
+  <edge id="c4" src="a4" trg="a5" type="reb"/>
+</arggraph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b047" topic_id="over_the_counter_morning_after_pill" stance="con">
+  <edu id="e1" lang="en">The morning-after pill has a number of side effects.</edu>
+  <edu id="e1" lang="ru" trans="promt">У таблетки от похмелья есть много побочных эффектов.</edu>
+  <edu id="e1" lang="ru" trans="google">Утренняя таблетка имеет ряд побочных эффектов.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Утром-после таблетки имеет ряд побочных эффектов.</edu>
+  <edu id="e2" lang="en">A differentiated analysis of its side effects is not achievable for a layperson without medical advice.</edu>
+  <edu id="e2" lang="ru" trans="promt">Дифференцированный анализ его побочных эффектов не достижим для неспециалиста без медицинского совета.</edu>
+  <edu id="e2" lang="ru" trans="google">Дифференцированный анализ его побочных эффектов недоступен для непрофессионала без медицинских консультаций.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Дифференцированный анализ побочных эффектов не достижимо для обычного человека без медицинского совета.</edu>
+  <edu id="e3" lang="en">However these are clearly stated on the package insert,</edu>
+  <edu id="e3" lang="ru" trans="promt">Однако, они ясно указаны на вставке пакета,</edu>
+  <edu id="e3" lang="ru" trans="google">Однако они четко указаны на упаковке,</edu>
+  <edu id="e3" lang="ru" trans="yandex">Однако эти четко указано на упаковки,</edu>
+  <edu id="e4" lang="en">and a request for an early termination of a pregnancy is the right of every woman.</edu>
+  <edu id="e4" lang="ru" trans="promt">и запрос о раннем завершении беременности - право каждой женщины.</edu>
+  <edu id="e4" lang="ru" trans="google">и просьба о досрочном прекращении беременности является правом каждой женщины.</edu>
+  <edu id="e4" lang="ru" trans="yandex">и запрос на раннее прерывание беременности является правом каждой женщины.</edu>
+  <edu id="e5" lang="en">The morning-after pill should only be prescribed after counselling by a physician or pharmacist.</edu>
+  <edu id="e5" lang="ru" trans="promt">Таблетка от похмелья должна только быть предписана после рекомендации врачом или фармацевтом.</edu>
+  <edu id="e5" lang="ru" trans="google">Утренняя таблетка должна назначаться только после консультации врачом или фармацевтом.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Таблетку следует назначать после консультации с врачом или фармацевтом.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="sup"/>
+  <edge id="c2" src="a2" trg="c1" type="add"/>
+  <edge id="c3" src="a3" trg="c1" type="und"/>
+  <edge id="c4" src="a4" trg="a5" type="reb"/>
+</arggraph>

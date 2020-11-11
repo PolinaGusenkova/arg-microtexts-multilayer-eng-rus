@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b029" topic_id="public_broadcasting_fees_on_demand" stance="con">
+  <edu id="e1" lang="en">The TV/radio licence fee can only be required of all citizens/households equally.</edu>
+  <edu id="e1" lang="ru" trans="human">Лицензионный сбор на теле- и радиовещание может взиматься только со всех граждан/домохозяйств в равной степени.</edu>
+  <edu id="e2" lang="en">Critics point out that they are not using what's on offer by public broadcasting.</edu>
+  <edu id="e2" lang="ru" trans="human">Критики программы отмечают, что они не пользуются тем, что предлагает государственное вещание.</edu>
+  <edu id="e3" lang="en">I do doubt that there is anyone who has never at least indirectly watched the programming of the public broadcasters.</edu>
+  <edu id="e3" lang="ru" trans="human">Я действительно сомневаюсь, что существует человек, который ни разу хотя бы опосредованно не посмотрел передачу государственного вещания.</edu>
+  <edu id="e4" lang="en">However, it is impossible to monitor this and collect more customized fees.</edu>
+  <edu id="e4" lang="ru" trans="human">Как бы то ни было, контролировать это и больше собирать индивидуализированного налога невозможно.</edu>
+  <edu id="e5" lang="en">Just as with other choices in culture or infrastructure, public broadcasters are also to be financed, regardless of whether individuals make use of their programming or not.</edu>
+  <edu id="e5" lang="ru" trans="human">Как и при выборе других предметов культуры и инфраструктуры, государственное вещание нужно финансировать вне зависимости от того, пользуются им отдельные люди или нет.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="a2" type="reb"/>
+  <edge id="c4" src="a4" trg="c2" type="und"/>
+  <edge id="c5" src="a5" trg="a1" type="sup"/>
+</arggraph>

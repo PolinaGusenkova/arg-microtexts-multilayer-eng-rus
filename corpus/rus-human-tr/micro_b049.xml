@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b049" topic_id="increase_weight_of_BA_thesis_in_final_grade" stance="con">
+  <edu id="e1" lang="en">The bachelor thesis reflects both the content and the methods of the topics covered during a degree programme.</edu>
+  <edu id="e1" lang="ru" trans="human">Бакалаврская диссертация отражает как содержание, так и методическое наполнение тем, рассмотренных в программе обучения.</edu>
+  <edu id="e2" lang="en">But one can make occasional mistakes in the thesis.</edu>
+  <edu id="e2" lang="ru" trans="human">Но в ней могут быть допущены ошибки.</edu>
+  <edu id="e3" lang="en">If this carries more weight, many good individual assignments done during the course of study may be obscured.</edu>
+  <edu id="e3" lang="ru" trans="human">Если она вносит весомый вклад, то выполнение многих хороших домашних заданий, предлагаемых в течение курса, можно не учитывать.</edu>
+  <edu id="e4" lang="en">A good grade for the thesis also significantly depends on the supervision of a dedicated teacher.</edu>
+  <edu id="e4" lang="ru" trans="human">Хорошая оценка за дипломную работу также в значительной степени зависит от помощи преданного своему делу научного руководителя.</edu>
+  <edu id="e5" lang="en">Due to the many random factors the bachelor thesis should not play a bigger role.</edu>
+  <edu id="e5" lang="ru" trans="human">Из-за множества случайных факторов бакалаврская диссертация не должна играть решающую роль.</edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="reb"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="sup"/>
+  <edge id="c4" src="a4" trg="a5" type="sup"/>
+</arggraph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b001" topic_id="waste_separation" stance="pro">
+  <edu id="e1" lang="en">Yes, it's annoying and cumbersome to separate your rubbish properly all the time.</edu>
+  <edu id="e1" lang="ru" trans="promt">Да, это раздражающее и тяжелое, чтобы отделить Ваш мусор правильно все время.</edu>
+  <edu id="e1" lang="ru" trans="google">Да, это раздражает и громоздко отделяет ваш мусор должным образом все время.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Да, это раздражает и громоздким, чтобы отделить свой мусор правильно все время.</edu>
+  <edu id="e2" lang="en">Three different bin bags stink away in the kitchen and have to be sorted into different wheelie bins.</edu>
+  <edu id="e2" lang="ru" trans="promt">Три различных мешка для мусора воняют далеко в кухне и должны быть сортированы в различные мусорные баки.</edu>
+  <edu id="e2" lang="ru" trans="google">Три разных мешка для мусора воняют на кухне и их нужно сортировать в разные корзины.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Три разных мусорных мешков вонь в кухне и должны быть отсортированы в различные мусорные баки.</edu>
+  <edu id="e3" lang="en">But still Germany produces way too much rubbish</edu>
+  <edu id="e3" lang="ru" trans="promt">Но все еще Германия производит слишком много мусора</edu>
+  <edu id="e3" lang="ru" trans="google">Но все же Германия производит слишком много мусора</edu>
+  <edu id="e3" lang="ru" trans="yandex">Но все же Германия производит слишком много мусора</edu>
+  <edu id="e4" lang="en">and too many resources are lost when what actually should be separated and recycled is burnt.</edu>
+  <edu id="e4" lang="ru" trans="promt">и слишком много ресурсов потеряны, когда то, что на самом деле должно быть отделено и переработано, сожжено.</edu>
+  <edu id="e4" lang="ru" trans="google">и слишком много ресурсов теряется, когда то, что на самом деле должно быть разделено и переработано, сжигается.</edu>
+  <edu id="e4" lang="ru" trans="yandex">и слишком много ресурсов теряется, когда то, что на самом деле должны быть отделены и переработаны, сожжены.</edu>
+  <edu id="e5" lang="en">We Berliners should take the chance and become pioneers in waste separation!</edu>
+  <edu id="e5" lang="ru" trans="promt">Мы жители Берлина должны рискнуть и стать пионерами в ненужном разделении!</edu>
+  <edu id="e5" lang="ru" trans="google">Мы, берлинцы, должны рискнуть и стать пионерами в разделении отходов!</edu>
+  <edu id="e5" lang="ru" trans="yandex">Мы берлинцы должны взять шанс и стать пионерами в разделения отходов!</edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="reb"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="c1" type="und"/>
+  <edge id="c4" src="a4" trg="c3" type="add"/>
+</arggraph>

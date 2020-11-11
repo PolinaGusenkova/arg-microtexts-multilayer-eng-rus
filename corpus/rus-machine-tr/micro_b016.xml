@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b016" topic_id="increase_weight_of_BA_thesis_in_final_grade" stance="pro">
+  <edu id="e1" lang="en">The idea of the bachelor degree is to put together a cumulative grade from various individual assignments in order to generate a final grade.</edu>
+  <edu id="e1" lang="ru" trans="promt">Идея степени бакалавра состоит в том, чтобы соединить совокупный сорт от различных отдельных назначений, чтобы произвести итоговую отметку.</edu>
+  <edu id="e1" lang="ru" trans="google">Идея степени бакалавра состоит в том, чтобы собрать совокупный класс из разных индивидуальных заданий, чтобы сформировать окончательный класс.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Идея бакалавриата является формирование накопительного класс от различных индивидуальных заданий для формирования итоговой оценки.</edu>
+  <edu id="e2" lang="en">This is also more akin to the real working world later, where performance isn't singular, but constant and has to be delivered over longer periods.</edu>
+  <edu id="e2" lang="ru" trans="promt">Это также более сродни реальному рабочему миру позже, где работа не исключительная, но постоянная и должна быть передана более длинные периоды.</edu>
+  <edu id="e2" lang="ru" trans="google">Это также более похоже на реальный рабочий мир позже, где производительность не является единственной, но постоянной и должна быть доставлена ​​в течение более длительных периодов времени.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Это тоже больше похоже на реальный мир позже, когда производительность не единственным, но постоянным и должен быть доставлен в течение длительных периодов.</edu>
+  <edu id="e3" lang="en">That's why it makes sense that the bachelor thesis only makes up a relatively small portion of the final grade (15 out of 120 credits).</edu>
+  <edu id="e3" lang="ru" trans="promt">Вот почему это имеет смысл, что тезис бакалавра только составляет относительно небольшую часть итоговой отметки (15 из 120 кредитов).</edu>
+  <edu id="e3" lang="ru" trans="google">Вот почему имеет смысл, что диплом бакалавра составляет лишь небольшую часть итогового класса (15 из 120 кредитов).</edu>
+  <edu id="e3" lang="ru" trans="yandex">Поэтому вполне логично, что дипломная работа составляет лишь относительно небольшую часть итоговая оценка (15 из 120 кредитов).</edu>
+  <edu id="e4" lang="en">However, the effort required for the individual equally weighted modules differs strongly.</edu>
+  <edu id="e4" lang="ru" trans="promt">Однако усилие, требуемое для человека одинаково, нагрузило модули, отличается сильно.</edu>
+  <edu id="e4" lang="ru" trans="google">Однако усилия, требуемые для отдельных одинаково взвешенных модулей, сильно отличаются.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Однако, усилие, требуемое для индивида в равной степени взвешенный модули сильно отличается.</edu>
+  <edu id="e5" lang="en">It would therefore be wise to adjust the required effort for final theses accordingly.</edu>
+  <edu id="e5" lang="ru" trans="promt">Поэтому было бы мудро приспособить необходимое усилие для заключительных тезисов соответственно.</edu>
+  <edu id="e5" lang="ru" trans="google">Поэтому было бы целесообразно соответствующим образом скорректировать требуемые усилия для окончательных тезисов.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Поэтому было бы разумно установить требуемое усилие для окончательной диссертации соответственно.</edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="sup"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="reb"/>
+  <edge id="c4" src="a4" trg="c3" type="und"/>
+</arggraph>

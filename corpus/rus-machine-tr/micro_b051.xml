@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b051" topic_id="allow_shops_to_open_on_holidays_and_sundays" stance="con">
+  <edu id="e1" lang="en">Due to the increase in opening hours on Sundays and holidays there is a rise in employment.</edu>
+  <edu id="e1" lang="ru" trans="promt">Из-за увеличения во вводные часы по воскресеньям и праздничным дням есть повышение занятости.</edu>
+  <edu id="e1" lang="ru" trans="google">В связи с увеличением числа рабочих часов по воскресеньям и в праздничные дни наблюдается рост занятости.</edu>
+  <edu id="e1" lang="ru" trans="yandex">В связи с увеличением часов по воскресеньям и в праздничные дни происходит рост занятости.</edu>
+  <edu id="e2" lang="en">However it's mainly temps (that is, students, pupils etc.) who are employed,</edu>
+  <edu id="e2" lang="ru" trans="promt">Однако, это - главным образом, временные секретари (то есть, студенты, ученики и т.д.), кто нанят,</edu>
+  <edu id="e2" lang="ru" trans="google">Однако это главным образом временные (то есть ученики, ученики и т. Д.), Которые работают,</edu>
+  <edu id="e2" lang="ru" trans="yandex">Однако это в основном темпс (то есть, студенты, учащиеся и т. д.) кто работает,</edu>
+  <edu id="e3" lang="en">so this has hardly any effect on the level of full-time employment and the number of unemployed.</edu>
+  <edu id="e3" lang="ru" trans="promt">таким образом, это имеет едва любой эффект на уровне полной занятости и числе безработных.</edu>
+  <edu id="e3" lang="ru" trans="google">так что это практически не влияет на уровень занятости на полный рабочий день и число безработных.</edu>
+  <edu id="e3" lang="ru" trans="yandex">так что это не имеет почти никакого влияния на уровень полной занятости и количество безработных.</edu>
+  <edu id="e4" lang="en">On top of that, private and family life suffers massively because of this reduction and shifting in designated off-times.</edu>
+  <edu id="e4" lang="ru" trans="promt">Вдобавок ко всему, частный и семейная жизнь страдает в широком масштабе из-за этого сокращения и переходящий в обозначенном, вне времен.</edu>
+  <edu id="e4" lang="ru" trans="google">Кроме того, частная и семейная жизнь страдает из-за этого сокращения и смещения в назначенные периоды бездействия.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Кроме того, частная и семейная жизнь страдает массово из-за этого сокращения и переход в специально-раз.</edu>
+  <edu id="e5" lang="en">And itвЂ™s only the large companies that can afford the additional personnel expenditure.</edu>
+  <edu id="e5" lang="ru" trans="promt">И itвЂ™s только крупные компании, которые могут предоставить дополнительные расходы персонала.</edu>
+  <edu id="e5" lang="ru" trans="google">И это только крупные компании, которые могут позволить себе дополнительные расходы на персонал.</edu>
+  <edu id="e5" lang="ru" trans="yandex">И itвЂ™s только крупные компании, которые могут позволить себе дополнительные расходы на персонал.</edu>
+  <edu id="e6" lang="en">For these reasons supermarkets and shopping centres should not be allowed to be open for business on arbitrary Sundays and holidays.</edu>
+  <edu id="e6" lang="ru" trans="promt">По этим причинам супермаркетам и торговым центрам нельзя разрешить быть открытыми для бизнеса в произвольные воскресенья и праздничные дни.</edu>
+  <edu id="e6" lang="ru" trans="google">По этим причинам супермаркеты и торговые центры не должны быть открыты для бизнеса в произвольные воскресные и праздничные дни.</edu>
+  <edu id="e6" lang="ru" trans="yandex">По этим причинам супермаркеты и торговые центры не должны быть открыты для бизнеса по произвольным воскресеньям и праздникам.</edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a6" type="reb"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c3" src="a3" trg="c1" type="und"/>
+  <edge id="c4" src="a4" trg="a6" type="sup"/>
+  <edge id="c5" src="a5" trg="a6" type="sup"/>
+</arggraph>

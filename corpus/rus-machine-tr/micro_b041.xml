@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b041" topic_id="stricter_regulation_of_intelligence_services" stance="pro">
+  <edu id="e1" lang="en">Secret services must be more tightly regulated in order to prevent excessive surveillance.</edu>
+  <edu id="e1" lang="ru" trans="promt">Секретные службы должны более жестко регулироваться, чтобы предотвратить чрезмерное наблюдение.</edu>
+  <edu id="e1" lang="ru" trans="google">Секретные службы должны более жестко регулироваться, чтобы предотвратить чрезмерное наблюдение.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Спецслужбы должны быть более жестко регламентировать, чтобы не допустить чрезмерного наблюдения.</edu>
+  <edu id="e2" lang="en">After all, secret services tend to develop a life of their own (a state within a state), which would be irresponsible for democratic states.</edu>
+  <edu id="e2" lang="ru" trans="promt">В конце концов, секретные службы склонны развивать собственную жизнь (государство в государстве), который был бы безответственным для демократических государств.</edu>
+  <edu id="e2" lang="ru" trans="google">В конце концов, секретные службы имеют тенденцию развивать собственную жизнь (государство внутри государства), что было бы безответственным для демократических государств.</edu>
+  <edu id="e2" lang="ru" trans="yandex">После всего, спецслужбы стремятся развить свою собственную жизнь (государство в государстве), который бы безответственно для демократических государств.</edu>
+  <edu id="e3" lang="en">Besides, intelligence services intervene massively in the privacy of citizens</edu>
+  <edu id="e3" lang="ru" trans="promt">Кроме того, разведывательные службы вмешиваются в широком масштабе в частную жизнь граждан</edu>
+  <edu id="e3" lang="ru" trans="google">Кроме того, разведывательные службы активно вмешиваются в личную жизнь граждан</edu>
+  <edu id="e3" lang="ru" trans="yandex">Кроме того, спецслужбы массово вмешиваться в частную жизнь граждан</edu>
+  <edu id="e4" lang="en">and must therefore be monitored more closely to prevent abuse.</edu>
+  <edu id="e4" lang="ru" trans="promt">и должен поэтому быть проверен более тесно, чтобы предотвратить злоупотребление.</edu>
+  <edu id="e4" lang="ru" trans="google">и поэтому его следует тщательно контролировать, чтобы предотвратить злоупотребления.</edu>
+  <edu id="e4" lang="ru" trans="yandex">и поэтому должно более тщательно контролироваться в целях предотвращения злоупотреблений.</edu>
+  <edu id="e5" lang="en">Parliamentary control however hampers the work of intelligence services</edu>
+  <edu id="e5" lang="ru" trans="promt">Парламентский контроль, однако, препятствует работе разведывательных служб</edu>
+  <edu id="e5" lang="ru" trans="google">Однако парламентский контроль препятствует работе разведывательных служб</edu>
+  <edu id="e5" lang="ru" trans="yandex">Однако парламентский контроль мешает работе спецслужб </edu>
+  <edu id="e6" lang="en">for it jeopardizes the secrecy and security of confidential data and informants.</edu>
+  <edu id="e6" lang="ru" trans="promt">поскольку это подвергает опасности тайну и безопасность конфиденциальных данных и осведомителей.</edu>
+  <edu id="e6" lang="ru" trans="google">поскольку это ставит под угрозу секретность и безопасность конфиденциальных данных и информаторов.</edu>
+  <edu id="e6" lang="ru" trans="yandex">это ставит под угрозу секретности и безопасности конфиденциальных данных и информантов.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="opp"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a1" type="reb"/>
+  <edge id="c6" src="a6" trg="a5" type="sup"/>
+</arggraph>

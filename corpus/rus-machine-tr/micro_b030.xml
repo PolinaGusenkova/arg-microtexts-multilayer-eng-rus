@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b030" topic_id="school_uniforms" stance="con">
+  <edu id="e1" lang="en">School uniforms should not be worn in our schools.</edu>
+  <edu id="e1" lang="ru" trans="promt">Школьную форму нельзя носить в наших школах.</edu>
+  <edu id="e1" lang="ru" trans="google">Школьная форма не должна носить в наших школах.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Школьная форма не должна носить в наших школах.</edu>
+  <edu id="e2" lang="en">They do offer the benefit that the competition over brand-name clothes and the discrimination of the socially weak are prevented.</edu>
+  <edu id="e2" lang="ru" trans="promt">Они действительно предлагают выгоду, что соревнование по известной одежде и дискриминации социально слабого предотвращено.</edu>
+  <edu id="e2" lang="ru" trans="google">Они приносят пользу тому, что конкуренция за фирменную одежду и дискриминацию социально слабых людей предотвращаются.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Они предлагают преимущество, что конкуренция за брендовую одежду и дискриминации социально слабых предотвратить.</edu>
+  <edu id="e3" lang="en">Nevertheless hardly anyone wishes to dress themselves or their children in a standard uniform.</edu>
+  <edu id="e3" lang="ru" trans="promt">Тем не менее, едва ли кто-то хочет одеть себя или их детей в стандартной униформе.</edu>
+  <edu id="e3" lang="ru" trans="google">Тем не менее вряд ли кто-то хочет одеться или своих детей в стандартную форму.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Тем не менее, вряд ли кто-то хочет одеть себя и своих детей в стандартную униформу.</edu>
+  <edu id="e4" lang="en">Plus such uniforms also stand for ideological conformity and for the suppression of individual self-development.</edu>
+  <edu id="e4" lang="ru" trans="promt">Плюс такая униформа также обозначают идеологическое соответствие и подавление отдельного саморазвития.</edu>
+  <edu id="e4" lang="ru" trans="google">Плюс такая униформа также поддерживает идеологическое соответствие и подавление индивидуального саморазвития.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Плюс таких костюмов также стенд для идеологического соответствия и подавления индивидуального саморазвития.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="c2" type="und"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+</arggraph>

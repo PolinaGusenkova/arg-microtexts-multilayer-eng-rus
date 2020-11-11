@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k012" topic_id="charge_tuition_fees" stance="con">
+  <edu id="e1" lang="en">German universities should on no account charge tuition fees.</edu>
+  <edu id="e1" lang="ru" trans="promt">Немецкие университеты ни в коем случае не должны взимать плату за обучение.</edu>
+  <edu id="e1" lang="ru" trans="google">Немецкие университеты ни в коем случае не должны взимать плату за обучение.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Немецкие университеты не взимают плату за обучение.</edu>
+  <edu id="e2" lang="en">This would simply mean that only those people with wealthy parents or a previous education and a part-time job while studying would be able to apply for a degree programme in the first place.</edu>
+  <edu id="e2" lang="ru" trans="promt">Это просто означало бы, что только те люди с богатыми родителями или предыдущим образованием и неполной занятостью, в то время как изучение будет в состоянии запросить программу на получение степени во-первых.</edu>
+  <edu id="e2" lang="ru" trans="google">Это просто означало бы, что только люди с богатыми родителями или предыдущее образование и неполная занятость во время учебы смогут подать заявку на получение степени в первую очередь.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Это попросту означает, что только те люди, с богатых родителей или предыдущего обучения и на подработку во время учебы будет возможность подать заявку на программу получения степени в первую очередь.</edu>
+  <edu id="e3" lang="en">Even without tuition fees half of the student population has to work while studying and hence has less time for studying or recreation.</edu>
+  <edu id="e3" lang="ru" trans="promt">Даже без платы за обучение половина учащегося населения должна работать, учась и следовательно имеет меньше времени для изучения или отдыха.</edu>
+  <edu id="e3" lang="ru" trans="google">Даже без платы за обучение половина студенческого населения должна работать во время учебы и, следовательно, имеет меньше времени для учебы или отдыха.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Даже без платы за обучение половину студентов работает во время учебы и, следовательно, остается меньше времени для учебы или отдыха.</edu>
+  <edu id="e4" lang="en">One could argue that an increase in tuition fees would allow institutions to be better equipped.</edu>
+  <edu id="e4" lang="ru" trans="promt">Можно было утверждать, что увеличение платы за обучение позволит учреждениям быть лучше оборудованными.</edu>
+  <edu id="e4" lang="ru" trans="google">Можно было бы утверждать, что увеличение платы за обучение позволило бы лучше оборудовать учреждения.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Можно утверждать, что увеличение платы за обучение позволит учреждениям быть лучше оснащены.</edu>
+  <edu id="e5" lang="en">But what is the good of a wonderfully outfitted university if it doesn't actually allow the majority of clever people to broaden their horizons with all that great equipment?</edu>
+  <edu id="e5" lang="ru" trans="promt">Но что проку от замечательно снабженного оборудованием университета, если он на самом деле не позволяет большинству умных людей расширять их горизонты со всем этим большим оборудованием?</edu>
+  <edu id="e5" lang="ru" trans="google">Но в чем польза прекрасно оборудованного университета, если он фактически не позволяет большинству умных людей расширить свой кругозор со всем этим прекрасным оборудованием?</edu>
+  <edu id="e5" lang="ru" trans="yandex">Но какая польза от великолепно оснащенного университета, если он на самом деле не позволяют большинству умных людей, чтобы расширить свой кругозор, со всем великим оборудования?</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="reb"/>
+  <edge id="c5" src="a5" trg="c4" type="und"/>
+</arggraph>

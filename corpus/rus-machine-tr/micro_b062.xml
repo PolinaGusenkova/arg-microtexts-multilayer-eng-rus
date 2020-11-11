@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b062" topic_id="keep_retirement_at_63" stance="con">
+  <edu id="e1" lang="en">I am not of the opinion that the retirement age should be set at 63 years.</edu>
+  <edu id="e1" lang="ru" trans="promt">Я не имею мнения, что пенсионный возраст должен быть установлен в 63 года.</edu>
+  <edu id="e1" lang="ru" trans="google">Я не считаю, что возраст выхода на пенсию должен быть установлен на уровне 63 лет.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Я не считаю, что пенсионный возраст должен быть установлен на уровне 63 лет.</edu>
+  <edu id="e2" lang="en">This would mean that organizations would be lacking a great deal of manpower in the future.</edu>
+  <edu id="e2" lang="ru" trans="promt">Это означало бы, что организации будут испытывать недостаток в большой рабочей силе в будущем.</edu>
+  <edu id="e2" lang="ru" trans="google">Это означало бы, что в будущем организациям не хватит большой рабочей силы.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Это будет означать, что организации будет отсутствовать много сил в будущем.</edu>
+  <edu id="e3" lang="en">The introductory phase of retirement at 63 would also be a particular challenge</edu>
+  <edu id="e3" lang="ru" trans="promt">Вводная фаза пенсии в 63 также была бы особой проблемой</edu>
+  <edu id="e3" lang="ru" trans="google">Вводный этап выхода на пенсию в 63 году также будет особой проблемой</edu>
+  <edu id="e3" lang="ru" trans="yandex">Вводный этап выхода на пенсию в 63 тоже будет особой проблемой</edu>
+  <edu id="e4" lang="en">as upon introduction many current employees of advanced age would immediately be eligible to retire.</edu>
+  <edu id="e4" lang="ru" trans="promt">как после введения многие нынешние сотрудники преклонного возраста немедленно имели бы право удалиться.</edu>
+  <edu id="e4" lang="ru" trans="google">так как после введения многие нынешние работники преклонного возраста сразу же будут иметь право на пенсию.</edu>
+  <edu id="e4" lang="ru" trans="yandex">как при введении многих сотрудников пожилого возраста будут немедленно иметь право на пенсию.</edu>
+  <edu id="e5" lang="en">This is detrimental for Germany as a business location and leaves employers without a transition period.</edu>
+  <edu id="e5" lang="ru" trans="promt">Это вредно для Германии как место для ведения бизнеса и оставляет работодателей без переходного периода.</edu>
+  <edu id="e5" lang="ru" trans="google">Это вредно для Германии как место для бизнеса и оставляет работодателей без переходного периода.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Это губительно для Германии как места размещения производства и оставляет работодателей без переходного периода.</edu>
+  <edu id="e6" lang="en">The danger here is that experienced junior staff is not available in sufficient numbers.</edu>
+  <edu id="e6" lang="ru" trans="promt">Опасность здесь - опытный младший штат не доступен в достаточных числах.</edu>
+  <edu id="e6" lang="ru" trans="google">Опасность здесь заключается в том, что опытный младший персонал недоступен в достаточном количестве.</edu>
+  <edu id="e6" lang="ru" trans="yandex">Опасность здесь заключается в том, что опытный младший персонал не доступны в достаточном количестве.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+  <edge id="c5" src="a5" trg="c4" type="add"/>
+  <edge id="c6" src="a6" trg="c4" type="add"/>
+</arggraph>

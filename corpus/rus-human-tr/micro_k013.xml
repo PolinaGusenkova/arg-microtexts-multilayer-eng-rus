@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k013" topic_id="allow_shops_to_open_on_holidays_and_sundays" stance="con">
+  <edu id="e1" lang="en">Supermarket employees and people who work in shopping centres also have the right to a Sunday off work.</edu>
+  <edu id="e1" lang="ru" trans="human">Работники супермаркетов и люди, работающие в торговых центрах, также имеют право на отдых в выходные дни.</edu>
+  <edu id="e2" lang="en">Likewise public holidays should remain what they are: for some a day of introspection, for others a paid day off that is not taken away from the annual paid leave proper.</edu>
+  <edu id="e2" lang="ru" trans="human">Точно также и государственные праздники должны оставаться такими, какие они есть: для одних это всего лишь день для саморефлексии, для других - оплачиваемый выходной, который включен в счет ежегодного оплачиваемого отпуска.</edu>
+  <edu id="e3" lang="en">Hence it is good when shops are not open on Sundays and public holidays.</edu>
+  <edu id="e3" lang="ru" trans="human">Следовательно, это хорошо, когда магазины не работают в выходные  и  праздничные дни.</edu>
+  <edu id="e4" lang="en">People, however, who work during the week and on Saturdays then have a problem: everyone else can shop weekdays, but they can't.</edu>
+  <edu id="e4" lang="ru" trans="human">Однако у людей, которые работают в течение недели и по субботам, возникает проблема: другие люди могут совершать покупки в будние дни, а они – не могут.</edu>
+  <edu id="e5" lang="en">For those people the late opening hours, which meanwhile already extend to 12:00 midnight, present a good alternative.</edu>
+  <edu id="e5" lang="ru" trans="human">Для этих людей хорошая альтернатива – посещение магазинов, которые открыты до полуночи.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="sup"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c4" src="a4" trg="a3" type="reb"/>
+  <edge id="c5" src="a5" trg="c4" type="und"/>
+</arggraph>

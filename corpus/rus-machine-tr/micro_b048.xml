@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b048" topic_id="charge_tuition_fees" stance="con">
+  <edu id="e1" lang="en">Every German citizen has a right to education.</edu>
+  <edu id="e1" lang="ru" trans="promt">Каждый немецкий гражданин имеет право на образование.</edu>
+  <edu id="e1" lang="ru" trans="google">Каждый гражданин Германии имеет право на образование.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Каждый гражданин Германии имеет право на образование.</edu>
+  <edu id="e2" lang="en">Quality at universities has its price,</edu>
+  <edu id="e2" lang="ru" trans="promt">У качества в университетах есть своя цена,</edu>
+  <edu id="e2" lang="ru" trans="google">Качество в университетах имеет свою цену,</edu>
+  <edu id="e2" lang="ru" trans="yandex">Качества в вузах имеет свою цену,</edu>
+  <edu id="e3" lang="en">which is why students also ought to be involved in this cost factor.</edu>
+  <edu id="e3" lang="ru" trans="promt">который является, почему студенты также должны быть вовлечены в этот фактор стоимости.</edu>
+  <edu id="e3" lang="ru" trans="google">поэтому студенты также должны участвовать в этом стоимостном коэффициенте.</edu>
+  <edu id="e3" lang="ru" trans="yandex">поэтому студенты должны быть вовлечены в этот фактор затрат.</edu>
+  <edu id="e4" lang="en">But education must not be a question of money in a wealthy society such as Germany.</edu>
+  <edu id="e4" lang="ru" trans="promt">Но образование не должно быть вопросом денег в богатом обществе, таком как Германия.</edu>
+  <edu id="e4" lang="ru" trans="google">Но образование не должно быть вопросом денег в богатом обществе, таком как Германия.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Но образование не должно быть вопрос денег в богатом обществе, таких как Германия.</edu>
+  <edu id="e5" lang="en">Therefore universities should not charge tuition fees in Germany.</edu>
+  <edu id="e5" lang="ru" trans="promt">Поэтому университеты не должны взимать плату за обучение в Германии.</edu>
+  <edu id="e5" lang="ru" trans="google">Поэтому университеты не должны взимать плату за обучение в Германии.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Поэтому университеты не должны взимать плату за обучение в Германии.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="sup"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="reb"/>
+  <edge id="c4" src="a4" trg="c3" type="und"/>
+</arggraph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d09">
+  <edu id="e1" lang="en">You should watch less television,</edu>
+  <edu id="e1" lang="ru" trans="human">Тебе надо поменьше смотреть телевизор,</edu>
+  <edu id="e2" lang="en">as too much TV makes you stupid in the long run,</edu>
+  <edu id="e2" lang="ru" trans="human">он с течением времени делает тебя тупее,</edu>
+  <edu id="e3" lang="en">like your brother.</edu>
+  <edu id="e3" lang="ru" trans="human">как твоего брата.</edu>
+  <edu id="e4" lang="en">It would be an exception if you only watched quiz shows,</edu>
+  <edu id="e4" lang="ru" trans="human">Если бы ты смотрел только викторины, было бы другое дело,</edu>
+  <edu id="e5" lang="en">but you tend to watch Big Brother and X-Diaries.</edu>
+  <edu id="e5" lang="ru" trans="human">но ты же смотришь реалити-шоу Большой брат и Секретные дневники.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a2" type="exa"/>
+  <edge id="c4" src="a4" trg="c2" type="und"/>
+  <edge id="c5" src="a5" trg="a4" type="reb"/>
+</arggraph>

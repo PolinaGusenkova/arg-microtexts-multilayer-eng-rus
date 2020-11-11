@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k011" topic_id="cap_rent_increases" stance="pro">
+  <edu id="e1" lang="en">Rent increases upon re-letting aren't bad as such, if it's only a small amount,</edu>
+  <edu id="e1" lang="ru" trans="human">Повышение арендной платы после повторной сдачи само по себе не так плохо, если сумма небольшая.</edu>
+  <edu id="e2" lang="en">With those kinds of amounts you think twice about whether you really want to stay in the flat.</edu>
+  <edu id="e2" lang="ru" trans="human">С такими суммами вы дважды подумаете, действительно ли вы хотите остаться в этой квартире.</edu>
+  <edu id="e3" lang="en">If there must be rent increases, there should also be a cap to avoid nasty surprises.</edu>
+  <edu id="e3" lang="ru" trans="human">При повышении арендной платы необходимо иметь подстраховку,  чтобы избежать неприятных сюрпризов.</edu>
+  <edu id="e4" lang="en">This helps the landlords,</edu>
+  <edu id="e4" lang="ru" trans="human">Это на руку арендодателям,</edu>
+  <edu id="e5" lang="en">as they can adjust their expenses through the increase,</edu>
+  <edu id="e5" lang="ru" trans="human">так как они могут регулировать свои расходы за счет повышения платы,</edu>
+  <edu id="e6" lang="en">and also the tenants,</edu>
+  <edu id="e6" lang="ru" trans="human">также от этого выигрывают и арендаторы,</edu>
+  <edu id="e7" lang="en">as they can plan for a maximum rent increase.</edu>
+  <edu id="e7" lang="ru" trans="human">так как они могут спрогнозировать максимальное повышение арендной платы.</edu>
+  <edu id="e8" lang="en">That the landlords are then slightly restricted in the administration of their property is not a problem,</edu>
+  <edu id="e8" lang="ru" trans="human">То, что арендодатели в этом случае оказываются немного ограничены в управлении своим имуществом, не является проблемой,</edu>
+  <edu id="e9" lang="en">as they have more pull in the end anyway.</edu>
+  <edu id="e9" lang="ru" trans="human">так как, в конце концов, всё равно они имеют больше рычагов влияния.</edu>
+  <edu id="e10" lang="en">theyвЂ™re very bad however, if the rent suddenly climbs by в‚¬100 or в‚¬200.</edu>
+  <edu id="e10" lang="ru" trans="human">Им придется туго, если аренда внезапно возрастет на 100 или 200 евро.</edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <adu id="a7" type="pro"/>
+  <adu id="a8" type="pro"/>
+  <adu id="a9" type="pro"/>
+  <adu id="a10" type="pro"/>
+  <edge id="c10" src="e1" trg="a1" type="seg"/>
+  <edge id="c11" src="e2" trg="a2" type="seg"/>
+  <edge id="c12" src="e3" trg="a3" type="seg"/>
+  <edge id="c13" src="e4" trg="a4" type="seg"/>
+  <edge id="c14" src="e5" trg="a5" type="seg"/>
+  <edge id="c15" src="e6" trg="a6" type="seg"/>
+  <edge id="c16" src="e7" trg="a7" type="seg"/>
+  <edge id="c17" src="e8" trg="a8" type="seg"/>
+  <edge id="c18" src="e9" trg="a9" type="seg"/>
+  <edge id="c19" src="e10" trg="a10" type="seg"/>
+  <edge id="c1" src="a1" trg="a4" type="reb"/>
+  <edge id="c2" src="a2" trg="a4" type="sup"/>
+  <edge id="c3" src="a3" trg="a2" type="sup"/>
+  <edge id="c4" src="a5" trg="a4" type="sup"/>
+  <edge id="c5" src="a6" trg="a5" type="sup"/>
+  <edge id="c6" src="a7" trg="a4" type="sup"/>
+  <edge id="c7" src="a8" trg="a7" type="sup"/>
+  <edge id="c8" src="a9" trg="a4" type="sup"/>
+  <edge id="c9" src="a10" trg="a9" type="sup"/>
+</arggraph>

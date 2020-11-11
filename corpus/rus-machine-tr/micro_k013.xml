@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k013" topic_id="allow_shops_to_open_on_holidays_and_sundays" stance="con">
+  <edu id="e1" lang="en">Supermarket employees and people who work in shopping centres also have the right to a Sunday off work.</edu>
+  <edu id="e1" lang="ru" trans="promt">Сотрудники супермаркета и люди, которые работают в торговых центрах также, имеют право на воскресенье от работы.</edu>
+  <edu id="e1" lang="ru" trans="google">Сотрудники супермаркетов и люди, которые работают в торговых центрах, также имеют право на воскресную работу.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Сотрудники супермаркета и люди, которые работают в торговых центрах тоже имеют право на воскресную работу.</edu>
+  <edu id="e2" lang="en">Likewise public holidays should remain what they are: for some a day of introspection, for others a paid day off that is not taken away from the annual paid leave proper.</edu>
+  <edu id="e2" lang="ru" trans="promt">Аналогично выходные дни должны остаться, каковы они: для некоторых день самоанализа для других у заплаченного выходного этого не отнимают ежегодный надлежащий оплачиваемый отпуск.</edu>
+  <edu id="e2" lang="ru" trans="google">Кроме того, праздничные дни должны оставаться такими, какими они являются: в течение некоторого дня интроспекции, для других - оплачиваемый выходной день, который не убирается с ежегодного оплачиваемого отпуска.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Также в праздничные дни должны оставаться тем, чем они являются: на какой день самоанализа, для других-оплачиваемый выходной, который не забрали из ежегодного оплачиваемого отпуска правильным.</edu>
+  <edu id="e3" lang="en">Hence it is good when shops are not open on Sundays and public holidays.</edu>
+  <edu id="e3" lang="ru" trans="promt">Следовательно хорошо, когда магазины не открыты по воскресеньям и выходные дни.</edu>
+  <edu id="e3" lang="ru" trans="google">Поэтому хорошо, когда магазины не открыты по воскресеньям и праздничным дням.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Поэтому хорошо, когда магазины не работают по воскресеньям и в праздничные дни.</edu>
+  <edu id="e4" lang="en">People, however, who work during the week and on Saturdays then have a problem: everyone else can shop weekdays, but they can't.</edu>
+  <edu id="e4" lang="ru" trans="promt">Люди, однако, кто работает в течение недели и по субботам тогда имеет проблему: все остальные могут делать покупки рабочие дни, но они не могут.</edu>
+  <edu id="e4" lang="ru" trans="google">Тем не менее, люди, которые работают в течение недели и по субботам, имеют проблемы: каждый может ходить по магазинам в будние дни, но они не могут.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Люди, однако, которые работают в будние дни и по субботам, то есть проблема: все остальное можете делать покупки в будние дни, но они не могут.</edu>
+  <edu id="e5" lang="en">For those people the late opening hours, which meanwhile already extend to 12:00 midnight, present a good alternative.</edu>
+  <edu id="e5" lang="ru" trans="promt">Для тех людей последние вводные часы, которые между тем уже распространяются на 12:00 полуночи, представляют хорошую альтернативу.</edu>
+  <edu id="e5" lang="ru" trans="google">Для тех людей поздние часы работы, которые между тем уже продлеваются до полуночи до 12:00, представляют собой хорошую альтернативу.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Для тех людей позднего открытия часов, которые тем временем уже продлить до 12:00 полуночи, хорошая альтернатива.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="sup"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c4" src="a4" trg="a3" type="reb"/>
+  <edge id="c5" src="a5" trg="c4" type="und"/>
+</arggraph>

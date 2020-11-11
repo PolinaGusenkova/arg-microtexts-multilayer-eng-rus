@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b035" topic_id="health_insurance_cover_complementary_medicine" stance="pro">
+  <edu id="e1" lang="en">Complementary medicine includes treatments with proven health benefits in many areas</edu>
+  <edu id="e1" lang="ru" trans="promt">Нетрадиционная медицина включает лечение с доказанной пользой для здоровья во многих областях</edu>
+  <edu id="e1" lang="ru" trans="google">Дополнительная медицина включает лечение с доказанными преимуществами для здоровья во многих областях</edu>
+  <edu id="e1" lang="ru" trans="yandex">Комплементарная медицина включает в себя методы лечения с доказанной пользой для здоровья во многих областях</edu>
+  <edu id="e2" lang="en">which are often less costly than medication from conventional medicine, which are also paid for after all.</edu>
+  <edu id="e2" lang="ru" trans="promt">которые являются часто менее дорогостоящими, чем лечение от традиционной медицины, которые также оплачивают, в конце концов.</edu>
+  <edu id="e2" lang="ru" trans="google">которые часто менее дорогостоящи, чем лекарства от традиционной медицины, которые также оплачиваются в конце концов.</edu>
+  <edu id="e2" lang="ru" trans="yandex">которые часто являются менее дорогостоящими, чем лекарства из традиционной медицины, которые также оплачены в конце концов.</edu>
+  <edu id="e3" lang="en">Often natural treatments do not put as much of a strain on the patient.</edu>
+  <edu id="e3" lang="ru" trans="promt">Часто естественное лечение не помещает такое же большое напряжение на пациента.</edu>
+  <edu id="e3" lang="ru" trans="google">Часто естественные методы лечения не вызывают столько нагрузки на пациента.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Часто натуральные способы лечения не положил столько нагрузку на пациента.</edu>
+  <edu id="e4" lang="en">Such therapies can frequently result in an improvement in the condition through the active participation of the patient.</edu>
+  <edu id="e4" lang="ru" trans="promt">Такие методы лечения могут часто приводить к улучшению условия посредством активного участия пациента.</edu>
+  <edu id="e4" lang="ru" trans="google">Такая терапия может часто приводить к улучшению состояния при активном участии пациента.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Такая терапия часто приводит к улучшению состояния при активном участии пациента.</edu>
+  <edu id="e5" lang="en">The health insurance companies ought to be enabled to recognize a doctor's decision for natural treatment and also to cover it.</edu>
+  <edu id="e5" lang="ru" trans="promt">Медицинским страховым компаниям нужно позволить признать решение доктора за естественное лечение и также покрыть его.</edu>
+  <edu id="e5" lang="ru" trans="google">Медицинские страховые компании должны быть в состоянии признать решение врача для естественного лечения, а также покрыть его.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Медицинские страховые компании должны иметь возможность признать решение врача для природного лечения, а также для покрытия его.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="sup"/>
+  <edge id="c2" src="a2" trg="a5" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="sup"/>
+  <edge id="c4" src="a4" trg="a5" type="sup"/>
+</arggraph>

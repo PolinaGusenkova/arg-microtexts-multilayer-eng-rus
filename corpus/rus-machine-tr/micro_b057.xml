@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b057" topic_id="keep_retirement_at_63" stance="con">
+  <edu id="e1" lang="en">Retirement at 63, that's something everyone who has toiled away (nonstop) up to this point surely deserves.</edu>
+  <edu id="e1" lang="ru" trans="promt">Пенсия в 63, это - что-то все, кто трудился далеко (без остановок) до этого пункта, конечно, заслуживает.</edu>
+  <edu id="e1" lang="ru" trans="google">Выход на пенсию в 63 года, это то, что заслуживает каждый, кто трудился (без остановок) до этого момента.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Выход на пенсию в 63, это то, что всем, кто трудился км (беспосадочный) до этого момента, безусловно, заслуживает.</edu>
+  <edu id="e2" lang="en">Only the question remains whether this early 'leisure' will be nicer if you have no idea what do to all day and you statistically still have almost 20 (!!!) years to go?</edu>
+  <edu id="e2" lang="ru" trans="promt">Только вопрос остается, будет ли этот ранний 'досуг' более хорошим, если Вы понятия не имеете, что делает к весь день, и у Вас статистически все еще есть почти 20 (!!!) годы, чтобы пойти?</edu>
+  <edu id="e2" lang="ru" trans="google">Остается только вопрос, будет ли этот ранний «досуг» более приятным, если вы не представляете, что делать на весь день, и у вас по-прежнему остается почти 20 (!!!) лет?</edu>
+  <edu id="e2" lang="ru" trans="yandex">Остается только вопрос, будет ли эта ранняя "отдых" будет лучше, если вы не знаете, что делать, чтобы весь день и статистически еще почти 20 (!!!) лет?</edu>
+  <edu id="e3" lang="en">Also, one isn't taking responsibility for society if one gives up one's experienced, healthy and highly qualified capabilities earlier than necessary for private/personal reasons.</edu>
+  <edu id="e3" lang="ru" trans="promt">Кроме того, каждый не берет на себя ответственность за общество, если Вы бросаете опытные, здоровые и высококвалифицированные возможности ранее, чем необходимый по частным / личным мотивам.</edu>
+  <edu id="e3" lang="ru" trans="google">Кроме того, человек не берет на себя ответственность за общество, если он отказывается от своих опытных, здоровых и высококвалифицированных возможностей раньше, чем это необходимо по частным / личным причинам.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Также, не беря на себя ответственность за общество, если один дает один из опытных, здоровых и высококвалифицированных возможностей раньше, чем нужно по личным причинам.</edu>
+  <edu id="e4" lang="en">Especially now, as there is a lack of skilled labour, it's irresponsible for the economy and prosperity to retire at 63.</edu>
+  <edu id="e4" lang="ru" trans="promt">Особенно теперь как есть отсутствие квалифицированного труда, безответственно для экономики и процветания удалиться в 63.</edu>
+  <edu id="e4" lang="ru" trans="google">Особенно сейчас, поскольку существует нехватка квалифицированной рабочей силы, безответственно для экономики и процветания уйти на пенсию в 63.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Особенно сейчас, когда ощущается нехватка квалифицированной рабочей силы, это безответственно для экономики и процветания на пенсию в 63.</edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c1" src="a1" trg="a4" type="reb"/>
+  <edge id="c2" src="a2" trg="a4" type="sup"/>
+  <edge id="c3" src="a3" trg="a4" type="sup"/>
+</arggraph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d18">
+  <edu id="e1" lang="en">Schweinsteiger has now been injured for three days.</edu>
+  <edu id="e1" lang="ru" trans="promt">Швайнштайгер теперь ранился в течение трех дней.</edu>
+  <edu id="e1" lang="ru" trans="google">Швайнштайгер получил травму в течение трех дней.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Швайнштайгер был ранен в течение трех дней.</edu>
+  <edu id="e2" lang="en">We urgently need a midfield replacement for the coming match.</edu>
+  <edu id="e2" lang="ru" trans="promt">Нам срочно нужна замена центра для ближайшего матча.</edu>
+  <edu id="e2" lang="ru" trans="google">Нам срочно нужна замена полузащиты для предстоящего матча.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Нам срочно нужна замена полузащитника на предстоящий матч.</edu>
+  <edu id="e3" lang="en">The doctor was able to sign him off as fit for play with enough painkillers,</edu>
+  <edu id="e3" lang="ru" trans="promt">Доктор смог заключить контракт с ним прочь как подготовленным к игре с достаточным количеством болеутоляющих,</edu>
+  <edu id="e3" lang="ru" trans="google">Врач смог подписать его как подходящий для игры с достаточным количеством болеутоляющих средств,</edu>
+  <edu id="e3" lang="ru" trans="yandex">Доктор был в состоянии подписать его как пригодные для игры с достаточно обезболивающих,</edu>
+  <edu id="e4" lang="en">but that would only make the injury worse in the long run.</edu>
+  <edu id="e4" lang="ru" trans="promt">но это только сделало бы травму хуже в конечном счете.</edu>
+  <edu id="e4" lang="ru" trans="google">но это только ухудшило бы травму в долгосрочной перспективе.</edu>
+  <edu id="e4" lang="ru" trans="yandex">но это будет только сделать травмы хуже в долгосрочной перспективе.</edu>
+  <edu id="e5" lang="en">And a young substitute always invigorates the team.</edu>
+  <edu id="e5" lang="ru" trans="promt">И молодая замена всегда подбадривает команду.</edu>
+  <edu id="e5" lang="ru" trans="google">И молодой заменитель всегда оживляет команду.</edu>
+  <edu id="e5" lang="ru" trans="yandex">А молодой замены всегда взбадривает команду.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a2" type="sup"/>
+  <edge id="c3" src="a3" trg="c1" type="und"/>
+  <edge id="c4" src="a4" trg="c3" type="und"/>
+  <edge id="c5" src="a5" trg="a2" type="sup"/>
+</arggraph>

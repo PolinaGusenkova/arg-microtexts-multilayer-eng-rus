@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k025" topic_id="introduce_capital_punishment" stance="pro">
+  <edu id="e1" lang="en">Capital punishment is not a solution,</edu>
+  <edu id="e1" lang="ru" trans="human">Смертная казнь не является решением,</edu>
+  <edu id="e2" lang="en">as it cannot be ruled out that the judicial process may make mistakes.</edu>
+  <edu id="e2" lang="ru" trans="human">поскольку нельзя исключать ошибки в судебном процессе.</edu>
+  <edu id="e3" lang="en">Criminals should not be put in luxury prisons, though.</edu>
+  <edu id="e3" lang="ru" trans="human">Тем не менее, преступники не должны отбывать своё наказание в современных роскошных тюремных камерах.</edu>
+  <edu id="e4" lang="en">After all there are criminals who enjoy 'living' in prison for its decent board, no taxes to be paid, no stress with work.</edu>
+  <edu id="e4" lang="ru" trans="human">В конце концов, есть преступники, которым нравится «жизнь» в тюрьме за приличную плату, без уплаты налогов, без привычного стресса от работы.</edu>
+  <edu id="e5" lang="en">Still, the state needs the death penalty as a deterrent to horrific crimes.</edu>
+  <edu id="e5" lang="ru" trans="human">Тем не менее, государству нужна смертная казнь как средство предотвращения  ужасных преступлений.</edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="reb"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="sup"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+</arggraph>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k009" topic_id="introduce_capital_punishment" stance="con">
+  <edu id="e1" lang="en">Germany should by no means introduce capital punishment.</edu>
+  <edu id="e1" lang="ru" trans="human">Германия ни в коем случае не должна вводить смертную казнь.</edu>
+  <edu id="e2" lang="en">If there were capital punishment, this would mean people are allowed to put themselves above others and rule over their lives.</edu>
+  <edu id="e2" lang="ru" trans="human">Наличие смертной казни означало бы, что люди могут ставить себя выше других и управлять чужими жизнями.</edu>
+  <edu id="e3" lang="en">Capital punishment would be murder and would have to be punished with the death penalty itself.</edu>
+  <edu id="e3" lang="ru" trans="human">Смертная казнь сама по себе была бы убийством, и за неё пришлось бы наказывать смертным приговором.</edu>
+  <edu id="e4" lang="en">What, then, ought to be done with criminals who have committed truly awful crimes such as murder or rape - should they simply be allowed to live on</edu>
+  <edu id="e4" lang="ru" trans="human">Что же тогда следует делать с преступниками, которые совершили действительно ужасные преступления, такие как убийство или изнасилование? Можно ли позволить им жить дальше?</edu>
+  <edu id="e5" lang="en">although they have taken or destroyed another life?</edu>
+  <edu id="e5" lang="ru" trans="human">Учитывая то, что они забрали или разрушили чью-то жизнь?</edu>
+  <edu id="e6" lang="en">Yes, for it is a much graver punishment to be imprisoned forever and be tortured by one's own thoughts than to be killed quickly and easily by an injection.</edu>
+  <edu id="e6" lang="ru" trans="human">Да, поскольку  пожизненное заключение, в условиях которого преступник будет подвергаться пыткам собственными мыслями, является гораздо более суровым наказанием, чем быстрая и легкая смерть от укола.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a4" type="reb"/>
+  <edge id="c6" src="a6" trg="c5" type="und"/>
+</arggraph>

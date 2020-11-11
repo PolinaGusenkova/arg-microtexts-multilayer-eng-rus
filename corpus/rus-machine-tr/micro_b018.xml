@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b018" topic_id="health_insurance_cover_complementary_medicine" stance="con">
+  <edu id="e1" lang="en">The choice of an attending physician is at the discretion of the patient.</edu>
+  <edu id="e1" lang="ru" trans="promt">Выбор лечащего врача на усмотрение пациента.</edu>
+  <edu id="e1" lang="ru" trans="google">Выбор лечащего врача на усмотрение пациента.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Выбор лечащего врача осуществляется по усмотрению пациента.</edu>
+  <edu id="e2" lang="en">Yet the funds of the health insurance companies are a common benefit for all premium payers.</edu>
+  <edu id="e2" lang="ru" trans="promt">Все же фонды медицинских страховых компаний - общая выгода для всех премиальных плательщиков.</edu>
+  <edu id="e2" lang="ru" trans="google">Однако средства страховых компаний являются общей выгодой для всех плательщиков премий.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Еще средства из медицинских страховых компаний-это общее благо для всех плательщиков страховых взносов.</edu>
+  <edu id="e3" lang="en">They should not be spent on personal preferences without proven use.</edu>
+  <edu id="e3" lang="ru" trans="promt">Они не должны быть потрачены на личные предпочтения без доказанного использования.</edu>
+  <edu id="e3" lang="ru" trans="google">Они не должны тратиться на личные предпочтения без проверенного использования.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Они не должны расходоваться на личные предпочтения без доказанной пользы.</edu>
+  <edu id="e4" lang="en">The effectiveness of many natural remedies has not been demonstrated.</edu>
+  <edu id="e4" lang="ru" trans="promt">Эффективность многих естественных средств не была продемонстрирована.</edu>
+  <edu id="e4" lang="ru" trans="google">Эффективность многих природных средств не была продемонстрирована.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Эффективность многих натуральных средств не было продемонстрировано.</edu>
+  <edu id="e5" lang="en">Therefore no unproven and unrecognized treatments by naturopaths should be reimbursed by the insurance companies.</edu>
+  <edu id="e5" lang="ru" trans="promt">Поэтому никакое бездоказательное и непризнанное лечение натуропатами не должно быть возмещено страховыми компаниями.</edu>
+  <edu id="e5" lang="ru" trans="google">Поэтому страховые компании не должны возмещать недоказанные и непризнанные методы лечения натуропатами.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Поэтому не бездоказательно и нераспознанный процедуры по натуропаты должны быть возмещены страховыми компаниями.</edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="reb"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="sup"/>
+  <edge id="c4" src="a4" trg="c3" type="add"/>
+</arggraph>

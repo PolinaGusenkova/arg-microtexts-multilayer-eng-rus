@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b034" topic_id="charge_tuition_fees" stance="con">
+  <edu id="e1" lang="en">Tuition fees should not generally be charged by universities.</edu>
+  <edu id="e1" lang="ru" trans="human">Плата за обучение, как правило, не должна взиматься университетами.</edu>
+  <edu id="e2" lang="en">Universities are for all citizens, independent of their finances.</edu>
+  <edu id="e2" lang="ru" trans="human">Университеты существуют для всех граждан, независимо от их дохода.</edu>
+  <edu id="e3" lang="en">Education and training are fundamental rights which the state, the society must provide.</edu>
+  <edu id="e3" lang="ru" trans="human">Образование и профессиональное обучение - это основные права, которые должно предоставлять государство и общество.</edu>
+  <edu id="e4" lang="en">If a university lacks the funds, sponsors must be found.</edu>
+  <edu id="e4" lang="ru" trans="human">Если университету не хватает средств, нужно найти спонсоров.</edu>
+  <edu id="e5" lang="en">Unfortunately this can lead to disagreeable dependencies in some cases.</edu>
+  <edu id="e5" lang="ru" trans="human">К сожалению, в некоторых случаях это может привести к нежелательной зависимости.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a4" type="reb"/>
+</arggraph>

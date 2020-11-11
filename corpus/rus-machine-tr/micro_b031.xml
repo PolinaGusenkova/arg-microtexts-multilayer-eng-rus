@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b031" topic_id="introduce_capital_punishment" stance="con">
+  <edu id="e1" lang="en">One should not re-introduce capital punishment in Germany,</edu>
+  <edu id="e1" lang="ru" trans="promt">Не нужно повторно вводить смертную казнь в Германии,</edu>
+  <edu id="e1" lang="ru" trans="google">В Германии не следует вводить смертную казнь,</edu>
+  <edu id="e1" lang="ru" trans="yandex">Не следует вновь ввести смертную казнь в Германии</edu>
+  <edu id="e2" lang="en">since no one can claim the right to rule over the life or death of another human being.</edu>
+  <edu id="e2" lang="ru" trans="promt">так как никто не может требовать права управлять по жизни или смерти другого человека.</edu>
+  <edu id="e2" lang="ru" trans="google">поскольку никто не может претендовать на право править жизнью или смертью другого человека.</edu>
+  <edu id="e2" lang="ru" trans="yandex">так как никто не может претендовать на власть над жизнью или смертью другого человека.</edu>
+  <edu id="e3" lang="en">Capital punishment will not deter anyone else from an atrocity.</edu>
+  <edu id="e3" lang="ru" trans="promt">Смертная казнь не удержит никого больше от злодеяния.</edu>
+  <edu id="e3" lang="ru" trans="google">Смертная казнь не удержит никого из зверства.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Смертная казнь не остановит никого из зверством.</edu>
+  <edu id="e4" lang="en">Everyone must be given the chance to hone their conscience and possibly make amends for their deed.</edu>
+  <edu id="e4" lang="ru" trans="promt">Всем нужно дать шанс заточить их совесть и возможно покрыть причиненный ущерб для их дела.</edu>
+  <edu id="e4" lang="ru" trans="google">Каждому должны быть предоставлены возможности отточить свою совесть и, возможно, внести поправки в их действие.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Каждому должен быть дан шанс отточить свою совесть и, возможно, искупить их делом.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+</arggraph>

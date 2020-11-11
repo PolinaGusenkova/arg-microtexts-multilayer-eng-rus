@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b014" topic_id="public_broadcasting_fees_on_demand" stance="pro">
+  <edu id="e1" lang="en">Actually only those people should pay a TV &amp; radio licence fee who really watch ARD, ZDF, Arte etc.</edu>
+  <edu id="e1" lang="ru" trans="promt">На самом деле только те люди должны заплатить ТВ &amp; радио-лицензионный сбор, кто действительно наблюдает ARD, ZDF, Вынужденно и т.д.</edu>
+  <edu id="e1" lang="ru" trans="google">На самом деле только те люди должны платить плату за телевидение и радио, которые действительно смотрят ARD, ZDF, Arte и т. Д.</edu>
+  <edu id="e1" lang="ru" trans="yandex">На самом деле нужно только тех людей платить по телевидению и радио лицензии, которые действительно смотреть АРД, ЦДФ, арте и т. д.</edu>
+  <edu id="e2" lang="en">It is in fact good to support sophisticated programming through fees.</edu>
+  <edu id="e2" lang="ru" trans="promt">На самом деле хорошо поддержать сложное программирование через сборы.</edu>
+  <edu id="e2" lang="ru" trans="google">На самом деле хорошо поддерживать сложное программирование за счет сборов.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Это фактически хорошо, чтобы поддерживать сложные программы за счет сборов.</edu>
+  <edu id="e3" lang="en">Curiously, however, there are still adverts and product placements on the public channels.</edu>
+  <edu id="e3" lang="ru" trans="promt">Любопытно, однако, есть все еще объявления и размещения продукта на общественных каналах.</edu>
+  <edu id="e3" lang="ru" trans="google">Любопытно, однако, что на публичных каналах все еще есть реклама и размещение продуктов.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Любопытно, однако, есть еще реклама и размещению продукции на государственных каналах.</edu>
+  <edu id="e4" lang="en">What are you paying for, then? That the same actors time and again get to have a laugh at exotic shooting locations?</edu>
+  <edu id="e4" lang="ru" trans="promt">Что Вы оплачиваете, тогда? То, что те же самые актеры снова и снова добираются, чтобы иметь смех в экзотических местоположениях стрельбы?</edu>
+  <edu id="e4" lang="ru" trans="google">Зачем ты платишь? Что те же актеры снова и снова будут смеяться над экзотическими местами съемки?</edu>
+  <edu id="e4" lang="ru" trans="yandex">За что вы платите тогда? Что же актерами снова и снова будет смех в экзотические места съемки?</edu>
+  <edu id="e5" lang="en">Also the scripts are often copied off each other.</edu>
+  <edu id="e5" lang="ru" trans="promt">Также сценарии часто копируются друг от друга.</edu>
+  <edu id="e5" lang="ru" trans="google">Также скрипты часто копируются друг с другом.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Также скрипты часто копируют друг друга.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a1" type="sup"/>
+</arggraph>

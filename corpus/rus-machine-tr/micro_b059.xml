@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b059" topic_id="cap_rent_increases" stance="con">
+  <edu id="e1" lang="en">Rent prices are already regulated in favour of tenants due to existing laws and the rent index.</edu>
+  <edu id="e1" lang="ru" trans="promt">Арендованные цены уже отрегулированы в пользу арендаторов из-за существующих законов и арендованного индекса.</edu>
+  <edu id="e1" lang="ru" trans="google">Цены на аренду уже регулируются в пользу арендаторов из-за существующих законов и индекса арендной платы.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Цены на аренду уже урегулированы в пользу арендаторов из-за существующих законов и индекса аренды.</edu>
+  <edu id="e2" lang="en">In view of the high prices for buying flats with existing rent contracts, these are an unattractive investment.</edu>
+  <edu id="e2" lang="ru" trans="promt">Ввиду высоких цен за покупку плоскостей с существующими арендованными контрактами это непривлекательные инвестиции.</edu>
+  <edu id="e2" lang="ru" trans="google">Ввиду высоких цен на покупку квартир с существующими договорами аренды, это непривлекательные инвестиции.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Учитывая высокие цены на покупку квартир с действующими договорами аренды, это инвестиционно непривлекательным.</edu>
+  <edu id="e3" lang="en">Even if one might think that additional rent control is needed besides the current tenant protection,</edu>
+  <edu id="e3" lang="ru" trans="promt">Даже если можно было бы думать, что дополнительный арендованный контроль необходим помимо текущей защиты арендатора,</edu>
+  <edu id="e3" lang="ru" trans="google">Даже если можно подумать, что помимо существующей защиты арендатора необходим дополнительный контроль арендной платы,</edu>
+  <edu id="e3" lang="ru" trans="yandex">Даже если кто-то может подумать, что дополнительный контроль аренды необходимо кроме защиты арендатора,</edu>
+  <edu id="e4" lang="en">one should not deny longstanding owners the opportunity to adjust their returns to market level.</edu>
+  <edu id="e4" lang="ru" trans="promt">не нужно отказывать давним владельцам в возможности приспособить их прибыль к уровню рынка.</edu>
+  <edu id="e4" lang="ru" trans="google">не следует отказывать давним владельцам в возможности корректировать свою доходность на рыночный уровень.</edu>
+  <edu id="e4" lang="ru" trans="yandex">нельзя отрицать давним владельцам возможность регулировать их возвращения к рыночному уровню.</edu>
+  <edu id="e5" lang="en">A cap on rent increases upon tenant change is therefore not to be supported.</edu>
+  <edu id="e5" lang="ru" trans="promt">Кепка на арендованные увеличения на изменение арендатора не должна поэтому быть поддержана.</edu>
+  <edu id="e5" lang="ru" trans="google">Таким образом, ограничение на ренту при изменении арендатора не поддерживается.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Поэтому ограничение на повышение арендной платы при смене арендатора не будет поддерживаться.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="sup"/>
+  <edge id="c2" src="a2" trg="a5" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="reb"/>
+  <edge id="c4" src="a4" trg="c3" type="und"/>
+</arggraph>

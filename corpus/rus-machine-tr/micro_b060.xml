@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b060" topic_id="allow_shops_to_open_on_holidays_and_sundays" stance="pro">
+  <edu id="e1" lang="en">Owner-run shops may potentially be overwhelmed by additional work times on Sundays and holidays,</edu>
+  <edu id="e1" lang="ru" trans="promt">Управляемые владельцем магазины могут потенциально быть переполнены временами дополнительной работы по воскресеньям и праздничным дням,</edu>
+  <edu id="e1" lang="ru" trans="google">Владельцы магазинов могут потенциально быть перегружены дополнительными рабочими временами по воскресеньям и праздникам,</edu>
+  <edu id="e1" lang="ru" trans="yandex">Владелец-магазины могут быть перегружены дополнительное время работы по воскресеньям и праздникам,</edu>
+  <edu id="e2" lang="en">then again supermarkets and large shopping centres dominate the market today already.</edu>
+  <edu id="e2" lang="ru" trans="promt">с другой стороны супермаркеты и крупные торговые центры сегодня уже доминируют над рынком.</edu>
+  <edu id="e2" lang="ru" trans="google">то сегодня супермаркеты и крупные торговые центры сегодня доминируют на рынке.</edu>
+  <edu id="e2" lang="ru" trans="yandex">затем снова супермаркетов и больших торговых центров доминировать на рынке уже сегодня.</edu>
+  <edu id="e3" lang="en">Thus smaller shops could benefit from the additional freedom,</edu>
+  <edu id="e3" lang="ru" trans="promt">Таким образом меньшие магазины могли извлечь выгоду из дополнительной свободы,</edu>
+  <edu id="e3" lang="ru" trans="google">Таким образом, более мелкие магазины могли бы воспользоваться дополнительной свободой,</edu>
+  <edu id="e3" lang="ru" trans="yandex">Таким образом, небольшие магазины могут извлечь пользу из дополнительной свободы,</edu>
+  <edu id="e4" lang="en">as customers are on average more laid-back on Sunday.</edu>
+  <edu id="e4" lang="ru" trans="promt">поскольку клиенты в среднем более непринужденны в воскресенье.</edu>
+  <edu id="e4" lang="ru" trans="google">так как клиенты в среднем более непринужденны в воскресенье.</edu>
+  <edu id="e4" lang="ru" trans="yandex">так как клиенты в среднем более положил обратно в воскресенье.</edu>
+  <edu id="e5" lang="en">Opening on Sundays and holidays would therefore help both customers and shops.</edu>
+  <edu id="e5" lang="ru" trans="promt">Открытие по воскресеньям и праздничным дням поэтому помогло бы и клиентам и магазинам.</edu>
+  <edu id="e5" lang="ru" trans="google">Поэтому открытие по воскресеньям и праздничным дням поможет как клиентам, так и магазинам.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Открытие по воскресеньям и праздникам, поэтому поможет как клиентам, так и магазинам.</edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="reb"/>
+  <edge id="c2" src="a2" trg="c1" type="und"/>
+  <edge id="c3" src="a3" trg="a5" type="sup"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+</arggraph>

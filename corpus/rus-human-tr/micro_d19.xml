@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d19">
+  <edu id="e1" lang="en">A bank bailout is very, very costly.</edu>
+  <edu id="e1" lang="ru" trans="human">Вывод банка из кризиса - очень и очень затратное дело.</edu>
+  <edu id="e2" lang="en">For instance, the taxpayer stood in for the failed bank 'Hypo Real Estate' with a three-figure billion amount.</edu>
+  <edu id="e2" lang="ru" trans="human">К примеру, для спасения провалившегося банка “Hypo Real Estate” было выделено трёхзначное число миллиардов из средств налогоплательщиков.</edu>
+  <edu id="e3" lang="en">That's why we should not allow any additional bank rescues.</edu>
+  <edu id="e3" lang="ru" trans="human">Поэтому нельзя позволить и дальше спасать банки.</edu>
+  <edu id="e4" lang="en">The politicians are trying to appease us with the fact that actually only a tiny amount of all that money was really spent.</edu>
+  <edu id="e4" lang="ru" trans="human">Политики пытаются успокоить нас тем фактом, что на самом деле потрачен был лишь крохотный процент тех денег.</edu>
+  <edu id="e5" lang="en">But even with that tiny amount you could do a lot of good elsewhere.</edu>
+  <edu id="e5" lang="ru" trans="human">Но и этого малого количества достаточно, чтобы сделать хорошее дело в других областях.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="sup"/>
+  <edge id="c2" src="a2" trg="a1" type="exa"/>
+  <edge id="c4" src="a4" trg="a1" type="reb"/>
+  <edge id="c5" src="a5" trg="c4" type="und"/>
+</arggraph>

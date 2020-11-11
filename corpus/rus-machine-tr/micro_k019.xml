@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k019" topic_id="public_broadcasting_fees_on_demand" stance="con">
+  <edu id="e1" lang="en">The thought of television exclusively made up of private channels scares me.</edu>
+  <edu id="e1" lang="ru" trans="promt">Мысль о телевидении, исключительно составленном из частных каналов, пугает меня.</edu>
+  <edu id="e1" lang="ru" trans="google">Меня пугает мысль о телевидении, состоящем из частных каналов.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Мысль о телевидении исключительно на частные каналы пугает меня.</edu>
+  <edu id="e2" lang="en">Admittedly trash and turmoil are exactly what the majority of people want to see.</edu>
+  <edu id="e2" lang="ru" trans="promt">По общему признанию мусор и суматоха точно, что большинство людей хочет видеть.</edu>
+  <edu id="e2" lang="ru" trans="google">По общему признанию, мусор и смятение - именно то, что хотят видеть большинство людей.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Правда, мусор и беспорядок именно то, что большинство людей хотят видеть.</edu>
+  <edu id="e3" lang="en">But to therefore offer TV according to audience rates only would be dangerous.</edu>
+  <edu id="e3" lang="ru" trans="promt">Но поэтому предложить ТВ согласно ставкам аудитории только было бы опасно.</edu>
+  <edu id="e3" lang="ru" trans="google">Но для того, чтобы предлагать телевидение по ставкам аудитории, было бы опасно.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Но поэтому предлагают ТВ по тарифам аудитория будет только опаснее.</edu>
+  <edu id="e4" lang="en">Only in public TV programmes can viewers get information that is not profit-oriented.</edu>
+  <edu id="e4" lang="ru" trans="promt">Только в общественном телевидении программы могут зрители получать информацию, которая не ориентирована на прибыль.</edu>
+  <edu id="e4" lang="ru" trans="google">Только в публичных телевизионных программах зрители могут получить информацию, не ориентированную на прибыль.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Только в программах Общественного телевидения зрители могут получить информацию, не ориентированной на прибыль.</edu>
+  <edu id="e5" lang="en">And since it is the duty of society to collectively finance certain areas that cannot hold their own in a market economy,</edu>
+  <edu id="e5" lang="ru" trans="promt">И так как это - обязанность общества коллективно финансировать определенные области, которые не могут держать их собственное в рыночной экономике,</edu>
+  <edu id="e5" lang="ru" trans="google">И поскольку обязанность общества коллективно финансировать определенные области, которые не могут быть собственными в рыночной экономике,</edu>
+  <edu id="e5" lang="ru" trans="yandex">И так как это является обязанностью общества коллективного финансирования определенных областях, которые не могут своими силами держаться в рыночной экономике,</edu>
+  <edu id="e6" lang="en">everyone should chip in.</edu>
+  <edu id="e6" lang="ru" trans="promt">все должны войти в долю.</edu>
+  <edu id="e6" lang="ru" trans="google">каждый должен чип.</edu>
+  <edu id="e6" lang="ru" trans="yandex">каждый должен скинуться.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a6" type="sup"/>
+  <edge id="c2" src="a2" trg="a6" type="reb"/>
+  <edge id="c3" src="a3" trg="c2" type="und"/>
+  <edge id="c4" src="a4" trg="a6" type="sup"/>
+  <edge id="c5" src="a5" trg="c4" type="add"/>
+</arggraph>

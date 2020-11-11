@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d13">
+  <edu id="e1" lang="en">Whenever Peter bumps into an ex-girlfriend at a party, he forgoes any further consumption of alcohol just in case.</edu>
+  <edu id="e1" lang="ru" trans="promt">Каждый раз, когда Питер врезается в бывшую девушку на вечеринке, он воздерживается от дальнейшего потребления алкоголя на всякий случай.</edu>
+  <edu id="e1" lang="ru" trans="google">Всякий раз, когда Питер сталкивается с бывшей девушкой на вечеринке, он на всякий случай отказывается от любого потребления алкоголя.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Всякий раз, когда Питер сталкивается с бывшей девушкой на вечеринке, он воздерживается от дальнейшего потребления алкоголя на всякий случай.</edu>
+  <edu id="e2" lang="en">When he got back from Ralf's party last night he was still stone-cold sober.</edu>
+  <edu id="e2" lang="ru" trans="promt">Когда он возвратился из стороны Ральфа вчера вечером, он был все еще холоден как лед трезвый.</edu>
+  <edu id="e2" lang="ru" trans="google">Когда он вернулся с вечеринки Ральфа прошлой ночью, он все еще был каменным холодным трезвым.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Когда он вернулся из партии Ральф прошлой ночью он был еще трезв как стеклышко.</edu>
+  <edu id="e3" lang="en">Thus one of his ex-girlfriends must have been there.</edu>
+  <edu id="e3" lang="ru" trans="promt">Таким образом одна из его бывших девушек, должно быть, была там.</edu>
+  <edu id="e3" lang="ru" trans="google">Таким образом, одна из его бывших подружек, должно быть, была там.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Таким образом, одной из его экс-подружек должны быть там.</edu>
+  <edu id="e4" lang="en">Ralf does insist that they drank advocaat together.</edu>
+  <edu id="e4" lang="ru" trans="promt">Ральф действительно настаивает, что они выпили адвокат вместе.</edu>
+  <edu id="e4" lang="ru" trans="google">Ральф настаивает на том, что они пили адвоката вместе.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Ральф настаивает, что они пили Адвокаат вместе.</edu>
+  <edu id="e5" lang="en">But even without an ex-girlfriend he would never touch that.</edu>
+  <edu id="e5" lang="ru" trans="promt">Но даже без бывшей девушки он никогда не касался бы этого.</edu>
+  <edu id="e5" lang="ru" trans="google">Но даже без бывшей подруги он никогда не коснется этого.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Но даже без бывшей девушкой он бы никогда не трогать.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="sup"/>
+  <edge id="c2" src="a2" trg="c1" type="add"/>
+  <edge id="c4" src="a4" trg="a2" type="reb"/>
+  <edge id="c5" src="a5" trg="a4" type="reb"/>
+</arggraph>

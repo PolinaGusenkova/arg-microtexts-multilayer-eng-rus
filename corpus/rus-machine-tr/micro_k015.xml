@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k015" topic_id="TXL_airport_remain_operational_after_BER_opening" stance="unclear">
+  <edu id="e1" lang="en">BER should be re-conceptualized from scratch,</edu>
+  <edu id="e1" lang="ru" trans="promt">ЧАСТОТА ОШИБОК ПО БИТАМ должна повторно осмысляться с нуля,</edu>
+  <edu id="e1" lang="ru" trans="google">BER следует переосмыслить с нуля,</edu>
+  <edu id="e1" lang="ru" trans="yandex">Бер должен быть заново осмысливаются с нуля,</edu>
+  <edu id="e2" lang="en">even if billions of Euros have already been invested in the existing airport project</edu>
+  <edu id="e2" lang="ru" trans="promt">даже если миллиарды Евро уже инвестировали в существующий проект аэропорта</edu>
+  <edu id="e2" lang="ru" trans="google">даже если миллиарды евро уже были инвестированы в существующий проект аэропорта</edu>
+  <edu id="e2" lang="ru" trans="yandex">даже если миллиарды евро уже вложено в существующий проект аэропорта </edu>
+  <edu id="e3" lang="en">and this would delay the date of completion indefinitely.</edu>
+  <edu id="e3" lang="ru" trans="promt">и это задержало бы дату завершения неопределенно.</edu>
+  <edu id="e3" lang="ru" trans="google">и это задержит дату завершения на неопределенный срок.</edu>
+  <edu id="e3" lang="ru" trans="yandex">и это приведет к задержке даты завершения бесконечно.</edu>
+  <edu id="e4" lang="en">Both the drawn-out building operations and the mounting safety issues show clear shortcomings in the entire planning.</edu>
+  <edu id="e4" lang="ru" trans="promt">И затянувшиеся строительные операции и повышающиеся проблемы безопасности показывают ясные недостатки во всем планировании.</edu>
+  <edu id="e4" lang="ru" trans="google">Как затяжные строительные операции, так и проблемы безопасности при установке проявляют явные недостатки во всем планировании.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Как на затянувшиеся строительные работы и монтаж вопросов безопасности показывают явные просчеты в планировании всей.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="a1" type="reb"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+</arggraph>

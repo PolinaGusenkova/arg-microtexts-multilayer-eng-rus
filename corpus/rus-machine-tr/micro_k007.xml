@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k007" topic_id="allow_shops_to_open_on_holidays_and_sundays" stance="pro">
+  <edu id="e1" lang="en">Supermarkets and shopping centres should be allowed to open any Sundays and holidays at their discretion.</edu>
+  <edu id="e1" lang="ru" trans="promt">Супермаркетам и торговым центрам нужно разрешить открыть любые воскресенья и праздничные дни по их усмотрению.</edu>
+  <edu id="e1" lang="ru" trans="google">Супермаркетам и торговым центрам разрешается открывать любые воскресенья и праздники по своему усмотрению.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Супермаркеты и торговые центры должны быть разрешено открыть любые воскресные и праздничные дни по своему усмотрению.</edu>
+  <edu id="e2" lang="en">For in this way, Sunday shopping days would be better spread out through the year.</edu>
+  <edu id="e2" lang="ru" trans="promt">Для таким образом, в воскресенье делая покупки дни были бы лучше распространены в течение года.</edu>
+  <edu id="e2" lang="ru" trans="google">Таким образом, воскресные дни шоппинга будут лучше распространяться в течение года.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Для таким образом, в воскресенье торговые дни будут лучше распространяться через год.</edu>
+  <edu id="e3" lang="en">Also streets and shops would presumably be emptier</edu>
+  <edu id="e3" lang="ru" trans="promt">Также улицы и магазины, по-видимому, были бы более пустыми</edu>
+  <edu id="e3" lang="ru" trans="google">Также улицы и магазины, вероятно, будут опустошены</edu>
+  <edu id="e3" lang="ru" trans="yandex">Также улицы и магазины, вероятно, будет пустее</edu>
+  <edu id="e4" lang="en">as not everyone would be open on the same day.</edu>
+  <edu id="e4" lang="ru" trans="promt">как не все были бы открыты в тот же день.</edu>
+  <edu id="e4" lang="ru" trans="google">поскольку не каждый будет открыт в тот же день.</edu>
+  <edu id="e4" lang="ru" trans="yandex">так как не все будут открыты в тот же день.</edu>
+  <edu id="e5" lang="en">However then you'd have a worse overview of which shop is open on a given day.</edu>
+  <edu id="e5" lang="ru" trans="promt">Однако, тогда у Вас был бы худший обзор, которого магазин открыт в данный день.</edu>
+  <edu id="e5" lang="ru" trans="google">Однако тогда у вас будет худший обзор того, какой магазин открыт в определенный день.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Однако тогда у тебя будет хуже обзор какой магазин открыть в определенный день.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+  <edge id="c5" src="a5" trg="a1" type="reb"/>
+</arggraph>

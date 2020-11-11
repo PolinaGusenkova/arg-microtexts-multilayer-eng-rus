@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k024" topic_id="higher_dog_poo_fines" stance="pro">
+  <edu id="e1" lang="en">Dog owners should pay higher fines for dog dirt left on pavements,</edu>
+  <edu id="e1" lang="ru" trans="promt">Владельцы собак должны заплатить более высокие штрафы для грязи собаки, оставленной на мостовых,</edu>
+  <edu id="e1" lang="ru" trans="google">Владельцы собак должны платить более высокие штрафы за собачью грязь, оставленную на тротуарах,</edu>
+  <edu id="e1" lang="ru" trans="yandex">Владельцы собак должны платить более высокие штрафы за грязь собаки, оставленные на тротуарах,</edu>
+  <edu id="e2" lang="en">although there aren't enough bins and bag-dispensers for dog dirt.</edu>
+  <edu id="e2" lang="ru" trans="promt">хотя нет достаточного количества мусорных ведер и фармацевтов сумки для грязи собаки.</edu>
+  <edu id="e2" lang="ru" trans="google">хотя на собачьей грязи недостаточно бункеров и дозаторов для мешков.</edu>
+  <edu id="e2" lang="ru" trans="yandex">хотя там не хватает ящиков и мешок-дозаторы для грязи собаки.</edu>
+  <edu id="e3" lang="en">One reason for this is that they have thus far hardly had to fear the consequences despite the obligation to clean up.</edu>
+  <edu id="e3" lang="ru" trans="promt">Одна причина этого состоит в том, что они должны были к настоящему времени едва бояться последствий несмотря на обязательство вымыться.</edu>
+  <edu id="e3" lang="ru" trans="google">Одной из причин этого является то, что до сих пор им не приходилось опасаться последствий, несмотря на обязательство по очистке.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Одной из причин этого является то, что они до сих пор с трудом приходилось опасаться последствий, несмотря на обязанность убирать.</edu>
+  <edu id="e4" lang="en">A higher fine, so dog owners would have to dig deeper into their pockets, is supposed to be a deterrent after all.</edu>
+  <edu id="e4" lang="ru" trans="promt">Более высокий штраф, таким образом, владельцы собак должны были бы вырыть глубже в их карманы, как предполагается, является средством устрашения, в конце концов.</edu>
+  <edu id="e4" lang="ru" trans="google">Более высокий штраф, поэтому владельцы собак должны были бы копать глубже в свои карманы, в конце концов, это должно быть сдерживающим фактором.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Более высокий штраф, поэтому владельцам собак придется копать глубже в их карманы, должен быть сдерживающий фактор в конце концов.</edu>
+  <edu id="e5" lang="en">The city, especially the green spaces, should be kept tidy after all,</edu>
+  <edu id="e5" lang="ru" trans="promt">Город, особенно зеленые зоны, должен быть сохранен опрятным, в конце концов,</edu>
+  <edu id="e5" lang="ru" trans="google">В конце концов, город, особенно зеленые, должен быть аккуратным,</edu>
+  <edu id="e5" lang="ru" trans="yandex">Города, особенно зеленых зон, должны быть опрятными ведь</edu>
+  <edu id="e6" lang="en">for they are there for our recreation.</edu>
+  <edu id="e6" lang="ru" trans="promt">поскольку они там для нашего отдыха.</edu>
+  <edu id="e6" lang="ru" trans="google">потому что они там для нашего отдыха.</edu>
+  <edu id="e6" lang="ru" trans="yandex">ибо они существуют для нашего отдыха.</edu>
+  <edu id="e7" lang="en">Besides you're not allowed to leave other rubbish without punishment.</edu>
+  <edu id="e7" lang="ru" trans="promt">Кроме того, Нельзя оставить другой мусор без наказания.</edu>
+  <edu id="e7" lang="ru" trans="google">Кроме того, вам не разрешается оставлять другой мусор без наказания.</edu>
+  <edu id="e7" lang="ru" trans="yandex">Кроме того, вам не разрешается оставлять прочей дребедени без наказания.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c8" src="e1" trg="a1" type="seg"/>
+  <edge id="c9" src="e2" trg="a2" type="seg"/>
+  <edge id="c10" src="e3" trg="a3" type="seg"/>
+  <edge id="c11" src="e4" trg="a4" type="seg"/>
+  <edge id="c12" src="e5" trg="a5" type="seg"/>
+  <edge id="c13" src="e6" trg="a6" type="seg"/>
+  <edge id="c14" src="e7" trg="a7" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a1" type="sup"/>
+  <edge id="c6" src="a6" trg="a5" type="sup"/>
+  <edge id="c7" src="a7" trg="a1" type="sup"/>
+</arggraph>

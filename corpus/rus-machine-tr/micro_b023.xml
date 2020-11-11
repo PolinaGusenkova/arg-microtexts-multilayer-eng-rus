@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b023" topic_id="introduce_capital_punishment" stance="con">
+  <edu id="e1" lang="en">No human being or human committee should again be given the permission to rule over 'life or death'.</edu>
+  <edu id="e1" lang="ru" trans="promt">Никакому человеку или человеческому комитету нельзя снова дать разрешение управлять по 'жизни или смерти'.</edu>
+  <edu id="e1" lang="ru" trans="google">Ни одному человеку или человеческому комитету не должно быть снова позволено править «жизнью или смертью».</edu>
+  <edu id="e1" lang="ru" trans="yandex">Ни одно человеческое существо или человека комитет должен снова быть дано право властвовать над 'жизни или смерти'.</edu>
+  <edu id="e2" lang="en">Courts are also subject to human error.</edu>
+  <edu id="e2" lang="ru" trans="promt">Суды также подвергаются человеческой ошибке.</edu>
+  <edu id="e2" lang="ru" trans="google">Суды также подвержены человеческой ошибке.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Суды также подвержены ошибкам человека.</edu>
+  <edu id="e3" lang="en">That's why Germany should not introduce capital punishment!</edu>
+  <edu id="e3" lang="ru" trans="promt">Вот почему Германия не должна вводить смертную казнь!</edu>
+  <edu id="e3" lang="ru" trans="google">Вот почему Германия не должна вводить смертную казнь!</edu>
+  <edu id="e3" lang="ru" trans="yandex">Вот почему Германия не должна вводить смертную казнь!</edu>
+  <edu id="e4" lang="en">Every human, even those who have committed a despicable crime, can bring themselves to regret and change their opinion.</edu>
+  <edu id="e4" lang="ru" trans="promt">Каждый человек, даже те, кто совершил презренное преступление, могут привести себя, чтобы сожалеть и изменить их мнение.</edu>
+  <edu id="e4" lang="ru" trans="google">Каждый человек, даже те, кто совершил презренное преступление, могут заставить себя сожалеть и изменить свое мнение.</edu>
+  <edu id="e4" lang="ru" trans="yandex">У каждого человека, даже тех, кто совершил гнусное преступление, может заставить себя пожалеть и изменить свое мнение.</edu>
+  <edu id="e5" lang="en">A door must remain open for making amends.</edu>
+  <edu id="e5" lang="ru" trans="promt">Дверь должна остаться открытой для того, чтобы покрыть причиненный ущерб.</edu>
+  <edu id="e5" lang="ru" trans="google">Дверь должна оставаться открытой для внесения изменений.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Дверь должна оставаться открытой для внесения изменений.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="sup"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c4" src="a4" trg="a5" type="sup"/>
+  <edge id="c5" src="a5" trg="a3" type="sup"/>
+</arggraph>

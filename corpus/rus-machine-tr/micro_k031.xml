@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k031" topic_id="higher_dog_poo_fines" stance="pro">
+  <edu id="e1" lang="en">Pieces of dog poo on the pavements are a real danger.</edu>
+  <edu id="e1" lang="ru" trans="promt">Части собаки poo на мостовых являются реальной опасностью.</edu>
+  <edu id="e1" lang="ru" trans="google">Куски собачьего пуха на тротуарах - настоящая опасность.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Куски собачьих какашек на тротуарах представляют реальную опасность.</edu>
+  <edu id="e2" lang="en">Time and again children or the elderly slip on them.</edu>
+  <edu id="e2" lang="ru" trans="promt">Снова и снова дети или пожилые люди надевают их.</edu>
+  <edu id="e2" lang="ru" trans="google">Снова и снова дети или пожилые люди скользят по ним.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Снова и снова дети или пожилые люди скольжения на них.</edu>
+  <edu id="e3" lang="en">A fine for leaving dog waste behind admittedly seems rather authoritarian,</edu>
+  <edu id="e3" lang="ru" trans="promt">Штраф для того, чтобы оставить отходы собаки по общему признанию кажется довольно авторитарным,</edu>
+  <edu id="e3" lang="ru" trans="google">Прекрасно оставлять собачьи отходы позади, по общему признанию, кажется довольно авторитарным,</edu>
+  <edu id="e3" lang="ru" trans="yandex">Штраф за оставление собаки отходов за правда, кажется довольно авторитарный,</edu>
+  <edu id="e4" lang="en">but similar rules are often in place for bicycles on park paths, after all.</edu>
+  <edu id="e4" lang="ru" trans="promt">но подобные правила часто находятся в месте для велосипедов на путях парка, в конце концов.</edu>
+  <edu id="e4" lang="ru" trans="google">но подобные правила часто существуют для велосипедов на парковых дорожках, в конце концов.</edu>
+  <edu id="e4" lang="ru" trans="yandex">но подобные правила часто в место для велосипедов на парковых дорожках, в конце концов.</edu>
+  <edu id="e5" lang="en">Increasing penalties is therefore the right way.</edu>
+  <edu id="e5" lang="ru" trans="promt">Увеличение штрафов является поэтому правильным путем.</edu>
+  <edu id="e5" lang="ru" trans="google">Поэтому повышение штрафов - это правильный путь.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Поэтому повышение штрафов-это правильно.</edu>
+  <edu id="e6" lang="en">A dog dirt-free city will be more attractive not only for its residents but also for tourists!</edu>
+  <edu id="e6" lang="ru" trans="promt">Собака город без грязи будет более привлекательной не только для его жителей, но также и для туристов!</edu>
+  <edu id="e6" lang="ru" trans="google">Песок без грязи города будет более привлекательным не только для жителей, но и для туристов!</edu>
+  <edu id="e6" lang="ru" trans="yandex">Грязи-бесплатная собака город станет более привлекательным не только для его жителей, но и для туристов!</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="sup"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="reb"/>
+  <edge id="c4" src="a4" trg="c3" type="und"/>
+  <edge id="c6" src="a6" trg="a5" type="sup"/>
+</arggraph>

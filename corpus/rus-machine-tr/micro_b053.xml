@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b053" topic_id="health_insurance_cover_complementary_medicine" stance="con">
+  <edu id="e1" lang="en">Many people see proven relief of their symptoms and complaints by complementary medicine.</edu>
+  <edu id="e1" lang="ru" trans="promt">Многие люди видят доказанное облегчение своих признаков и жалоб нетрадиционной медициной.</edu>
+  <edu id="e1" lang="ru" trans="google">Многие люди видят доказанное облегчение симптомов и жалоб с помощью дополнительной медицины.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Многие люди видят доказано облегчение их симптомов и жалоб по комплементарной медицине.</edu>
+  <edu id="e2" lang="en">However there is no substantiated data that this healing isn't simply due to the placebo effect.</edu>
+  <edu id="e2" lang="ru" trans="promt">Однако, нет никаких доказанных данных, что это исцеление не происходит просто из-за эффекта плацебо.</edu>
+  <edu id="e2" lang="ru" trans="google">Однако нет никаких обоснованных данных о том, что это исцеление происходит не просто из-за эффекта плацебо.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Однако нет никаких подтвержденных данных, что это исцеление не только за счет эффекта плацебо.</edu>
+  <edu id="e3" lang="en">Besides many practices in this field are not regulated professions,</edu>
+  <edu id="e3" lang="ru" trans="promt">Помимо многих методов в этой области не отрегулированные профессии,</edu>
+  <edu id="e3" lang="ru" trans="google">Кроме того, многие практики в этой области не регулируются профессиями,</edu>
+  <edu id="e3" lang="ru" trans="yandex">Кроме того, многие практики в этой области не регламентированных профессий,</edu>
+  <edu id="e4" lang="en">which means that quacks and phonies can practice these occupations unknown to the patients.</edu>
+  <edu id="e4" lang="ru" trans="promt">что означает, что шарлатаны и phonies могут практиковать эти занятия, неизвестные пациентам.</edu>
+  <edu id="e4" lang="ru" trans="google">это означает, что шарлатаны и фони могут практиковать эти занятия, неизвестные пациентам.</edu>
+  <edu id="e4" lang="ru" trans="yandex">это означает, что шарлатанов и лохотронщиков можете практиковать эти занятия неизвестных пациентов.</edu>
+  <edu id="e5" lang="en">That's why the statutory health insurance companies should not cover such treatments.</edu>
+  <edu id="e5" lang="ru" trans="promt">Вот почему установленные законом медицинские страховые компании не должны покрывать такое лечение.</edu>
+  <edu id="e5" lang="ru" trans="google">Вот почему уставные страховые компании не должны покрывать такое лечение.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Поэтому государственные медицинские страховые компании не должны распространяться на такие процедуры.</edu>
+  <edu id="e6" lang="en">It would be conceivable to invest more into the training and control of this occupation sector on the part of the state.</edu>
+  <edu id="e6" lang="ru" trans="promt">Это было бы мыслимо, чтобы вложить капитал больше в обучение и контроль этого сектора занятия со стороны государства.</edu>
+  <edu id="e6" lang="ru" trans="google">Было бы целесообразно больше инвестировать в подготовку и контроль над этим оккупационным сектором со стороны государства.</edu>
+  <edu id="e6" lang="ru" trans="yandex">Это было бы мыслимо, чтобы больше инвестировать в обучение и управление этой оккупации сектора со стороны государства.</edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="opp"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="reb"/>
+  <edge id="c2" src="a2" trg="c1" type="und"/>
+  <edge id="c3" src="a3" trg="a4" type="sup"/>
+  <edge id="c4" src="a4" trg="a5" type="sup"/>
+  <edge id="c6" src="a6" trg="a5" type="reb"/>
+</arggraph>

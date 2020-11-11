@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b004" topic_id="public_broadcasting_fees_on_demand" stance="con">
+  <edu id="e1" lang="en">Of course there are a number of programmes in public broadcasting that are not worth the licencing fee,</edu>
+  <edu id="e1" lang="ru" trans="promt">Конечно, есть много программ в общественности, вещающей, которые не стоят лицензионного платежа,</edu>
+  <edu id="e1" lang="ru" trans="google">Конечно, в общественном вещании существует ряд программ, которые не стоят лицензионного сбора,</edu>
+  <edu id="e1" lang="ru" trans="yandex">Конечно, есть ряд программ Общественного вещания, которые не стоит лицензионной комиссии,</edu>
+  <edu id="e2" lang="en">and others, such as вЂњMusikantenstadlвЂќ and soap operas, are only interesting to certain audiences.</edu>
+  <edu id="e2" lang="ru" trans="promt">и другие, такие как вЂњMusikantenstadlвЂќ и мыльные оперы, только интересны определенным зрителям.</edu>
+  <edu id="e2" lang="ru" trans="google">и другие, такие как «Мусикантенстадль» и мыльные оперы, интересны только некоторым зрителям.</edu>
+  <edu id="e2" lang="ru" trans="yandex">и другие, такие как вЂњMusikantenstadlвЂќ и сериалы, только интересные для определенной аудитории.</edu>
+  <edu id="e3" lang="en">Nevertheless, everybody should contribute to the funding of the public broadcasters in equal measure,</edu>
+  <edu id="e3" lang="ru" trans="promt">Тем не менее, все должны способствовать финансированию общественных вещательных компаний в равной мере,</edu>
+  <edu id="e3" lang="ru" trans="google">Тем не менее, каждый должен в равной мере содействовать финансированию общественных вещателей,</edu>
+  <edu id="e3" lang="ru" trans="yandex">Тем не менее, каждый должен внести свой вклад в финансирование общественных вещателей в равной мере,</edu>
+  <edu id="e4" lang="en">for we need general and independent media.</edu>
+  <edu id="e4" lang="ru" trans="promt">поскольку нам нужны общие и независимые СМИ.</edu>
+  <edu id="e4" lang="ru" trans="google">поскольку нам нужны общие и независимые СМИ.</edu>
+  <edu id="e4" lang="ru" trans="yandex">нужны общие и независимые СМИ.</edu>
+  <edu id="e5" lang="en">After all we want to get our view of the world neither through the lens of the government nor through that of rich media entrepreneurs.</edu>
+  <edu id="e5" lang="ru" trans="promt">В конце концов, мы хотим не получить нашу точку зрения на мир ни через линзу правительства, ни через того из богатых предпринимателей СМИ.</edu>
+  <edu id="e5" lang="ru" trans="google">В конце концов, мы хотим получить наш взгляд на мир ни через призму правительства, ни за счет богатых медиа-предпринимателей.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Ведь мы хотим сделать наш взгляд на мир не через призму власти, ни через что мультимедийного предпринимателей.</edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="reb"/>
+  <edge id="c2" src="a2" trg="a3" type="reb"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+  <edge id="c5" src="a5" trg="a4" type="sup"/>
+</arggraph>

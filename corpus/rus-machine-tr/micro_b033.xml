@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b033" topic_id="partial_housing_development_at_Tempelhofer_Feld" stance="pro">
+  <edu id="e1" lang="en">I find the peripheral housing development at Tempelhofer Feld right for urban planning reasons,</edu>
+  <edu id="e1" lang="ru" trans="promt">Я нахожу периферийное жилищное строительство в Темпелхофере Фельде прямо по причинам городского планирования,</edu>
+  <edu id="e1" lang="ru" trans="google">Я считаю, что развитие периферийного жилья в Tempelhofer Feld прямо по причинам городского планирования,</edu>
+  <edu id="e1" lang="ru" trans="yandex">Я найти периферийные развития жилья в Темпельхоф право Фельд по причинам, градостроительства,</edu>
+  <edu id="e2" lang="en">as the area is right in the middle of the city (capital).</edu>
+  <edu id="e2" lang="ru" trans="promt">поскольку область прямо в середине города (капитал).</edu>
+  <edu id="e2" lang="ru" trans="google">так как область находится прямо посреди города (столицы).</edu>
+  <edu id="e2" lang="ru" trans="yandex">так как площадь находится в самом центре города (столицы).</edu>
+  <edu id="e3" lang="en">The size of the field allows for both housing and generous open space.</edu>
+  <edu id="e3" lang="ru" trans="promt">Размер области допускает и жилье и щедрое открытое пространство.</edu>
+  <edu id="e3" lang="ru" trans="google">Размер поля допускает как жилье, так и щедрое открытое пространство.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Размер поля позволяет как для жилья, так и щедрые открытые пространства.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <edge id="c4" src="e1" trg="a1" type="seg"/>
+  <edge id="c5" src="e2" trg="a2" type="seg"/>
+  <edge id="c6" src="e3" trg="a3" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+</arggraph>

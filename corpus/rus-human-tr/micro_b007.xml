@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b007" topic_id="higher_dog_poo_fines" stance="pro">
+  <edu id="e1" lang="en">Dog dirt on the pavement requires my complete, ground-focused attention on my way to work.</edu>
+  <edu id="e1" lang="ru" trans="human">Собачьи «кучки» на асфальте требуют от меня обращать пристальное внимание на землю по дороге на работу.</edu>
+  <edu id="e2" lang="en">This results in a lack of alertness in the road traffic comparable to a minor offense of the traffic regulations.</edu>
+  <edu id="e2" lang="ru" trans="human">Это приводит к отсутствию бдительности, что можно приравнять к незначительному нарушению правил дорожного движения.</edu>
+  <edu id="e3" lang="en">That's why causing such obstacles must to be more urgently punished.</edu>
+  <edu id="e3" lang="ru" trans="human">Вот почему создание таких препятствий необходимо наказывать более срочно.</edu>
+  <edu id="e4" lang="en">Dog owners may think that dog dirt is only a harmless secretion of an animal like any other.</edu>
+  <edu id="e4" lang="ru" trans="human">Владельцы могут думать, что это просто выделения животных, такие же, как любые другие.</edu>
+  <edu id="e5" lang="en">Yet then they misjudge its impact on road traffic.</edu>
+  <edu id="e5" lang="ru" trans="human">Но они неправильно оценивают влияние «кучек» на дорожное движение.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a1" trg="a2" type="sup"/>
+  <edge id="c3" src="a2" trg="a3" type="sup"/>
+  <edge id="c4" src="a4" trg="a3" type="reb"/>
+  <edge id="c5" src="a5" trg="a4" type="reb"/>
+</arggraph>

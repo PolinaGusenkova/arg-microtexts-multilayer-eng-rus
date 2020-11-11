@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b039" topic_id="EU_influence_on_political_events_in_Ukraine" stance="pro">
+  <edu id="e1" lang="en">The EU should exert influence on the political events in Ukraine.</edu>
+  <edu id="e1" lang="ru" trans="promt">ЕС должен оказать влияние на политические события в Украине.</edu>
+  <edu id="e1" lang="ru" trans="google">ЕС должен оказывать влияние на политические события в Украине.</edu>
+  <edu id="e1" lang="ru" trans="yandex">ЕС должен оказывать влияние на политические события в Украине.</edu>
+  <edu id="e2" lang="en">The developments in that conflict should not be left to former Cold War opponents alone,</edu>
+  <edu id="e2" lang="ru" trans="promt">События в том конфликте нельзя оставить одним только бывшим противникам на холодной войне,</edu>
+  <edu id="e2" lang="ru" trans="google">События в этом конфликте не должны оставляться только бывшим противникам «холодной войны»,</edu>
+  <edu id="e2" lang="ru" trans="yandex">События в этом конфликте не должно быть оставлено на бывшего одиночку противников холодной войны,</edu>
+  <edu id="e3" lang="en">for that course can only lead to escalation in some form.</edu>
+  <edu id="e3" lang="ru" trans="promt">поскольку тот курс может только привести к эскалации в некоторой форме.</edu>
+  <edu id="e3" lang="ru" trans="google">поскольку этот курс может только привести к эскалации в той или иной форме.</edu>
+  <edu id="e3" lang="ru" trans="yandex">для этого, конечно, может привести только к эскалации в той или иной форме.</edu>
+  <edu id="e4" lang="en">Furthermore, Ukraine is culturally and geographically much closer than other countries that the EU (used to) get involved with.</edu>
+  <edu id="e4" lang="ru" trans="promt">Кроме того, Украина культурно и географически намного ближе, чем другие страны, с которыми связывается ЕС (привыкший к).</edu>
+  <edu id="e4" lang="ru" trans="google">Кроме того, Украина в культурном и географическом отношении гораздо ближе, чем другие страны, с которыми ЕС связан.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Кроме того, Украина является культурно и географически гораздо ближе, чем в других странах ЕС (привыкли) заниматься.</edu>
+  <edu id="e5" lang="en">Indeed one could argue that a country has to deal with internal political changes itself,</edu>
+  <edu id="e5" lang="ru" trans="promt">Действительно можно было утверждать, что страна должна иметь дело с внутренними политическими изменениями сама,</edu>
+  <edu id="e5" lang="ru" trans="google">Действительно, можно утверждать, что стране приходится иметь дело с внутренними политическими изменениями,</edu>
+  <edu id="e5" lang="ru" trans="yandex">Действительно, можно утверждать, что страна имеет дело с самим внутренние политические изменения,</edu>
+  <edu id="e6" lang="en">but political power also brings about political responsibility, in this case the responsibility to protect the Ukrainian people from the rather strong interests of the two Great Powers.</edu>
+  <edu id="e6" lang="ru" trans="promt">но политическая власть также вызывает политическую ответственность, в этом случае обязанность защитить украинцев от довольно сильных интересов этих двух Великих держав.</edu>
+  <edu id="e6" lang="ru" trans="google">но политическая власть также несет политическую ответственность, в этом случае ответственность за защиту украинского народа от довольно сильных интересов двух великих держав.</edu>
+  <edu id="e6" lang="ru" trans="yandex">но политическая власть также приносит о политической ответственности, в данном случае ответственность за защиту украинского народа от довольно сильной интересов двух великих держав.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a2" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a1" type="reb"/>
+  <edge id="c6" src="a6" trg="c5" type="und"/>
+</arggraph>

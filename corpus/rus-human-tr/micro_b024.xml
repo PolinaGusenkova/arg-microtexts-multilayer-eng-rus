@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b024" topic_id="cap_rent_increases" stance="pro">
+  <edu id="e1" lang="en">A stop must be put to exorbitant rents by imposing a limit on rent increases when changing residences.</edu>
+  <edu id="e1" lang="ru" trans="human">Необходимо пресечь непомерную арендную плату путём ограничения её повышения при смене места жительства.</edu>
+  <edu id="e2" lang="en">For affordable living space is scarce.</edu>
+  <edu id="e2" lang="ru" trans="human">Так как доступное жильё трудно найти.</edu>
+  <edu id="e3" lang="en">Besides, a higher degree of luxury (expensive flats) is not necessary for the majority of the people, but rather a flat at all.</edu>
+  <edu id="e3" lang="ru" trans="human">К тому же, большинству людей не нужна роскошь (дорогие квартиры), скорее, им нужна хоть какая-то квартира.</edu>
+  <edu id="e4" lang="en">Plus everyone has to move approx. 3-10 times in his or her life,</edu>
+  <edu id="e4" lang="ru" trans="human">К тому же, всем приходится переезжать примерно от трёх до десяти раз в жизни,</edu>
+  <edu id="e5" lang="en">because the size of the desired accommodation changes over the course of a lifetime.</edu>
+  <edu id="e5" lang="ru" trans="human">потому что размеры желаемой жилплощади меняются с течением времени.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a4" type="sup"/>
+</arggraph>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b064" topic_id="TXL_airport_remain_operational_after_BER_opening" stance="con">
+  <edu id="e1" lang="en">I think Berlin with its two inner-city airports was lucky not having to experience an airplane catastrophe for decades.</edu>
+  <edu id="e1" lang="ru" trans="promt">Я думаю, что Берлин с его двумя аэропортами бедного района был удачен не необходимость испытывать катастрофу самолета в течение многих десятилетий.</edu>
+  <edu id="e1" lang="ru" trans="google">Я думаю, что Берлину с его двумя аэропортами в городе было повезло, что ему не приходилось испытывать катастрофу самолета на протяжении десятилетий.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Я думаю, что Берлин с его двух городских аэропортов повезло, не имеющий опыт в катастрофе самолета в течение десятилетий.</edu>
+  <edu id="e2" lang="en">For safety reasons alone I find continued operation wrong.</edu>
+  <edu id="e2" lang="ru" trans="promt">Из одних только соображений безопасности я нахожу продолженную операцию неправильно.</edu>
+  <edu id="e2" lang="ru" trans="google">Только по соображениям безопасности я считаю, что продолжение операции было неправильным.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Только по соображениям безопасности я считаю продолжение работы неправильно.</edu>
+  <edu id="e3" lang="en">Also, Berlin urgently needs inner-city areas for business and industry, and for housing.</edu>
+  <edu id="e3" lang="ru" trans="promt">Кроме того, Берлину срочно нужны области бедного района для торгово-промышленной деятельности, и для жилья.</edu>
+  <edu id="e3" lang="ru" trans="google">Кроме того, Берлину срочно нужны внутренние города для бизнеса и промышленности, а также для жилья.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Кроме того, Берлин срочно нуждается в центральных районах города для бизнеса и промышленности, так и для жилья.</edu>
+  <edu id="e4" lang="en">Closing down Tegel will have health benefits for hundreds of thousands in the approach path.</edu>
+  <edu id="e4" lang="ru" trans="promt">У закрытия Тегеля будет польза для здоровья для сотен тысяч в пути подхода.</edu>
+  <edu id="e4" lang="ru" trans="google">Закрытие Tegel принесет пользу здоровью для сотен тысяч в пути подхода.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Закрытие Тегель будет иметь пользу для здоровья сотням тысяч людей на пути подхода.</edu>
+  <edu id="e5" lang="en">These areas will be upgraded economically due to these factors (housing health and employment).</edu>
+  <edu id="e5" lang="ru" trans="promt">Эти области будут модернизированы экономически из-за этих факторов (жилищное здоровье и занятость).</edu>
+  <edu id="e5" lang="ru" trans="google">Эти области будут экономически повышаться из-за этих факторов (жилищное здравоохранение и занятость).</edu>
+  <edu id="e5" lang="ru" trans="yandex">Эти области будут модернизированы экономически из-за этих факторов (жилье, здравоохранение и занятость).</edu>
+  <edu id="e6" lang="en">After the new BER Airport has been commissioned, Tegel should definitely be closed.</edu>
+  <edu id="e6" lang="ru" trans="promt">После того, как новый Аэропорт ЧАСТОТЫ ОШИБОК ПО БИТАМ был уполномочен, Тегель должен определенно быть закрыт.</edu>
+  <edu id="e6" lang="ru" trans="google">После того, как новый аэропорт BER будет введен в эксплуатацию, Тегель обязательно должен быть закрыт.</edu>
+  <edu id="e6" lang="ru" trans="yandex">После того, как новый аэропорт BER был введен в эксплуатацию, Тегель обязательно должны быть закрыты.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c11" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a2" type="sup"/>
+  <edge id="c2" src="a2" trg="a6" type="sup"/>
+  <edge id="c3" src="a3" trg="a6" type="sup"/>
+  <edge id="c4" src="a4" trg="a5" type="sup"/>
+  <edge id="c5" src="a5" trg="a6" type="sup"/>
+</arggraph>

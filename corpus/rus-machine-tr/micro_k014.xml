@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k014" topic_id="stricter_regulation_of_intelligence_services" stance="pro">
+  <edu id="e1" lang="en">Intelligence services should be more closely regulated by parliament,</edu>
+  <edu id="e1" lang="ru" trans="promt">Разведывательные службы должны быть более тесно отрегулированы парламентом,</edu>
+  <edu id="e1" lang="ru" trans="google">Парламент должен более тщательно регулировать разведывательные службы,</edu>
+  <edu id="e1" lang="ru" trans="yandex">Спецслужбы должны быть более строго регулируется парламентом,</edu>
+  <edu id="e2" lang="en">for, as the most recent NSA wiretapping scandal has shown, the federal state government is allegedly not always familiar with the scope of operations of its intelligence services.</edu>
+  <edu id="e2" lang="ru" trans="promt">для, поскольку новое NSA, перехватывающее скандал, показало, правительство федерации предположительно не всегда знакомо с объемом операций его разведывательных служб.</edu>
+  <edu id="e2" lang="ru" trans="google">поскольку, как показал последний скандал, связанный с прослушиванием NSA, федеральное правительство штата, как утверждается, не всегда знакомо с объемом операций своих разведывательных служб.</edu>
+  <edu id="e2" lang="ru" trans="yandex">ибо, как самый последний скандал прослушкой АНБ показал, федеральное государственное правительство якобы не всегда знакомы с масштабами деятельности своих спецслужб.</edu>
+  <edu id="e3" lang="en">Checks could contribute to restricting the so far rather opaque scope of action of individual services.</edu>
+  <edu id="e3" lang="ru" trans="promt">Проверки могли способствовать ограничению до сих пор довольно непрозрачного объема действия отдельных услуг.</edu>
+  <edu id="e3" lang="ru" trans="google">Проверки могут способствовать ограничению до сих пор довольно непрозрачной сферы действия отдельных услуг.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Проверок может способствовать ограничению до сих пор довольно непрозрачные сферы деятельности отдельных служб.</edu>
+  <edu id="e4" lang="en">Yet it remains questionable whether the actual implementation of such supervision would at the same time lead to a stronger observance of laws,</edu>
+  <edu id="e4" lang="ru" trans="promt">Все же остается сомнительным, привела ли бы фактическая реализация такого наблюдения в то же время к более сильному соблюдению законов,</edu>
+  <edu id="e4" lang="ru" trans="google">Тем не менее остается сомнением в том, приведет ли фактическое осуществление такого надзора к более строгому соблюдению законов,</edu>
+  <edu id="e4" lang="ru" trans="yandex">Пока это остается под вопросом, является ли фактическое осуществление такого контроля, в то же время приводят к более сильному соблюдением законов,</edu>
+  <edu id="e5" lang="en">as ultimately this decision is in the hands of the respective government leaders.</edu>
+  <edu id="e5" lang="ru" trans="promt">поскольку в конечном счете это решение находится в руках соответствующих глав правительства.</edu>
+  <edu id="e5" lang="ru" trans="google">поскольку в конечном итоге это решение находится в руках соответствующих правительственных лидеров.</edu>
+  <edu id="e5" lang="ru" trans="yandex">в конечном счете это решение находится в руках соответствующих государственных лидеров.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="opp"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="reb"/>
+  <edge id="c5" src="a5" trg="a4" type="sup"/>
+</arggraph>

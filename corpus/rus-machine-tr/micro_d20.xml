@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d20">
+  <edu id="e1" lang="en">The prototype of Audi's new sports car has car lovers raving.</edu>
+  <edu id="e1" lang="ru" trans="promt">У прототипа нового спортивного автомобиля Audi есть автомобильные любители, бредящие.</edu>
+  <edu id="e1" lang="ru" trans="google">В прототипе нового спортивного автомобиля Audi есть любители автомобилей, бредящие.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Прототип нового спортивного автомобиля Ауди был бред любителей автомобилей.</edu>
+  <edu id="e2" lang="en">The steering system may still need a bit of tweaking,</edu>
+  <edu id="e2" lang="ru" trans="promt">Руководящей системе, возможно, все еще понадобится немного щипание,</edu>
+  <edu id="e2" lang="ru" trans="google">Система рулевого управления может по-прежнему нуждаться в небольшой настройке,</edu>
+  <edu id="e2" lang="ru" trans="yandex">Система рулевого управления может потребоваться немного настройки,</edu>
+  <edu id="e3" lang="en">as the car jack-knifes at higher speeds,</edu>
+  <edu id="e3" lang="ru" trans="promt">как автомобильные складные ножи на более высоких скоростях,</edu>
+  <edu id="e3" lang="ru" trans="google">как автомобильные домкраты с более высокими скоростями,</edu>
+  <edu id="e3" lang="ru" trans="yandex">как Джек-ножей автомобиля на высоких скоростях,</edu>
+  <edu id="e4" lang="en">and surely you'll want to be speeding a lot with that beauty.</edu>
+  <edu id="e4" lang="ru" trans="promt">и конечно Вы захотите ускориться много с той красотой.</edu>
+  <edu id="e4" lang="ru" trans="google">и, конечно же, вам захочется ускорить эту красоту.</edu>
+  <edu id="e4" lang="ru" trans="yandex">и наверняка вы хотите быть в скорости и красоты.</edu>
+  <edu id="e5" lang="en">But aside from that the car caters to pretty much every wish.</edu>
+  <edu id="e5" lang="ru" trans="promt">Но кроме этого автомобиль угождает в значительной степени каждому желанию.</edu>
+  <edu id="e5" lang="ru" trans="google">Но помимо этого автомобиль удовлетворяет почти все желания.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Но помимо этого автомобиль обслуживает практически любое желание.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="a2" type="sup"/>
+  <edge id="c4" src="a4" trg="c3" type="add"/>
+  <edge id="c5" src="a5" trg="a1" type="sup"/>
+</arggraph>

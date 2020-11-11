@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b035" topic_id="health_insurance_cover_complementary_medicine" stance="pro">
+  <edu id="e1" lang="en">Complementary medicine includes treatments with proven health benefits in many areas</edu>
+  <edu id="e1" lang="ru" trans="human">Дополнительная медицина включает методы, доказавшие свою оздоровительную пользу во многих областях.</edu>
+  <edu id="e2" lang="en">which are often less costly than medication from conventional medicine, which are also paid for after all.</edu>
+  <edu id="e2" lang="ru" trans="human">Зачастую они менее затратны, чем лекарства, предоставляемые традиционной медициной, которые в конце концов всё равно оплачиваются.</edu>
+  <edu id="e3" lang="en">Often natural treatments do not put as much of a strain on the patient.</edu>
+  <edu id="e3" lang="ru" trans="human">Зачастую природные методы лечения не оказывают значительного давления на пациента.</edu>
+  <edu id="e4" lang="en">Such therapies can frequently result in an improvement in the condition through the active participation of the patient.</edu>
+  <edu id="e4" lang="ru" trans="human">Результатом такой терапии часто является улучшение состояния пациента через его активное участие.</edu>
+  <edu id="e5" lang="en">The health insurance companies ought to be enabled to recognize a doctor's decision for natural treatment and also to cover it.</edu>
+  <edu id="e5" lang="ru" trans="human">Страховым компаниям следует дать право признавать решение врача о природных методах лечения и покрывать соответствующие расходы.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="sup"/>
+  <edge id="c2" src="a2" trg="a5" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="sup"/>
+  <edge id="c4" src="a4" trg="a5" type="sup"/>
+</arggraph>

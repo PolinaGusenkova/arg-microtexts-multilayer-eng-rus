@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b010" topic_id="health_insurance_cover_complementary_medicine" stance="pro">
+  <edu id="e1" lang="en">Alternative treatments should be subsidized in the same way as conventional treatments,</edu>
+  <edu id="e1" lang="ru" trans="promt">Альтернативные методы лечения должны быть субсидированы таким же образом как традиционные методы лечения,</edu>
+  <edu id="e1" lang="ru" trans="google">Альтернативные методы лечения следует субсидировать так же, как обычные методы лечения,</edu>
+  <edu id="e1" lang="ru" trans="yandex">Альтернативные методы лечения должны быть дотационным таким же образом, как традиционные методы лечения,</edu>
+  <edu id="e2" lang="en">since both methods can lead to the prevention, mitigation or cure of an illness.</edu>
+  <edu id="e2" lang="ru" trans="promt">так как оба метода могут привести к предотвращению, смягчению или лечению от болезни.</edu>
+  <edu id="e2" lang="ru" trans="google">поскольку оба метода могут привести к профилактике, смягчению или лечению болезни.</edu>
+  <edu id="e2" lang="ru" trans="yandex">поскольку оба метода могут привести к предотвращению, смягчению последствий и лечения болезни.</edu>
+  <edu id="e3" lang="en">Besides it should be in the interest of the health insurers to recognize alternative medicine as treatment,</edu>
+  <edu id="e3" lang="ru" trans="promt">Помимо него должен быть в интересах медицинских страховщиков, чтобы признать альтернативную медицину лечением,</edu>
+  <edu id="e3" lang="ru" trans="google">Кроме того, в интересах страховщиков здравоохранения признать альтернативную медицину, как лечение,</edu>
+  <edu id="e3" lang="ru" trans="yandex">Кроме того, он должен быть в интересах страховщиков здоровья для признания альтернативной медицины, как лечение,</edu>
+  <edu id="e4" lang="en">since there is a chance of recovery.</edu>
+  <edu id="e4" lang="ru" trans="promt">с тех пор есть шанс восстановления.</edu>
+  <edu id="e4" lang="ru" trans="google">так как есть шанс на выздоровление.</edu>
+  <edu id="e4" lang="ru" trans="yandex">так как есть шанс на выздоровление.</edu>
+  <edu id="e5" lang="en">It doesn't matter after all that those who administer the treatment don't have 'doctor status'.</edu>
+  <edu id="e5" lang="ru" trans="promt">Не имеет значения, в конце концов, что у тех, кто назначает лечение, нет 'статуса доктора'.</edu>
+  <edu id="e5" lang="ru" trans="google">Не имеет значения, что у тех, кто управляет лечением, нет «статуса врача».</edu>
+  <edu id="e5" lang="ru" trans="yandex">Неважно ведь, что те, кто руководить лечением не имеют статуса врача.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+  <edge id="c5" src="a5" trg="a1" type="sup"/>
+</arggraph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k023" topic_id="increase_weight_of_BA_thesis_in_final_grade" stance="pro">
+  <edu id="e1" lang="en">The BA dissertation should, if not make up the entire grade, then at least constitute a larger share of it.</edu>
+  <edu id="e1" lang="ru" trans="promt">Диссертация BA должна, если не составляют весь сорт, то, по крайней мере, составляют большую акцию его.</edu>
+  <edu id="e1" lang="ru" trans="google">Диплом бакалавра должен, если не составить весь класс, то, по крайней мере, составляет большую его долю.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Диссертация БА должны, если не весь класс, то по крайней мере составляют значительную долю.</edu>
+  <edu id="e2" lang="en">For a good overall grade opens many doors,</edu>
+  <edu id="e2" lang="ru" trans="promt">Поскольку хороший полный сорт открывает много дверей,</edu>
+  <edu id="e2" lang="ru" trans="google">Для хорошего общего класса открывается много дверей,</edu>
+  <edu id="e2" lang="ru" trans="yandex">За хорошую общую оценку открывает многие двери,</edu>
+  <edu id="e3" lang="en">but is not of top priority for employers.</edu>
+  <edu id="e3" lang="ru" trans="promt">но не имеет высшего приоритета для работодателей.</edu>
+  <edu id="e3" lang="ru" trans="google">но не является первоочередной задачей для работодателей.</edu>
+  <edu id="e3" lang="ru" trans="yandex">но это не приоритетное значение для работодателей.</edu>
+  <edu id="e4" lang="en">With a BA dissertation one can, however, demonstrate interests and subject matter expertise particularly well.</edu>
+  <edu id="e4" lang="ru" trans="promt">С диссертацией BA можно, однако, продемонстрировать интересы и экспертное знание темы особенно хорошо.</edu>
+  <edu id="e4" lang="ru" trans="google">Вместе с диссертацией бакалавра можно, однако, хорошо продемонстрировать интересы и предметную экспертизу.</edu>
+  <edu id="e4" lang="ru" trans="yandex">С диссертацией можно, однако, показать интересы и опыт в данной области особенно хорошо.</edu>
+  <edu id="e5" lang="en">After all one doesn't excel in every subject.</edu>
+  <edu id="e5" lang="ru" trans="promt">После всех каждый не выделяется в каждом предмете.</edu>
+  <edu id="e5" lang="ru" trans="google">Ведь никто не преуспевает в каждом предмете.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Ведь никто не преуспеть в каждой теме.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="c2" type="und"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a4" type="sup"/>
+</arggraph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d16">
+  <edu id="e1" lang="en">There are parliamentary elections soon</edu>
+  <edu id="e1" lang="ru" trans="promt">Скоро есть парламентские выборы</edu>
+  <edu id="e1" lang="ru" trans="google">Скоро будут парламентские выборы</edu>
+  <edu id="e1" lang="ru" trans="yandex">Есть только парламентских выборов </edu>
+  <edu id="e2" lang="en">and traditionally the governing party is generous with popular promises in the run-up to federal elections.</edu>
+  <edu id="e2" lang="ru" trans="promt">и традиционно правящая партия щедра с популярными обещаниями в подготовительном периоде к федеральным выборам.</edu>
+  <edu id="e2" lang="ru" trans="google">и традиционно правящая партия щедра с народными обещаниями в преддверии федеральных выборов.</edu>
+  <edu id="e2" lang="ru" trans="yandex">и традиционно правящей партии щедр с популярных обещаний в преддверии федеральных выборов.</edu>
+  <edu id="e3" lang="en">Nevertheless the head of government, Merkel, had better restrain herself in announcing handouts this year.</edu>
+  <edu id="e3" lang="ru" trans="promt">Тем не менее, глава правительства, Меркель, должна ограничить себя в объявлении о раздаточных материалах в этом году.</edu>
+  <edu id="e3" lang="ru" trans="google">Тем не менее глава правительства, Меркель, лучше ограничилась объявлением раздаточных материалов в этом году.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Тем не менее глава правительства, Меркель, лучше сдерживать себя в объявлении подачки в этом году.</edu>
+  <edu id="e4" lang="en">Voters have become more sceptical.</edu>
+  <edu id="e4" lang="ru" trans="promt">Избиратели стали более скептичными.</edu>
+  <edu id="e4" lang="ru" trans="google">Избиратели стали более скептичными.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Избиратели стали более скептически.</edu>
+  <edu id="e5" lang="en">Too many promises have not been kept.</edu>
+  <edu id="e5" lang="ru" trans="promt">Слишком много обещаний не были сдержаны.</edu>
+  <edu id="e5" lang="ru" trans="google">Слишком много обещаний не сохранилось.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Слишком много обещаний не сдержала.</edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="reb"/>
+  <edge id="c2" src="a2" trg="c1" type="add"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+  <edge id="c5" src="a5" trg="a4" type="sup"/>
+</arggraph>

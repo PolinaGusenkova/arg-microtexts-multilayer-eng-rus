@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k010" topic_id="public_broadcasting_fees_on_demand" stance="pro">
+  <edu id="e1" lang="en">Considering what's on television these days, it would be appropriate to only have those people pay who actually (want to) follow the programming.</edu>
+  <edu id="e1" lang="ru" trans="human">Учитывая то, что сегодня показывают по телевидению, было бы справедливо, если бы за определенные передачи платили только те, кто действительно их смотрит (или хочет смотреть).</edu>
+  <edu id="e2" lang="en">In some cases there are only shows for older generations on at prime times, so why then should everyone pay for this?</edu>
+  <edu id="e2" lang="ru" trans="human">Существуют шоу, актуальные только для старшего поколения в прайм-тайм, так почему же все должны за них платить?</edu>
+  <edu id="e3" lang="en">By now you have advertising on all channels,</edu>
+  <edu id="e3" lang="ru" trans="human">Сейчас реклама есть на всех каналах,</edu>
+  <edu id="e4" lang="en">so there's no advantage for the current paying viewers of the public broadcasters.</edu>
+  <edu id="e4" lang="ru" trans="human">так что у зрителей, оплачивающих телевизионные услуги общественного вещания, нет никаких преимуществ.</edu>
+  <edu id="e5" lang="en">Nevertheless one has to point out that there'd probably be way fewer stations if it werenвЂ™t the whole of Germany thatвЂ™s obliged to pay.</edu>
+  <edu id="e5" lang="ru" trans="human">Тем не менее, следует отметить, что, вероятно, было бы намного меньше станций, если бы не вся Германия была обязана платить.</edu>
+  <edu id="e6" lang="en">That shouldn't be an issue though, given the sheer number of programmes and stations that essentially show the same things anyway.</edu>
+  <edu id="e6" lang="ru" trans="human">Хотя, это не должно быть проблемой, учитывая само количество программ и станций, которые, в основном, все равно показывают одно и то же.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a4" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a1" type="reb"/>
+  <edge id="c6" src="a6" trg="c5" type="und"/>
+</arggraph>

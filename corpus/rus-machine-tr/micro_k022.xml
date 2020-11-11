@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k022" topic_id="allow_shops_to_open_on_holidays_and_sundays" stance="con">
+  <edu id="e1" lang="en">It is quite clear that Sunday should remain a day of rest.</edu>
+  <edu id="e1" lang="ru" trans="promt">Это довольно ясно, в то воскресенье должен остаться днем отдыха.</edu>
+  <edu id="e1" lang="ru" trans="google">Совершенно очевидно, что воскресенье должно оставаться днем ​​отдыха.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Вполне понятно, что в воскресенье должен оставаться днем отдыха.</edu>
+  <edu id="e2" lang="en">For you can go shopping 6 days a week,</edu>
+  <edu id="e2" lang="ru" trans="promt">Поскольку Вы можете пойти по магазинам 6 дней в неделю,</edu>
+  <edu id="e2" lang="ru" trans="google">Для вас можно ходить по магазинам 6 дней в неделю,</edu>
+  <edu id="e2" lang="ru" trans="yandex">Для Вы можете ходить по магазинам 6 дней в неделю,</edu>
+  <edu id="e3" lang="en">as shops are open till 10pm on some days.</edu>
+  <edu id="e3" lang="ru" trans="promt">поскольку магазины открыты до 22:00 в несколько дней.</edu>
+  <edu id="e3" lang="ru" trans="google">так как магазины открыты до 10 вечера в некоторые дни.</edu>
+  <edu id="e3" lang="ru" trans="yandex">магазины открыты до 10 вечера на несколько дней.</edu>
+  <edu id="e4" lang="en">Thus Sundays should remain a day for getting together with family,</edu>
+  <edu id="e4" lang="ru" trans="promt">Таким образом воскресенья должны остаться днем для встречи с семьей,</edu>
+  <edu id="e4" lang="ru" trans="google">Таким образом, воскресенья должны оставаться днем ​​для общения с семьей,</edu>
+  <edu id="e4" lang="ru" trans="yandex">Таким образом, воскресеньям должен остаться дня на взаимодействие с семьей,</edu>
+  <edu id="e5" lang="en">otherwise there will be a new kind of leisure activity where people spend their time in supermarkets instead of outside or in conversation etc.</edu>
+  <edu id="e5" lang="ru" trans="promt">иначе будет новый вид деятельности в свободное от работы время, где люди проводят свое время в супермаркетах вместо внешней стороны или в разговоре и т.д.</edu>
+  <edu id="e5" lang="ru" trans="google">иначе будет новый вид досуга, где люди проводят свое время в супермаркетах, а не на улице или в разговоре и т. д.</edu>
+  <edu id="e5" lang="ru" trans="yandex">иначе будет новый вид досуга, где люди проводят свое время в супермаркетах, а не на улице или в разговоре и т. д.</edu>
+  <edu id="e6" lang="en">Furthermore, there's no need to keep shops open on Sundays.</edu>
+  <edu id="e6" lang="ru" trans="promt">Кроме того, нет никакой потребности управлять магазинами, открытыми по воскресеньям.</edu>
+  <edu id="e6" lang="ru" trans="google">Кроме того, по воскресеньям нет необходимости открывать магазины.</edu>
+  <edu id="e6" lang="ru" trans="yandex">Кроме того, нет необходимости держать магазины открытыми по воскресеньям.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a2" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a4" type="sup"/>
+  <edge id="c6" src="a6" trg="a1" type="sup"/>
+</arggraph>

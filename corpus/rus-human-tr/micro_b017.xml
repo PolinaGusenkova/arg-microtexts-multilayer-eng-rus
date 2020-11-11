@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b017" topic_id="cap_rent_increases" stance="pro">
+  <edu id="e1" lang="en">Rent prices should be limited by a cap when there's a change of tenant.</edu>
+  <edu id="e1" lang="ru" trans="human">Должен существовать лимит изменения цен на аренду при смене арендатора.</edu>
+  <edu id="e2" lang="en">Landlords may want to earn as much as possible,</edu>
+  <edu id="e2" lang="ru" trans="human">Возможно, домовладельцы захотят заработать как можно больше,</edu>
+  <edu id="e3" lang="en">and many, consistent with market principles, are prepared to pay higher rents,</edu>
+  <edu id="e3" lang="ru" trans="human">и многие, в соответствиями с принципами рынка, будут готовы платить более высокую арендную плату,</edu>
+  <edu id="e4" lang="en">but that people with the same income suddenly must pay more and can't live in the same flat anymore seems implausible.</edu>
+  <edu id="e4" lang="ru" trans="human">но кажется неправдоподобным то, что люди с неизменным доходом внезапно должны платить больше и не могут больше жить в той же квартире.</edu>
+  <edu id="e5" lang="en">Gentrification destroys entire districts and their culture.</edu>
+  <edu id="e5" lang="ru" trans="human">Джентрификация уничтожает целые районы и их культуру.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="a1" type="reb"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a1" type="sup"/>
+</arggraph>

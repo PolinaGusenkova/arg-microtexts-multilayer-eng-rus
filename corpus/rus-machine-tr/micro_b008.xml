@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b008" topic_id="over_the_counter_morning_after_pill" stance="con">
+  <edu id="e1" lang="en">Of course it would be nice and simple if after a fun night out with a party acquaintance you could simply take the 'morning-after pill' and feel at ease.</edu>
+  <edu id="e1" lang="ru" trans="promt">Конечно, это было бы хорошо и просто, если после забавной ночи с партийным знакомством Вы могли бы просто взять 'таблетку от похмелья' и чувство непринужденно.</edu>
+  <edu id="e1" lang="ru" trans="google">Конечно, было бы здорово и просто, если после веселой ночи с вечеринкой вы могли бы просто взять «таблетку с утренним утром» и почувствовать себя непринужденно.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Конечно было бы хорошо и просто, если после веселой ночи с вечеринки знакомства вы могли бы просто принять таблетку и чувствовать себя в своей тарелке.</edu>
+  <edu id="e2" lang="en">But it's not that simple.</edu>
+  <edu id="e2" lang="ru" trans="promt">Но дело не в этом простой.</edu>
+  <edu id="e2" lang="ru" trans="google">Но это не так просто.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Но это не так просто.</edu>
+  <edu id="e3" lang="en">Perhaps a new life was already created that night.</edu>
+  <edu id="e3" lang="ru" trans="promt">Возможно, новая жизнь была уже создана той ночью.</edu>
+  <edu id="e3" lang="ru" trans="google">Возможно, в ту ночь была создана новая жизнь.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Возможно, новая жизнь уже был создан в ту ночь.</edu>
+  <edu id="e4" lang="en">I would kill it without further thought.</edu>
+  <edu id="e4" lang="ru" trans="promt">Я убил бы его без дальнейшего размышления.</edu>
+  <edu id="e4" lang="ru" trans="google">Я бы убил его без дальнейших размышлений.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Я бы убил его не задумываясь.</edu>
+  <edu id="e5" lang="en">That's why a visit to the doctor and professional advice should remain mandatory.</edu>
+  <edu id="e5" lang="ru" trans="promt">Вот почему посещение доктора и профессиональных консультаций должно остаться обязательным.</edu>
+  <edu id="e5" lang="ru" trans="google">Вот почему посещение врача и профессиональные консультации должны оставаться обязательными.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Вот почему визит к врачу и профессиональной консультации должна оставаться обязательной.</edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="reb"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="a2" type="sup"/>
+  <edge id="c4" src="a4" trg="c3" type="add"/>
+</arggraph>

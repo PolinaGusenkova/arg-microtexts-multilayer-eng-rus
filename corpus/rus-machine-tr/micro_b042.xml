@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b042" topic_id="over_the_counter_morning_after_pill" stance="con">
+  <edu id="e1" lang="en">The state ought not to restrict medical products or medical treatments for moral reasons as long as they don't do damage to others.</edu>
+  <edu id="e1" lang="ru" trans="promt">Государство не должно ограничивать лекарственные препараты или лечения по моральным причинам, пока они не наносят ущерб другим.</edu>
+  <edu id="e1" lang="ru" trans="google">Государство не должно ограничивать медицинские продукты или лечение по моральным соображениям, пока они не наносят ущерб другим.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Государство должно не ограничивать лекарственных препаратов или медицинских процедур по моральным соображениям пока они не наносят ущерб другим.</edu>
+  <edu id="e2" lang="en">But without a prescription requirement there's also no medical advice given before intake.</edu>
+  <edu id="e2" lang="ru" trans="promt">Но без требования предписания нет также никакого медицинского совета, данного перед потреблением.</edu>
+  <edu id="e2" lang="ru" trans="google">Но без требования рецепта также нет медицинских советов, которые были даны до приема.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Но без требования рецепта нет медицинские услуги, предоставляемые до приема.</edu>
+  <edu id="e3" lang="en">Since the impact of the morning-after pill is so massive, particularly due to its abortive effect,</edu>
+  <edu id="e3" lang="ru" trans="promt">Так как воздействие таблетки от похмелья настолько серьезное, особенно из-за ее неудавшегося эффекта,</edu>
+  <edu id="e3" lang="ru" trans="google">Поскольку воздействие утренней таблетки настолько велико, особенно из-за ее абортивного эффекта,</edu>
+  <edu id="e3" lang="ru" trans="yandex">Поскольку влияние эти таблетки настолько огромен, особенно из-за ее абортивного эффекта,</edu>
+  <edu id="e4" lang="en">dispensing it without medical advice would be inappropriate.</edu>
+  <edu id="e4" lang="ru" trans="promt">распределение его без медицинского совета было бы несоответствующим.</edu>
+  <edu id="e4" lang="ru" trans="google">выдавать его без медицинской консультации было бы неуместным.</edu>
+  <edu id="e4" lang="ru" trans="yandex">распределяя его без консультации с врачом было бы неуместно.</edu>
+  <edu id="e5" lang="en">Easy access to the morning-after pill could also result in its appearing to be an easier method than other forms of contraception that, however, have fewer health effects.</edu>
+  <edu id="e5" lang="ru" trans="promt">Легкий доступ к таблетке от похмелья мог также привести к ее попытке быть более легким методом, чем другие формы контрацепции, у которых, однако, есть меньше воздействия на здоровье.</edu>
+  <edu id="e5" lang="ru" trans="google">Легкий доступ к утренней таблетке также может привести к тому, что он станет более легким методом, чем другие формы контрацепции, которые, однако, имеют меньше последствий для здоровья.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Легкий доступ к утр-после пилюльки также может привести к его представляется более простой способ, чем другие формы контрацепции, которые, однако, имеют меньше последствий для здоровья.</edu>
+  <edu id="e6" lang="en">For instance the morning-after pill could result in a decrease in the use of condoms and thus lead to an increase in new infections with Aids.</edu>
+  <edu id="e6" lang="ru" trans="promt">Например, таблетка от похмелья могла привести к уменьшению в использовании презервативов и таким образом привести к увеличению новых заражений СПИДом.</edu>
+  <edu id="e6" lang="ru" trans="google">Например, утренняя таблетка может привести к сокращению использования презервативов и, таким образом, привести к увеличению числа новых инфекций с помощью СПИДа.</edu>
+  <edu id="e6" lang="ru" trans="yandex">Например, противозачаточная таблетка может привести к уменьшению использования презервативов и, следовательно, приведет к увеличению новых случаев заражения СПИДом.</edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a4" type="reb"/>
+  <edge id="c2" src="a2" trg="c1" type="und"/>
+  <edge id="c3" src="a3" trg="a4" type="sup"/>
+  <edge id="c5" src="a5" trg="a4" type="sup"/>
+  <edge id="c6" src="a6" trg="a5" type="exa"/>
+</arggraph>

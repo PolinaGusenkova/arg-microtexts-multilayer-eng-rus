@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b027" topic_id="introduce_capital_punishment" stance="con">
+  <edu id="e1" lang="en">The death penalty should be abandoned everywhere.</edu>
+  <edu id="e1" lang="ru" trans="promt">Смертная казнь должна быть оставлена везде.</edu>
+  <edu id="e1" lang="ru" trans="google">Смертная казнь должна быть оставлена ​​повсюду.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Смертная казнь должна быть заброшены везде.</edu>
+  <edu id="e2" lang="en">From a Christian and humanistic perspective it is not allowed to kill someone.</edu>
+  <edu id="e2" lang="ru" trans="promt">С христианской и гуманистической точки зрения не позволено убить кого-то.</edu>
+  <edu id="e2" lang="ru" trans="google">С христианской и гуманистической точки зрения нельзя убивать кого-то.</edu>
+  <edu id="e2" lang="ru" trans="yandex">С христианской и гуманистической точки зрения это не разрешено убивать кого-то.</edu>
+  <edu id="e3" lang="en">Proponents of the death penalty count on its deterring effect as well as the ultimate elimination of any potential threat.</edu>
+  <edu id="e3" lang="ru" trans="promt">Сторонники смертной казни рассчитывают на ее эффект удерживания, а также окончательное устранение любой потенциальной угрозы.</edu>
+  <edu id="e3" lang="ru" trans="google">Сторонники смертной казни рассчитывают на ее сдерживающий эффект, а также на окончательное устранение любой потенциальной угрозы.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Сторонники смертной казни рассчитывать на ее сдерживающее воздействие, а также окончательного устранения любой потенциальной угрозы.</edu>
+  <edu id="e4" lang="en">However also the threat of the death penalty in the respective countries apparently cannot prevent murder and violent crime.</edu>
+  <edu id="e4" lang="ru" trans="promt">Однако, также угроза смертной казни в соответствующих странах, по-видимому, не может предотвратить убийство и тяжкое преступление.</edu>
+  <edu id="e4" lang="ru" trans="google">Однако угроза смертной казни в соответствующих странах, по-видимому, не может предотвратить убийства и насильственные преступления.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Однако и угрозу смертной казни в этих странах, видимо, не может предотвратить убийства и насильственные преступления.</edu>
+  <edu id="e5" lang="en">Moreover it turns out time and again that innocent people are also convicted and executed.</edu>
+  <edu id="e5" lang="ru" trans="promt">Кроме того, оказывается снова и снова, что невинные люди также осуждены и казнены.</edu>
+  <edu id="e5" lang="ru" trans="google">Более того, снова и снова оказывается, что невинные люди также осуждены и казнены.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Более того, оказывается, что невинные люди также осуждены и казнены.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="reb"/>
+  <edge id="c4" src="a4" trg="a3" type="reb"/>
+  <edge id="c5" src="a5" trg="a1" type="sup"/>
+</arggraph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b003" topic_id="health_insurance_cover_complementary_medicine" stance="con">
+  <edu id="e1" lang="en">Health insurance companies should not cover treatment in complementary medicine</edu>
+  <edu id="e1" lang="ru" trans="promt">Медицинские страховые компании не должны покрывать лечение в нетрадиционной медицине</edu>
+  <edu id="e1" lang="ru" trans="google">Медицинские страховые компании не должны покрывать лечение в дополнительной медицине</edu>
+  <edu id="e1" lang="ru" trans="yandex">Компаний медицинского страхования не должны покрывать лечение в комплементарной медицине</edu>
+  <edu id="e2" lang="en">unless the promised effect and its medical benefit have been concretely proven.</edu>
+  <edu id="e2" lang="ru" trans="promt">если обещанный эффект и его пособие по болезни не были конкретно доказаны.</edu>
+  <edu id="e2" lang="ru" trans="google">если только обещанный эффект и его медицинская помощь не были доказаны.</edu>
+  <edu id="e2" lang="ru" trans="yandex">если обещанного эффекта и медицинских целях уже конкретно проверенная.</edu>
+  <edu id="e3" lang="en">Yet this very proof is lacking in most cases.</edu>
+  <edu id="e3" lang="ru" trans="promt">Все же этому самому доказательству недостает в большинстве случаев.</edu>
+  <edu id="e3" lang="ru" trans="google">Тем не менее это очень доказательство отсутствует в большинстве случаев.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Пока это доказательство не хватает в большинстве случаев.</edu>
+  <edu id="e4" lang="en">Patients do often report relief of their complaints after such treatments.</edu>
+  <edu id="e4" lang="ru" trans="promt">Пациенты действительно часто сообщают об облегчении своих жалоб после такого лечения.</edu>
+  <edu id="e4" lang="ru" trans="google">Пациенты часто сообщают об облегчении своих жалоб после такого лечения.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Пациенты часто сообщают облегчения их жалобы после такой процедуры.</edu>
+  <edu id="e5" lang="en">But as long as it is unclear as to how this works, the funds should rather be spent on therapies where one knows with certainty.</edu>
+  <edu id="e5" lang="ru" trans="promt">Но, пока неясно относительно того, как это работает, средства должны скорее расходоваться на методы лечения, где каждый знает с уверенностью.</edu>
+  <edu id="e5" lang="ru" trans="google">Но до тех пор, пока неясно, как это работает, средства лучше потратить на терапию, где кто-то знает с уверенностью.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Но пока непонятно как это работает, средства следовало бы потратить на терапии, где никто не знает с определенностью.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="a2" type="reb"/>
+  <edge id="c4" src="a4" trg="a1" type="reb"/>
+  <edge id="c5" src="a5" trg="c4" type="und"/>
+</arggraph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b032" topic_id="higher_dog_poo_fines" stance="pro">
+  <edu id="e1" lang="en">There should be a higher fine for dog dirt on the pavement.</edu>
+  <edu id="e1" lang="ru" trans="promt">Там должен быть прекрасным выше для грязи собаки на мостовой.</edu>
+  <edu id="e1" lang="ru" trans="google">Должен быть более высокий штраф за грязь собаки на тротуаре.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Там должен быть более высокий штраф за грязью на асфальте.</edu>
+  <edu id="e2" lang="en">Dog dirt is disgusting and a hygiene problem.</edu>
+  <edu id="e2" lang="ru" trans="promt">Грязь собаки отвратительна и проблема гигиены.</edu>
+  <edu id="e2" lang="ru" trans="google">Собака грязи отвратительна и проблема гигиены.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Собаки, грязь-это отвратительно и подмываюсь.</edu>
+  <edu id="e3" lang="en">Also children, adults and other animals aren't allowed to leave droppings on the pavement.</edu>
+  <edu id="e3" lang="ru" trans="promt">Также детям, взрослым и другим животным не разрешают оставить понижение на мостовой.</edu>
+  <edu id="e3" lang="ru" trans="google">Также детям, взрослым и другим животным запрещено оставлять помет на тротуаре.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Также детей, взрослых и других животных не разрешается оставлять помет на асфальте.</edu>
+  <edu id="e4" lang="en">If you dispose of the waste then and there yourself, no fine is necessary.</edu>
+  <edu id="e4" lang="ru" trans="promt">Если Вы избавляетесь от отходов прямо здесь сами, никакой штраф не необходим.</edu>
+  <edu id="e4" lang="ru" trans="google">Если вы избавляетесь от отходов тогда и там сами, штраф не нужен.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Если вы удалению отходов, то и нет себя, нет, штраф надо.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+</arggraph>

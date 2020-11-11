@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d22">
+  <edu id="e1" lang="en">Large events that stir national or even international attention attract many visitors,</edu>
+  <edu id="e1" lang="ru" trans="promt">Большие события, которые вызывают национальное или даже внимание международного сообщества, привлекают многих посетителей,</edu>
+  <edu id="e1" lang="ru" trans="google">Большие события, которые мешают национальному или даже международному вниманию, привлекают многих посетителей,</edu>
+  <edu id="e1" lang="ru" trans="yandex">Большие события, которые всколыхнут национального или даже международного внимания привлекают много посетителей,</edu>
+  <edu id="e2" lang="en">and nothing will get Berlin out of its financial jam more than a lot of spending visitors.</edu>
+  <edu id="e2" lang="ru" trans="promt">и ничто не вытащит Берлин из его финансовой пробки больше, чем много расходов посетителей.</edu>
+  <edu id="e2" lang="ru" trans="google">и ничто не заставит Берлин вырваться из своего финансового джема больше, чем тратить посетителей.</edu>
+  <edu id="e2" lang="ru" trans="yandex">и ничего не получите в Берлин из финансового джема больше, чем многие из посетителей тратить.</edu>
+  <edu id="e3" lang="en">Hence the Mayor of Berlin ought to keep the hurdles for organizing such events as low as possible.</edu>
+  <edu id="e3" lang="ru" trans="promt">Следовательно мэр Берлина должен держать препятствия для организации таких мероприятий максимально низко.</edu>
+  <edu id="e3" lang="ru" trans="google">Поэтому мэр Берлина должен поддерживать препятствия для организации таких мероприятий как можно ниже.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Следовательно, мэр Берлина должны иметь препятствий для организации такого события как можно более низкой.</edu>
+  <edu id="e4" lang="en">Of course a higher federal subsidy would be even better for Berlin's coffers,</edu>
+  <edu id="e4" lang="ru" trans="promt">Конечно, более высокая федеральная субсидия была бы еще лучше для казны Берлина,</edu>
+  <edu id="e4" lang="ru" trans="google">Конечно, более высокая федеральная субсидия была бы еще лучше для берлинской казны,</edu>
+  <edu id="e4" lang="ru" trans="yandex">Конечно, более высокий федеральной субсидии будет даже лучше для казны Берлина,</edu>
+  <edu id="e5" lang="en">but you shouldn't bother hoping for that.</edu>
+  <edu id="e5" lang="ru" trans="promt">но Вы не должны потрудиться надеяться на это.</edu>
+  <edu id="e5" lang="ru" trans="google">но вам не стоит надеяться на это.</edu>
+  <edu id="e5" lang="ru" trans="yandex">но вы не должны беспокоиться, надеясь для этого.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="sup"/>
+  <edge id="c2" src="a2" trg="c1" type="add"/>
+  <edge id="c4" src="a4" trg="a2" type="reb"/>
+  <edge id="c5" src="a5" trg="c4" type="und"/>
+</arggraph>

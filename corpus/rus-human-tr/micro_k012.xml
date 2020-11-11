@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k012" topic_id="charge_tuition_fees" stance="con">
+  <edu id="e1" lang="en">German universities should on no account charge tuition fees.</edu>
+  <edu id="e1" lang="ru" trans="human">Университеты Германии ни в коем случае не должны взимать плату за обучение.</edu>
+  <edu id="e2" lang="en">This would simply mean that only those people with wealthy parents or a previous education and a part-time job while studying would be able to apply for a degree programme in the first place.</edu>
+  <edu id="e2" lang="ru" trans="human">Это будет означать, что только дети богатых родителей или только те, кто имеют уже какое-либо образование и работают неполный рабочий день во время учебы, вообще смогут подать заявку на получение учёной степени.</edu>
+  <edu id="e3" lang="en">Even without tuition fees half of the student population has to work while studying and hence has less time for studying or recreation.</edu>
+  <edu id="e3" lang="ru" trans="human">Даже обучаясь бесплатно, половина студентов вынуждена работать во время учебы и, следовательно, имеет меньше времени для учебы или отдыха.</edu>
+  <edu id="e4" lang="en">One could argue that an increase in tuition fees would allow institutions to be better equipped.</edu>
+  <edu id="e4" lang="ru" trans="human">Кто-то может утверждать, что повышение платы за обучение позволит учреждениям иметь лучшее оборудование.</edu>
+  <edu id="e5" lang="en">But what is the good of a wonderfully outfitted university if it doesn't actually allow the majority of clever people to broaden their horizons with all that great equipment?</edu>
+  <edu id="e5" lang="ru" trans="human">Но что хорошего в отлично оборудованном университете, если он на самом деле не позволяет большинству умных людей расширять свой кругозор с помощью всего этого великолепного оборудования?</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="reb"/>
+  <edge id="c5" src="a5" trg="c4" type="und"/>
+</arggraph>

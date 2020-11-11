@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b058" topic_id="make_video_games_olympic" stance="pro">
+  <edu id="e1" lang="en">Video games, namely FIFA in my case, can fascinate young people for hours more intensively and emotionally than any sport in the world!</edu>
+  <edu id="e1" lang="ru" trans="promt">Видеоигры, а именно, ФИФА в моем случае, могут очаровать молодых людей в течение многих часов более интенсивно и эмоционально, чем какой-либо спорт в мире!</edu>
+  <edu id="e1" lang="ru" trans="google">Видеоигры, а именно ФИФА в моем случае, могут очаровывать молодых людей часами более интенсивно и эмоционально, чем любой вид спорта в мире!</edu>
+  <edu id="e1" lang="ru" trans="yandex">Видео игры, а именно ФИФА в моем случае, может очаровывать молодых людей в течение нескольких часов более интенсивно и эмоционально, чем любой вид спорта в мире!</edu>
+  <edu id="e2" lang="en">It would be fair to make them into an Olympic event.</edu>
+  <edu id="e2" lang="ru" trans="promt">Было бы справедливо превратить их в Олимпийское соревнование.</edu>
+  <edu id="e2" lang="ru" trans="google">Было бы справедливо превратить их в олимпийское событие.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Справедливо было бы сделать их на соревнования.</edu>
+  <edu id="e3" lang="en">Perhaps it is less thrilling for a spectator than for the player,</edu>
+  <edu id="e3" lang="ru" trans="promt">Возможно, это менее волнующее для зрителя, чем для игрока,</edu>
+  <edu id="e3" lang="ru" trans="google">Возможно, это менее волнующее для зрителя, чем для игрока,</edu>
+  <edu id="e3" lang="ru" trans="yandex">Возможно, это менее интересно для зрителя, чем для игрока,</edu>
+  <edu id="e4" lang="en">but also for contemporary Olympic events, I recall curling and 50km cross-country skiing, you have to be more than a freak to follow those more properly than only in the roundup of highlights.</edu>
+  <edu id="e4" lang="ru" trans="promt">но также и для современных Олимпийских соревнований, я вспоминаю завивание и 50-километровые лыжные гонки, Вы должны быть больше, чем фрик, чтобы следовать за теми более правильно, чем только в сводке новостей основных моментов.</edu>
+  <edu id="e4" lang="ru" trans="google">но и для современных олимпийских событий, я вспоминаю керлинг и 50-километровое бег на лыжах, вы должны быть более чем уродцем, чтобы следить за ними более правильно, чем только в обзоре основных событий.</edu>
+  <edu id="e4" lang="ru" trans="yandex">но и для современных Олимпийских событий, я вспоминаю, керлинг и 50 км на беговых лыжах, вы должны быть больше, чем урод следовать этим более правильно, чем только в последние моменты.</edu>
+  <edu id="e5" lang="en">Plus the hurdle to make video games Olympic events is minimal,</edu>
+  <edu id="e5" lang="ru" trans="promt">Плюс препятствие, чтобы сделать видеоигры Олимпийские соревнования минимально,</edu>
+  <edu id="e5" lang="ru" trans="google">Плюс препятствие для создания видеоигр Олимпийские игры минимальны,</edu>
+  <edu id="e5" lang="ru" trans="yandex">Плюс плетень, чтобы сделать видеоигры олимпийских событий минимальна,</edu>
+  <edu id="e6" lang="en">as you don't even need doping tests, only a neutral console.</edu>
+  <edu id="e6" lang="ru" trans="promt">поскольку Вам даже не нужны тесты на допинг, только нейтральный пульт.</edu>
+  <edu id="e6" lang="ru" trans="google">так как вам даже не нужны допинг-тесты, только нейтральная консоль.</edu>
+  <edu id="e6" lang="ru" trans="yandex">как вам даже не понадобится допинг-тесты, только нейтральная консоль.</edu>
+  <edu id="e7" lang="en">And many a video game is physically and particularly mentally more demanding, when I think of the last FIFA tournament's final, than kicking a ball 20 metres.</edu>
+  <edu id="e7" lang="ru" trans="promt">И много видеоигр физически и особенно мысленно более требовательны, когда я думаю о последнем финале турнира ФИФА, чем удар ногой шара 20 метров.</edu>
+  <edu id="e7" lang="ru" trans="google">И многие видеоигры физически и особенно психически более требовательны, когда я думаю о последнем финале турнира ФИФА, чем ногами мяч 20 метров.</edu>
+  <edu id="e7" lang="ru" trans="yandex">И многие видео игры физически и особенно психически более требовательными, когда я думаю о финале последнего турнира ФИФА, чем пинать мяч на 20 метров.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c8" src="e1" trg="a1" type="seg"/>
+  <edge id="c9" src="e2" trg="a2" type="seg"/>
+  <edge id="c10" src="e3" trg="a3" type="seg"/>
+  <edge id="c11" src="e4" trg="a4" type="seg"/>
+  <edge id="c12" src="e5" trg="a5" type="seg"/>
+  <edge id="c13" src="e6" trg="a6" type="seg"/>
+  <edge id="c14" src="e7" trg="a7" type="seg"/>
+  <edge id="c1" src="a1" trg="a2" type="sup"/>
+  <edge id="c3" src="a3" trg="a2" type="reb"/>
+  <edge id="c4" src="a4" trg="c3" type="und"/>
+  <edge id="c5" src="a5" trg="a2" type="sup"/>
+  <edge id="c6" src="a6" trg="a5" type="sup"/>
+  <edge id="c7" src="a7" trg="a2" type="sup"/>
+</arggraph>

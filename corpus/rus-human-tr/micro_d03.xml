@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d03">
+  <edu id="e1" lang="en">It was clearly a mistake to include Tom in our football team.</edu>
+  <edu id="e1" lang="ru" trans="human">Взять Тома в нашу футбольную команду совершенно точно было ошибкой.</edu>
+  <edu id="e2" lang="en">He's just not a team player, and often goes it alone.</edu>
+  <edu id="e2" lang="ru" trans="human">Он не командный игрок, и часто действует самостоятельно.</edu>
+  <edu id="e3" lang="en">Plus he comes to training way too rarely,</edu>
+  <edu id="e3" lang="ru" trans="human">К тому же, он слишком редко ходит на тренировки,</edu>
+  <edu id="e4" lang="en">although he plays very well without training.</edu>
+  <edu id="e4" lang="ru" trans="human">хоть и всё равно хорошо играет.</edu>
+  <edu id="e5" lang="en">But the worst thing is his habit of always complaining to the referee.</edu>
+  <edu id="e5" lang="ru" trans="human">Но хуже всего то, что у него есть привычка постоянно жаловаться судье.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="c3" type="und"/>
+  <edge id="c5" src="a5" trg="a1" type="sup"/>
+</arggraph>

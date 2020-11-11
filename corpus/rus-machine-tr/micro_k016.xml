@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k016" topic_id="EU_influence_on_political_events_in_Ukraine" stance="con">
+  <edu id="e1" lang="en">Despite the severe clashes in Kiev, which at times have threatened to escalate,</edu>
+  <edu id="e1" lang="ru" trans="promt">Несмотря на серьезные столкновения в Киеве, которые время от времени угрожали возрасти,</edu>
+  <edu id="e1" lang="ru" trans="google">Несмотря на жестокие столкновения в Киеве, которые порой угрожали эскалацией,</edu>
+  <edu id="e1" lang="ru" trans="yandex">Несмотря на серьезные столкновения в Киеве, которые порой угрожают перерасти,</edu>
+  <edu id="e2" lang="en">the EU should not intervene in local politics.</edu>
+  <edu id="e2" lang="ru" trans="promt">ЕС не должен вмешиваться в местную политику.</edu>
+  <edu id="e2" lang="ru" trans="google">ЕС не должен вмешиваться в местную политику.</edu>
+  <edu id="e2" lang="ru" trans="yandex">ЕС не должен вмешиваться в местную политику.</edu>
+  <edu id="e3" lang="en">Although Ukraine is a European country,</edu>
+  <edu id="e3" lang="ru" trans="promt">Хотя Украина - европейская страна,</edu>
+  <edu id="e3" lang="ru" trans="google">Хотя Украина - европейская страна,</edu>
+  <edu id="e3" lang="ru" trans="yandex">Хотя Украина является европейской страной,</edu>
+  <edu id="e4" lang="en">and the Ukrainian opposition is primarily interested in installing a robust democracy,</edu>
+  <edu id="e4" lang="ru" trans="promt">и украинская оппозиция, прежде всего, интересуется установкой прочной демократии,</edu>
+  <edu id="e4" lang="ru" trans="google">и украинская оппозиция в первую очередь заинтересована в создании прочной демократии,</edu>
+  <edu id="e4" lang="ru" trans="yandex">и украинская оппозиция, в первую очередь, заинтересованы в установке прочной демократии,</edu>
+  <edu id="e5" lang="en">possible supporters face a considerably stronger opponent in the intervention of Russia in local politics.</edu>
+  <edu id="e5" lang="ru" trans="promt">возможные сторонники сталкиваются со значительно более сильным противником во вмешательстве России в местной политике.</edu>
+  <edu id="e5" lang="ru" trans="google">возможные сторонники сталкиваются с гораздо более сильным противником во вмешательстве России в местную политику.</edu>
+  <edu id="e5" lang="ru" trans="yandex">возможные сторонники сталкиваются с гораздо более сильным противником в интервенции России в местной политике.</edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a2" type="reb"/>
+  <edge id="c3" src="a3" trg="a2" type="reb"/>
+  <edge id="c4" src="a4" trg="a2" type="reb"/>
+  <edge id="c5" src="a5" trg="a2" type="sup"/>
+</arggraph>

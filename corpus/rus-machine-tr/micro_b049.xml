@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b049" topic_id="increase_weight_of_BA_thesis_in_final_grade" stance="con">
+  <edu id="e1" lang="en">The bachelor thesis reflects both the content and the methods of the topics covered during a degree programme.</edu>
+  <edu id="e1" lang="ru" trans="promt">Тезис бакалавра отражает и содержание и методы тем, затронутых во время программы на получение степени.</edu>
+  <edu id="e1" lang="ru" trans="google">Диплом бакалавра отражает как содержание, так и методы тем, охватываемых программой обучения.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Дипломной работы отражает как содержание, так и методы темы, затронутые в ходе обучения в университете.</edu>
+  <edu id="e2" lang="en">But one can make occasional mistakes in the thesis.</edu>
+  <edu id="e2" lang="ru" trans="promt">Но можно сделать случайные ошибки в тезисе.</edu>
+  <edu id="e2" lang="ru" trans="google">Но можно делать случайные ошибки в диссертации.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Но можно сделать случайные ошибки в диссертации.</edu>
+  <edu id="e3" lang="en">If this carries more weight, many good individual assignments done during the course of study may be obscured.</edu>
+  <edu id="e3" lang="ru" trans="promt">Если это несет больше веса, много хороших отдельных назначений, сделанных в ходе исследования, могут быть затенены.</edu>
+  <edu id="e3" lang="ru" trans="google">Если это имеет больший вес, многие хорошие индивидуальные задания, сделанные в ходе обучения, могут быть закрыты.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Если это имеет больший вес, много хороших индивидуальных заданий сделали в ходе исследования, могут быть скрыты.</edu>
+  <edu id="e4" lang="en">A good grade for the thesis also significantly depends on the supervision of a dedicated teacher.</edu>
+  <edu id="e4" lang="ru" trans="promt">Хороший сорт для тезиса также значительно зависит от наблюдения преданного учителя.</edu>
+  <edu id="e4" lang="ru" trans="google">Хороший класс для диссертации также значительно зависит от надзора за специальным преподавателем.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Хорошую оценку за дипломную работу также существенно зависит от наблюдением специального педагога.</edu>
+  <edu id="e5" lang="en">Due to the many random factors the bachelor thesis should not play a bigger role.</edu>
+  <edu id="e5" lang="ru" trans="promt">Из-за многих случайных факторов тезис бакалавра не должен играть большую роль.</edu>
+  <edu id="e5" lang="ru" trans="google">Из-за многих случайных факторов бакалавриат не должен играть более значительную роль.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Из-за множества случайных факторов, дипломной работы не должна играть большую роль.</edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="reb"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="sup"/>
+  <edge id="c4" src="a4" trg="a5" type="sup"/>
+</arggraph>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b054" topic_id="partial_housing_development_at_Tempelhofer_Feld" stance="pro">
+  <edu id="e1" lang="en">For years there has been a housing shortage in Berlin,</edu>
+  <edu id="e1" lang="ru" trans="human">В течение многих лет в Берлине не хватало жилья,</edu>
+  <edu id="e2" lang="en">so that using Tempelhofer Feld, which offers a lot of open space and is currently hardly developed, as living space is a sensible idea.</edu>
+  <edu id="e2" lang="ru" trans="human">поэтому использовать Темпельхофское поле, предоставляющее огромное и почти не используемое сейчас открытое пространство, под жилые дома представляется разумной идеей.</edu>
+  <edu id="e3" lang="en">Since the area belongs to the federal state, or the federation,</edu>
+  <edu id="e3" lang="ru" trans="human">Так как территория принадлежит федеративному государству, или федерации,</edu>
+  <edu id="e4" lang="en">it could even be used for social housing with affordable rents.</edu>
+  <edu id="e4" lang="ru" trans="human">её можно было бы использовать даже как социальное жильё с доступной арендной платой.</edu>
+  <edu id="e5" lang="en">Admittedly the fields have currently become an attractive leisure park with sporting areas for many visitors and Berliners, especially in spring and summer.</edu>
+  <edu id="e5" lang="ru" trans="human">Необходимо признать, что поля стали привлекательным местом отдыха со спортивными площадками для многих берлинцев и гостей города, особенно весной и летом.</edu>
+  <edu id="e6" lang="en">If however one could find a compromise between green space and housing, then Tempelhofer Feld should definitely be made available for residential construction.</edu>
+  <edu id="e6" lang="ru" trans="human">Если, однако, можно найти компромисс между зелёными насаждениями и жилыми строениями, Темпельхофское поле несомненно стоит использовать для строительства жилых комплексов.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a2" type="sup"/>
+  <edge id="c2" src="a2" trg="a6" type="sup"/>
+  <edge id="c3" src="a3" trg="a4" type="sup"/>
+  <edge id="c4" src="a4" trg="a2" type="sup"/>
+  <edge id="c5" src="a5" trg="c2" type="und"/>
+</arggraph>

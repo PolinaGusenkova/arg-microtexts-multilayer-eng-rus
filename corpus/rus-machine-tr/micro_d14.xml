@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d14">
+  <edu id="e1" lang="en">I think Fritz has never been in a fight in his life.</edu>
+  <edu id="e1" lang="ru" trans="promt">Я думаю, что Фриц никогда не был в борьбе в его жизни.</edu>
+  <edu id="e1" lang="ru" trans="google">Я думаю, что Фриц никогда не был в битве в своей жизни.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Я думаю, что Фриц никогда не дрался в своей жизни.</edu>
+  <edu id="e2" lang="en">As a boy he did use to scuffle with the other choirboys,</edu>
+  <edu id="e2" lang="ru" trans="promt">Как мальчик он действительно использовал, чтобы драться с другими певчими,</edu>
+  <edu id="e2" lang="ru" trans="google">Как мальчик, которого он использовал, чтобы драться с другими хороводами,</edu>
+  <edu id="e2" lang="ru" trans="yandex">Как мальчик он использовал в драке с другими певчих,</edu>
+  <edu id="e3" lang="en">but that hardly counts as a proper brawl.</edu>
+  <edu id="e3" lang="ru" trans="promt">но это едва считается надлежащей ссорой.</edu>
+  <edu id="e3" lang="ru" trans="google">но это вряд ли считается правильной дракой.</edu>
+  <edu id="e3" lang="ru" trans="yandex">но это вряд ли считается правильной драки.</edu>
+  <edu id="e4" lang="en">And he always chickens out when things get dicey.</edu>
+  <edu id="e4" lang="ru" trans="promt">И он всегда идет на попятный, когда вещи становятся рискованными.</edu>
+  <edu id="e4" lang="ru" trans="google">И он всегда цыплят, когда все становится ужасно.</edu>
+  <edu id="e4" lang="ru" trans="yandex">И он всегда трусит, когда все становится рискованным.</edu>
+  <edu id="e5" lang="en">Yesterday, when the bouncer wouldn't let us in, he was suddenly gone.</edu>
+  <edu id="e5" lang="ru" trans="promt">Вчера, когда вышибала не впустил бы нас, он внезапно ушел.</edu>
+  <edu id="e5" lang="ru" trans="google">Вчера, когда вышибала не пустила нас, он внезапно исчез.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Вчера, когда Вышибала не впустил нас, он вдруг исчез.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="c2" type="und"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a4" type="exa"/>
+</arggraph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d08">
+  <edu id="e1" lang="en">Although IBM's numbers haven't been staggering recently,</edu>
+  <edu id="e1" lang="ru" trans="promt">Хотя цифры IBM не колебались недавно,</edu>
+  <edu id="e1" lang="ru" trans="google">Хотя номера IBM в последнее время не ошеломляли,</edu>
+  <edu id="e1" lang="ru" trans="yandex">Хотя номера компании IBM в последнее время не впечатляют,</edu>
+  <edu id="e2" lang="en">and the mood in the stock market could be better on the whole,</edu>
+  <edu id="e2" lang="ru" trans="promt">и настроение на фондовом рынке могло быть лучше в целом,</edu>
+  <edu id="e2" lang="ru" trans="google">и настроение на фондовом рынке может быть лучше в целом,</edu>
+  <edu id="e2" lang="ru" trans="yandex">и настроение на фондовом рынке может быть лучше в целом</edu>
+  <edu id="e3" lang="en">you should buy IBM shares if you want to invest.</edu>
+  <edu id="e3" lang="ru" trans="promt">Вы должны купить акции IBM, если Вы хотите вложить капитал.</edu>
+  <edu id="e3" lang="ru" trans="google">вы должны покупать акции IBM, если хотите инвестировать.</edu>
+  <edu id="e3" lang="ru" trans="yandex">вы должны купить акции IBM, если вы хотите инвестировать.</edu>
+  <edu id="e4" lang="en">Because for one thing, their products will still sell in bad times,</edu>
+  <edu id="e4" lang="ru" trans="promt">Поскольку, с одной стороны, их продукты все еще продадут в плохие времена,</edu>
+  <edu id="e4" lang="ru" trans="google">Потому что, с одной стороны, их продукты будут продаваться в плохие времена,</edu>
+  <edu id="e4" lang="ru" trans="yandex">Потому что с одной стороны, их продукция все равно будет продаваться в плохие времена,</edu>
+  <edu id="e5" lang="en">and in addition, such a share is not as sensitive as those of other IT companies.</edu>
+  <edu id="e5" lang="ru" trans="promt">и кроме того, такая акция не так чувствительна как те из других компаний IT.</edu>
+  <edu id="e5" lang="ru" trans="google">и, кроме того, такая доля не так чувствительна, как у других ИТ-компаний.</edu>
+  <edu id="e5" lang="ru" trans="yandex">и кроме того, такая доля не так чувствительны, как у других IT-компаний.</edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="reb"/>
+  <edge id="c2" src="a2" trg="a3" type="reb"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+  <edge id="c5" src="a5" trg="a3" type="sup"/>
+</arggraph>

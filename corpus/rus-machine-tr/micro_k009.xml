@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k009" topic_id="introduce_capital_punishment" stance="con">
+  <edu id="e1" lang="en">Germany should by no means introduce capital punishment.</edu>
+  <edu id="e1" lang="ru" trans="promt">Германия ни в коем случае не должна вводить смертную казнь.</edu>
+  <edu id="e1" lang="ru" trans="google">Германия ни в коем случае не должна вводить смертную казнь.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Германия ни в коем случае нельзя вводить смертную казнь.</edu>
+  <edu id="e2" lang="en">If there were capital punishment, this would mean people are allowed to put themselves above others and rule over their lives.</edu>
+  <edu id="e2" lang="ru" trans="promt">Если бы была смертная казнь, это означало бы, что людям разрешают поместить себя выше других и правила по их жизням.</edu>
+  <edu id="e2" lang="ru" trans="google">Если бы была смертная казнь, это означало бы, что людям разрешено ставить себя выше других и управлять своей жизнью.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Если есть смертная казнь, это будет означать, люди могут ставить себя выше других и господствовать над своей жизнью.</edu>
+  <edu id="e3" lang="en">Capital punishment would be murder and would have to be punished with the death penalty itself.</edu>
+  <edu id="e3" lang="ru" trans="promt">Смертная казнь была бы убийством и должна будет быть наказана с самой смертной казнью.</edu>
+  <edu id="e3" lang="ru" trans="google">Смертная казнь будет убийством и должна быть наказана самой смертной казнью.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Смертная казнь будет убийство и должен быть наказан смертной казни.</edu>
+  <edu id="e4" lang="en">What, then, ought to be done with criminals who have committed truly awful crimes such as murder or rape - should they simply be allowed to live on</edu>
+  <edu id="e4" lang="ru" trans="promt">Что, тогда, должно быть сделано с преступниками, которые совершили действительно ужасные преступления, такие как убийство, или изнасилование - должно они просто быть позволенным жить на</edu>
+  <edu id="e4" lang="ru" trans="google">Что же следует делать с преступниками, которые совершили поистине ужасные преступления, такие как убийство или изнасилование, - если им просто разрешили жить</edu>
+  <edu id="e4" lang="ru" trans="yandex">Что же тогда делать с преступниками, которые совершили действительно ужасные преступления, такие как убийство или изнасилование - они должны просто быть позволено жить на</edu>
+  <edu id="e5" lang="en">although they have taken or destroyed another life?</edu>
+  <edu id="e5" lang="ru" trans="promt">хотя они взяли или разрушили другую жизнь?</edu>
+  <edu id="e5" lang="ru" trans="google">хотя они взяли или уничтожили еще одну жизнь?</edu>
+  <edu id="e5" lang="ru" trans="yandex">хотя они вывезли или уничтожили еще одну жизнь?</edu>
+  <edu id="e6" lang="en">Yes, for it is a much graver punishment to be imprisoned forever and be tortured by one's own thoughts than to be killed quickly and easily by an injection.</edu>
+  <edu id="e6" lang="ru" trans="promt">Да, поскольку это - намного более серьезное наказание, которое будет заключено в тюрьму навсегда и подвергнется пыткам собственными мыслями, чем быть убитым быстро и легко инъекцией.</edu>
+  <edu id="e6" lang="ru" trans="google">Да, потому что это гораздо более серьезное наказание, которое должно быть заключено в тюрьму навсегда и подвергаться пыткам своими мыслями, а не быть убитым быстро и легко путем инъекции.</edu>
+  <edu id="e6" lang="ru" trans="yandex">Да, на это много серьезнее наказания быть заключен в тюрьму вечно и мучаться от собственных мыслей, чем быть быстро и легко убиваются с помощью инъекции.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a4" type="reb"/>
+  <edge id="c6" src="a6" trg="c5" type="und"/>
+</arggraph>

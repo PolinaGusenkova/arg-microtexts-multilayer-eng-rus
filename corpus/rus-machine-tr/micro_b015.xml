@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b015" topic_id="allow_shops_to_open_on_holidays_and_sundays" stance="pro">
+  <edu id="e1" lang="en">Well, I as an employee find it very practical to be able to shop at least on weekends.</edu>
+  <edu id="e1" lang="ru" trans="promt">Ну, я как сотрудник считаю его очень практичным, чтобы быть в состоянии делать покупки, по крайней мере, по выходным.</edu>
+  <edu id="e1" lang="ru" trans="google">Ну, я, как сотрудник, считаю очень практичным иметь возможность ходить по магазинам, по крайней мере, в выходные дни.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Ну, я как сотрудник очень практично, чтобы иметь возможность магазин, по крайней мере по выходным.</edu>
+  <edu id="e2" lang="en">Sure, other people have to work in the shops on the weekend,</edu>
+  <edu id="e2" lang="ru" trans="promt">Несомненно, другие люди должны работать в магазинах в выходные,</edu>
+  <edu id="e2" lang="ru" trans="google">Конечно, другие люди должны работать в магазинах в выходные,</edu>
+  <edu id="e2" lang="ru" trans="yandex">Конечно, другие люди должны работать в магазинах на выходных,</edu>
+  <edu id="e3" lang="en">but they can have days off during the week and run errands at their leisure while I'm stuck in the office.</edu>
+  <edu id="e3" lang="ru" trans="promt">но они могут иметь выходные в течение недели и выполнить поручения на их досуге, в то время как я застреваю в офисе.</edu>
+  <edu id="e3" lang="ru" trans="google">но они могут проводить выходные в течение недели и выполнять поручения на досуге, пока я застрял в офисе.</edu>
+  <edu id="e3" lang="ru" trans="yandex">но они могут иметь выходных дня в течение недели и побегушки на досуге, пока я сижу в офисе.</edu>
+  <edu id="e4" lang="en">Plus, the state wants me to spend my money,</edu>
+  <edu id="e4" lang="ru" trans="promt">Плюс, государство хочет, чтобы я потратил свои деньги,</edu>
+  <edu id="e4" lang="ru" trans="google">Кроме того, государство хочет, чтобы я тратил свои деньги,</edu>
+  <edu id="e4" lang="ru" trans="yandex">Плюс, государство хочет потратить свои деньги,</edu>
+  <edu id="e5" lang="en">and how am I supposed to do that when the shops aren't open when I'm off work?</edu>
+  <edu id="e5" lang="ru" trans="promt">и как я, как предполагается, делаю это, когда магазины не открыты, когда я от работы?</edu>
+  <edu id="e5" lang="ru" trans="google">и как я должен это делать, когда магазины не открыты, когда я работаю?</edu>
+  <edu id="e5" lang="ru" trans="yandex">и как я должен делать это, когда магазины не работают, когда я работаю?</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="c2" type="und"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="c4" type="add"/>
+</arggraph>

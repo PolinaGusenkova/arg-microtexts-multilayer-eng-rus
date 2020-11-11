@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b028" topic_id="charge_tuition_fees" stance="con">
+  <edu id="e1" lang="en">The universities in Germany should not under any circumstances charge tuition fees.</edu>
+  <edu id="e1" lang="ru" trans="human">Университеты Германии ни при каких обстоятельствах не должны брать плату за обучение.</edu>
+  <edu id="e2" lang="en">This would impede or prevent access to those who are financially weaker.</edu>
+  <edu id="e2" lang="ru" trans="human">Это будет препятствовать или закрывать доступ к образованию для малообеспеченных граждан.</edu>
+  <edu id="e3" lang="en">The anticipated objectives of tuition fees can be achieved by other means.</edu>
+  <edu id="e3" lang="ru" trans="human">Цели, которые предполагается достигнуть платой за обучение, могут быть достигнуты другими способами.</edu>
+  <edu id="e4" lang="en">There are other instruments to motivate tighter discipline while studying.</edu>
+  <edu id="e4" lang="ru" trans="human">Существуют и другие средства для создания более строгой дисциплины при обучении.</edu>
+  <edu id="e5" lang="en">And funding-wise it ought to be considered how costs incurred by students from other (federal) states can be reimbursed.</edu>
+  <edu id="e5" lang="ru" trans="human">С точки зрения финансирования также стоит предположить, как можно компенсировать расходы, понесённые студентами из других государств.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+  <edge id="c5" src="a5" trg="a3" type="sup"/>
+</arggraph>

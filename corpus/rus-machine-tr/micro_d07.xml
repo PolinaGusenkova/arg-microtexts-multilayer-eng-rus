@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d07">
+  <edu id="e1" lang="en">The current tour of Tokio Hotel is breaking all records.</edu>
+  <edu id="e1" lang="ru" trans="promt">Текущий тур по Tokio Hotel побил все рекорды.</edu>
+  <edu id="e1" lang="ru" trans="google">В текущем туре Tokio Hotel нарушаются все записи.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Нынешний тур группы Tokio Hotel-это бьет все рекорды.</edu>
+  <edu id="e2" lang="en">Never have there been longer queues at the advance ticket offices</edu>
+  <edu id="e2" lang="ru" trans="promt">Никогда там не были более длинные очереди в офисах предварительно проданного билета</edu>
+  <edu id="e2" lang="ru" trans="google">Никогда не было более длинных очередей в билетных кассах</edu>
+  <edu id="e2" lang="ru" trans="yandex">Никогда не было больше очередей в кассы предварительной продажи билетов </edu>
+  <edu id="e3" lang="en">вЂ“ in Japan there was one exceeding 3.2km вЂ“</edu>
+  <edu id="e3" lang="ru" trans="promt">вЂ “в Японии были чрезмерные 3.2 км вЂ “</edu>
+  <edu id="e3" lang="ru" trans="google">- в Японии был один, превышающий 3,2 км -</edu>
+  <edu id="e3" lang="ru" trans="yandex">вЂ“ в Японии был один-более 3,2 км вЂ“</edu>
+  <edu id="e4" lang="en">aside from, perhaps, during the heyday of Take That.</edu>
+  <edu id="e4" lang="ru" trans="promt">кроме, возможно, во время расцвета Взятия Это.</edu>
+  <edu id="e4" lang="ru" trans="google">кроме, возможно, во время расцвета Take That.</edu>
+  <edu id="e4" lang="ru" trans="yandex">кроме, пожалуй, во времена расцвета взять.</edu>
+  <edu id="e5" lang="en">But at times even the online sales outlets haven't been coping with the demand.</edu>
+  <edu id="e5" lang="ru" trans="promt">Но время от времени даже торговые точки онлайн не справлялись с требованием.</edu>
+  <edu id="e5" lang="ru" trans="google">Но иногда даже интернет-магазины не справлялись со спросом.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Но порой даже онлайн-продажи не справляются со спросом.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a2" type="exa"/>
+  <edge id="c4" src="a4" trg="a2" type="reb"/>
+  <edge id="c5" src="a5" trg="a1" type="sup"/>
+</arggraph>

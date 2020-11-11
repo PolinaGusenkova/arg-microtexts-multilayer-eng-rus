@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b006" topic_id="introduce_capital_punishment" stance="con">
+  <edu id="e1" lang="en">The death penalty is a legal means that as such is not practicable in Germany.</edu>
+  <edu id="e1" lang="ru" trans="promt">Смертная казнь - юридическое средство, которое как таковой не реально в Германии.</edu>
+  <edu id="e1" lang="ru" trans="google">Смертная казнь является законным средством, которое, как таковое, не может быть осуществлено в Германии.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Смертная казнь-это правовые средства, которые как таковые не представляется возможным в Германии.</edu>
+  <edu id="e2" lang="en">For one thing, inviolable human dignity is anchored in our constitution,</edu>
+  <edu id="e2" lang="ru" trans="promt">С одной стороны, неприкосновенное человеческое достоинство закреплено в нашей конституции,</edu>
+  <edu id="e2" lang="ru" trans="google">Во-первых, неприкосновенное человеческое достоинство закреплено в нашей конституции,</edu>
+  <edu id="e2" lang="ru" trans="yandex">За одно, незыблемое человеческое достоинство закреплено в нашей Конституции,</edu>
+  <edu id="e3" lang="en">and furthermore no one may have the right to adjudicate upon the death of another human being.</edu>
+  <edu id="e3" lang="ru" trans="promt">и кроме того никто не может иметь право вынести приговор на смерть другого человека.</edu>
+  <edu id="e3" lang="ru" trans="google">и, кроме того, никто не может иметь права выносить решения о смерти другого человека.</edu>
+  <edu id="e3" lang="ru" trans="yandex">и кроме того никто не вправе выносить решения по факту смерти другому человеку.</edu>
+  <edu id="e4" lang="en">Even if many people think that a murderer has already decided on the life or death of another person,</edu>
+  <edu id="e4" lang="ru" trans="promt">Даже если многие люди думают, что убийца уже выбрал жизнь или смерть другого человека,</edu>
+  <edu id="e4" lang="ru" trans="google">Даже если многие думают, что убийца уже принял решение о жизни или смерти другого человека,</edu>
+  <edu id="e4" lang="ru" trans="yandex">Даже если многие люди думают, что убийца уже принял решение о жизни или смерти другого человека,</edu>
+  <edu id="e5" lang="en">this is precisely the crime that we should not repay with the same.</edu>
+  <edu id="e5" lang="ru" trans="promt">это - точно преступление, которое мы не должны возмещать с тем же самым.</edu>
+  <edu id="e5" lang="ru" trans="google">это как раз преступление, которое мы не должны отплачивать тем же.</edu>
+  <edu id="e5" lang="ru" trans="yandex">это именно те преступления, что мы не должны отвечать тем же.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="reb"/>
+  <edge id="c5" src="a5" trg="c4" type="und"/>
+</arggraph>

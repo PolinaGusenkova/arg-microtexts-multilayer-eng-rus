@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b021" topic_id="charge_tuition_fees" stance="con">
+  <edu id="e1" lang="en">Tuition fees should not be charged in Germany.</edu>
+  <edu id="e1" lang="ru" trans="promt">Плата за обучение не должна взиматься в Германии.</edu>
+  <edu id="e1" lang="ru" trans="google">Плата за обучение не взимается в Германии.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Плата за обучение не должна взиматься в Германии.</edu>
+  <edu id="e2" lang="en">Studying and taking higher degrees must remain a basic right for everyone.</edu>
+  <edu id="e2" lang="ru" trans="promt">Изучение и получение степень должны остаться основным правом для всех.</edu>
+  <edu id="e2" lang="ru" trans="google">Изучение и высшее образование должно оставаться основным правом для всех.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Изучение и принятие высших степеней должно оставаться одним из основных прав каждого человека.</edu>
+  <edu id="e3" lang="en">Fees result in longer durations of studies.</edu>
+  <edu id="e3" lang="ru" trans="promt">Сборы приводят к более долгим продолжительностям исследований.</edu>
+  <edu id="e3" lang="ru" trans="google">Сборы приводят к увеличению продолжительности исследований.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Сборы приведут к более длинней продолжительности исследований.</edu>
+  <edu id="e4" lang="en">That's costly!</edu>
+  <edu id="e4" lang="ru" trans="promt">Это дорогостоящее!</edu>
+  <edu id="e4" lang="ru" trans="google">Это дорого!</edu>
+  <edu id="e4" lang="ru" trans="yandex">Это дорого!</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a4" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+</arggraph>

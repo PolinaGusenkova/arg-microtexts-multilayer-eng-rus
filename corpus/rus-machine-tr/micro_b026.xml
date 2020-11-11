@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b026" topic_id="health_insurance_cover_complementary_medicine" stance="pro">
+  <edu id="e1" lang="en">The statutory health insurance companies should also cover treatments with non-medical and alternative practitioners.</edu>
+  <edu id="e1" lang="ru" trans="promt">Установленные законом медицинские страховые компании должны также покрыть лечение с немедицинскими и альтернативными практиками.</edu>
+  <edu id="e1" lang="ru" trans="google">Штатные медицинские страховые компании должны также охватывать лечение с немедицинскими и альтернативными специалистами-практиками.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Обязательного медицинского страхования компании должны также охватывать процедуры с медицинской и альтернативных практиков.</edu>
+  <edu id="e2" lang="en">Their treatment methods and successes are not amply researched or proven.</edu>
+  <edu id="e2" lang="ru" trans="promt">Их методы лечения и успехи достаточно не исследованы или доказаны.</edu>
+  <edu id="e2" lang="ru" trans="google">Их методы лечения и успехи недостаточно изучены или доказаны.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Их методы лечения и успехи не в достаточной мере исследовал и доказал.</edu>
+  <edu id="e3" lang="en">Yet many patients subjectively experience relief or are cured of their complaints,</edu>
+  <edu id="e3" lang="ru" trans="promt">Все же многие пациенты субъективно испытывают облегчение или вылечены от их жалоб,</edu>
+  <edu id="e3" lang="ru" trans="google">Однако многие пациенты субъективно испытывают облегчение или излечиваются от своих жалоб,</edu>
+  <edu id="e3" lang="ru" trans="yandex">Однако многие пациенты субъективно испытать облегчение или вылечить их жалоб,</edu>
+  <edu id="e4" lang="en">which ultimately also saves costs for conventional treatments and medication.</edu>
+  <edu id="e4" lang="ru" trans="promt">который в конечном счете также сокращает затраты для традиционных методов лечения и лечения.</edu>
+  <edu id="e4" lang="ru" trans="google">что в конечном итоге также экономит затраты на обычные методы лечения и лекарства.</edu>
+  <edu id="e4" lang="ru" trans="yandex">что в конечном итоге экономит затраты на традиционные методы лечения и лекарства.</edu>
+  <edu id="e5" lang="en">Also conventional medicine is in many cases not successful,</edu>
+  <edu id="e5" lang="ru" trans="promt">Также традиционная медицина во многих случаях не успешна,</edu>
+  <edu id="e5" lang="ru" trans="google">Также обычная медицина во многих случаях не успешна,</edu>
+  <edu id="e5" lang="ru" trans="yandex">Также традиционная медицина во многих случаях не удается,</edu>
+  <edu id="e6" lang="en">and, moreover, entails significant risks and side effects.</edu>
+  <edu id="e6" lang="ru" trans="promt">и, кроме того, влечет за собой значительные риски и побочные эффекты.</edu>
+  <edu id="e6" lang="ru" trans="google">и, кроме того, влечет за собой значительные риски и побочные эффекты.</edu>
+  <edu id="e6" lang="ru" trans="yandex">и, кроме того, влечет за собой значительные риски и побочные эффекты.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="c2" type="und"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a1" type="sup"/>
+  <edge id="c6" src="a6" trg="a1" type="sup"/>
+</arggraph>

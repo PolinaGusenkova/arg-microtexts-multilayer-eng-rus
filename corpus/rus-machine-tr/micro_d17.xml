@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d17">
+  <edu id="e1" lang="en">Excessive consumption of meat is unhealthy.</edu>
+  <edu id="e1" lang="ru" trans="promt">Чрезмерное потребление мяса вредно для здоровья.</edu>
+  <edu id="e1" lang="ru" trans="google">Чрезмерное потребление мяса является нездоровым.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Чрезмерное употребление мяса вредно для здоровья.</edu>
+  <edu id="e2" lang="en">Furthermore, the production of meat is comparably resource-intensive.</edu>
+  <edu id="e2" lang="ru" trans="promt">Кроме того, производство мяса сравнительно ресурсоемкое.</edu>
+  <edu id="e2" lang="ru" trans="google">Кроме того, производство мяса является сравнительно ресурсоемким.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Кроме того, производство мяса является сравнительно дорогостоящим.</edu>
+  <edu id="e3" lang="en">We should thus all limit our consumption of meat rigorously.</edu>
+  <edu id="e3" lang="ru" trans="promt">Мы должны таким образом все ограничить наше потребление мяса строго.</edu>
+  <edu id="e3" lang="ru" trans="google">Таким образом, мы должны ограничить наше потребление мяса строго.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Мы должны таким образом все ограничить наше потребление мяса строго.</edu>
+  <edu id="e4" lang="en">One could worry that our farmers would then run into economic difficulties.</edu>
+  <edu id="e4" lang="ru" trans="promt">Можно было волноваться, что наши фермеры тогда столкнутся с экономическими трудностями.</edu>
+  <edu id="e4" lang="ru" trans="google">Можно было бы беспокоиться, что наши фермеры тогда столкнутся с экономическими трудностями.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Можно беспокоиться, что тогда наши фермеры сталкиваются с экономическими трудностями.</edu>
+  <edu id="e5" lang="en">However, no serious economist has confirmed this prediction to date.</edu>
+  <edu id="e5" lang="ru" trans="promt">Однако никакой серьезный экономист не подтвердил это предсказание до настоящего времени.</edu>
+  <edu id="e5" lang="ru" trans="google">Однако ни один серьезный экономист не подтвердил это предсказание на сегодняшний день.</edu>
+  <edu id="e5" lang="ru" trans="yandex">Однако, ни один серьезный экономист подтвердил этот прогноз на сегодняшний день.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="sup"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c4" src="a4" trg="a3" type="reb"/>
+  <edge id="c5" src="a5" trg="a4" type="reb"/>
+</arggraph>

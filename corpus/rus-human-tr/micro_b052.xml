@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b052" topic_id="keep_retirement_at_63" stance="con">
+  <edu id="e1" lang="en">Although the workload is getting heavier in many professions</edu>
+  <edu id="e1" lang="ru" trans="human">Хотя уровень нагрузки во многих профессиях всё выше,</edu>
+  <edu id="e2" lang="en">and physical and psychological wear on personnel is steadily increasing,</edu>
+  <edu id="e2" lang="ru" trans="human">и физическое и психологическое напряжение сотрудников неуклонно растёт,</edu>
+  <edu id="e3" lang="en">the statutory retirement age should in the future not remain at 63 years.</edu>
+  <edu id="e3" lang="ru" trans="human">установленный законом пенсионный возраст не должен оставаться на уровне 63 лет.</edu>
+  <edu id="e4" lang="en">For, due to the low birth rate, the proportion of the elderly population and with it pension costs are on the rise,</edu>
+  <edu id="e4" lang="ru" trans="human">Из-за низкого уровня рождаемости доля пожилого населения и, соответственно, расходы на пенсионные выплаты растут,</edu>
+  <edu id="e5" lang="en">and furthermore, due to today's healthcare most people in many occupations are fitter for work in old age than before.</edu>
+  <edu id="e5" lang="ru" trans="human">и кроме того, благодаря современному здравоохранению большинство людей во многих профессиях физически более приспособлены к работе в старости, чем раньше.</edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="reb"/>
+  <edge id="c2" src="a2" trg="a3" type="reb"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+  <edge id="c5" src="a5" trg="a3" type="sup"/>
+</arggraph>

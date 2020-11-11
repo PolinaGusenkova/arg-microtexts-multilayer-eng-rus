@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d05">
+  <edu id="e1" lang="en">Today I will delete my Facebook account.</edu>
+  <edu id="e1" lang="ru" trans="human">Сегодня я удалю свой аккаунт в Facebook.</edu>
+  <edu id="e2" lang="en">Not only because I'm constantly astonished about who wants to be my friend.</edu>
+  <edu id="e2" lang="ru" trans="human">Не только потому, что я постоянно поражена тем, кто набивается ко мне в друзья.</edu>
+  <edu id="e3" lang="en">I'm also tired of my data boosting the market value of that corporation.</edu>
+  <edu id="e3" lang="ru" trans="human">Я также устала от того, что мои данные увеличивают рыночную стоимость этой копрорации.</edu>
+  <edu id="e4" lang="en">Facebook warns me emphatically that I may lose contact with my friends.</edu>
+  <edu id="e4" lang="ru" trans="human">Facebook участливо предупреждает меня, что я могу потерять связь со своими друзьями.</edu>
+  <edu id="e5" lang="en">And yet now I'll actually have all the more time for them.</edu>
+  <edu id="e5" lang="ru" trans="human">Однако теперь у меня будет для них гораздо больше времени.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="reb"/>
+  <edge id="c5" src="a5" trg="a4" type="reb"/>
+</arggraph>

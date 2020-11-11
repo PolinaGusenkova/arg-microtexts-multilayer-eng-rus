@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b013" topic_id="health_insurance_cover_complementary_medicine" stance="pro">
+  <edu id="e1" lang="en">Health insurance companies should naturally cover alternative medical treatments.</edu>
+  <edu id="e1" lang="ru" trans="promt">Медицинские страховые компании должны естественно покрыть альтернативные лечения.</edu>
+  <edu id="e1" lang="ru" trans="google">Медицинские страховые компании должны, естественно, покрывать альтернативные виды лечения.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Медицинские страховые компании должны естественно охватить альтернативные методы лечения.</edu>
+  <edu id="e2" lang="en">Not all practices and approaches that are lumped together under this term may have been proven in clinical trials,</edu>
+  <edu id="e2" lang="ru" trans="promt">Не все методы и подходы, которые смешаны в этот термин, возможно, были доказаны в клинических испытаниях,</edu>
+  <edu id="e2" lang="ru" trans="google">Не все методы и подходы, которые объединяются в этот термин, могут быть доказаны в клинических испытаниях,</edu>
+  <edu id="e2" lang="ru" trans="yandex">Не все методы и подходы, которые объединены под этим термином, возможно, было доказано в клинических исследованиях,</edu>
+  <edu id="e3" lang="en">yet it's precisely their positive effect when accompanying conventional 'western' medical therapies that's been demonstrated as beneficial.</edu>
+  <edu id="e3" lang="ru" trans="promt">все же это - точно их положительный эффект, сопровождая обычные 'западные' медицинские методы лечения, это было продемонстрировано как выгодное.</edu>
+  <edu id="e3" lang="ru" trans="google">тем не менее, это их положительный эффект при сопутствующей традиционной «западной» медицинской терапии, которая была продемонстрирована как полезная.</edu>
+  <edu id="e3" lang="ru" trans="yandex">но именно их положительный эффект при сопровождении традиционных "западных" методов лечения, которые уже показали, как выгодно.</edu>
+  <edu id="e4" lang="en">Besides many general practitioners offer such counselling and treatments in parallel anyway -</edu>
+  <edu id="e4" lang="ru" trans="promt">Помимо многих врачей общей практики предлагают такую рекомендацию и лечение параллельно так или иначе -</edu>
+  <edu id="e4" lang="ru" trans="google">Кроме того, многие врачи общей практики предлагают такую ​​консультацию и лечение параллельно -</edu>
+  <edu id="e4" lang="ru" trans="yandex">Кроме того, многие терапевты предлагают в любом случае такие консультации и процедуры параллельно -</edu>
+  <edu id="e5" lang="en">and who would want to question their broad expertise?</edu>
+  <edu id="e5" lang="ru" trans="promt">и кто хотел бы подвергнуть сомнению их широкие экспертные знания?</edu>
+  <edu id="e5" lang="ru" trans="google">и кто хотел бы подвергнуть сомнению их обширный опыт?</edu>
+  <edu id="e5" lang="ru" trans="yandex">и кто хотел бы усомниться в их богатый опыт?</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="c2" type="und"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="c4" type="add"/>
+</arggraph>

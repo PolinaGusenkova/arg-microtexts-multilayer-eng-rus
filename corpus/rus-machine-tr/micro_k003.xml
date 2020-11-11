@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k003" topic_id="increase_weight_of_BA_thesis_in_final_grade" stance="con">
+  <edu id="e1" lang="en">Usually you only have eight weeks to complete a bachelor thesis in linguistics degrees.</edu>
+  <edu id="e1" lang="ru" trans="promt">Обычно у Вас только есть восемь недель, чтобы закончить тезис бакалавра в степенях лингвистики.</edu>
+  <edu id="e1" lang="ru" trans="google">Обычно у вас есть только восемь недель, чтобы закончить диплом бакалавра по степени лингвистики.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Обычно у вас есть только восемь недель для завершения дипломной работы по лингвистике градусов.</edu>
+  <edu id="e2" lang="en">Adjusting the portion of the total grade upwards anyway would not be commensurate to other study assignments and examinations.</edu>
+  <edu id="e2" lang="ru" trans="promt">Увеличивание части полного сорта так или иначе не было бы соразмерно к другим назначениям исследования и экспертизам.</edu>
+  <edu id="e2" lang="ru" trans="google">В любом случае, корректировка части общей оценки вверх не будет соизмерима с другими заданиями и экзаменами на учебу.</edu>
+  <edu id="e2" lang="ru" trans="yandex">Регулировка все равно часть общего класса вверх не соответствовал бы других учебных заданий и экзаменов.</edu>
+  <edu id="e3" lang="en">Current regulations for the calculation of the total grade should therefore be maintained.</edu>
+  <edu id="e3" lang="ru" trans="promt">Действующие постановления для вычисления полного сорта должны поэтому сохраняться.</edu>
+  <edu id="e3" lang="ru" trans="google">Поэтому следует соблюдать текущие правила расчета общей оценки.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Поэтому действующим правилам для расчета итоговая оценка должна быть сохранена.</edu>
+  <edu id="e4" lang="en">Indeed the preparation of such a scientific work is a fundamental competency that must be acquired in philological degrees.</edu>
+  <edu id="e4" lang="ru" trans="promt">Действительно подготовка такой научной работы - фундаментальная компетентность, которая должна быть приобретена в филологических степенях.</edu>
+  <edu id="e4" lang="ru" trans="google">Действительно, подготовка такой научной работы - это фундаментальная компетенция, которая должна быть приобретена в филологических степенях.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Ведь подготовка такого научного труда является основным компетенциям, которые должны быть приобретены в филологическим образованием.</edu>
+  <edu id="e5" lang="en">Throughout the six or seven semesters, however, topics are covered that likewise ought to carry weight.</edu>
+  <edu id="e5" lang="ru" trans="promt">В течение шести или семи семестров, однако, темы затронуты, который аналогично должен иметь вес.</edu>
+  <edu id="e5" lang="ru" trans="google">Тем не менее, в течение шести или семи семестров рассматриваются темы, которые также должны нести вес.</edu>
+  <edu id="e5" lang="ru" trans="yandex">На протяжении шести или семи семестров, однако, темы, которые также должны нести вес.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="sup"/>
+  <edge id="c2" src="a2" trg="c1" type="add"/>
+  <edge id="c4" src="a4" trg="a3" type="reb"/>
+  <edge id="c5" src="a5" trg="c4" type="und"/>
+</arggraph>

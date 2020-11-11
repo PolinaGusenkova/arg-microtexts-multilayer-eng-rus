@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k021" topic_id="cap_rent_increases" stance="pro">
+  <edu id="e1" lang="en">'Property entails commitment' is one of the tenets of our social order.</edu>
+  <edu id="e1" lang="ru" trans="human">«Собственность влечет за собой обязательства» - эта установка является одним из принципов нашего общественного порядка.</edu>
+  <edu id="e2" lang="en">Everyone should be able to get the utmost profit from his or her property.</edu>
+  <edu id="e2" lang="ru" trans="human">Каждый должен иметь возможность получать максимальную прибыль от своей собственности.</edu>
+  <edu id="e3" lang="en">A fixing of rent prices according to the market alone, however, will lead to a further division of society.</edu>
+  <edu id="e3" lang="ru" trans="human">Однако фиксация цен на аренду согласно лишь спросу и рыночной стоимости  приведет к дальнейшему расколу общества.</edu>
+  <edu id="e4" lang="en">The rich and poor live in different neighbourhoods.</edu>
+  <edu id="e4" lang="ru" trans="human">Богатые и бедные живут в разных кварталах.</edu>
+  <edu id="e5" lang="en">A constant increase in rent upon a change of tenants hence cannot be desired by society.</edu>
+  <edu id="e5" lang="ru" trans="human">Следовательно, общество не может желать постоянного увеличения арендной платы при смене арендаторов.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="sup"/>
+  <edge id="c2" src="a2" trg="c1" type="und"/>
+  <edge id="c3" src="a3" trg="c2" type="und"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+</arggraph>

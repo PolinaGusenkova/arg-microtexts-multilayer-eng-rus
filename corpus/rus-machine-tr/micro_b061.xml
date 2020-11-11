@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b061" topic_id="higher_dog_poo_fines" stance="con">
+  <edu id="e1" lang="en">Higher penalties for dog dirt are pointless as long as there is not enough personnel to enforce them.</edu>
+  <edu id="e1" lang="ru" trans="promt">Более высокие штрафы за грязь собаки бессмысленны, пока есть недостаточно персонала, чтобы провести в жизнь их.</edu>
+  <edu id="e1" lang="ru" trans="google">Более высокие штрафы за собачью грязь бессмысленны, пока не хватает персонала для их принудительного применения.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Более высокие штрафы за грязь собаки не имеют смысла до тех пор, пока там не хватает персонала, чтобы обеспечить их соблюдение.</edu>
+  <edu id="e2" lang="en">In individual cases they may indeed act as a deterrent,</edu>
+  <edu id="e2" lang="ru" trans="promt">В отдельных случаях они могут действительно действовать как средство устрашения,</edu>
+  <edu id="e2" lang="ru" trans="google">В отдельных случаях они действительно могут выступать в качестве сдерживающего фактора,</edu>
+  <edu id="e2" lang="ru" trans="yandex">В отдельных случаях они действительно могут выступать в качестве сдерживающего фактора,</edu>
+  <edu id="e3" lang="en">in general, however, a clean environment and the role model effect of others is more likely to motivate the dog owner to pick up the droppings than a potential fine.</edu>
+  <edu id="e3" lang="ru" trans="promt">в целом, однако, чистая окружающая среда и эффект образца для подражания других, более вероятно, заставит владельца собаки брать понижение, чем потенциальный штраф.</edu>
+  <edu id="e3" lang="ru" trans="google">в целом, однако, чистая окружающая среда и влияние ролевых моделей других людей, скорее всего, побудят владельца собаки забрать помет, чем потенциальный штраф.</edu>
+  <edu id="e3" lang="ru" trans="yandex">в целом, однако, чистую окружающую среду и эффект ролевой модели других, более вероятно, чтобы мотивировать владельца собаки, чтобы подобрать навоз, чем потенциальный штраф.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <edge id="c4" src="e1" trg="a1" type="seg"/>
+  <edge id="c5" src="e2" trg="a2" type="seg"/>
+  <edge id="c6" src="e3" trg="a3" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+</arggraph>

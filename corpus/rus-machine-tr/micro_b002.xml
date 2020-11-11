@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b002" topic_id="higher_dog_poo_fines" stance="pro">
+  <edu id="e1" lang="en">One can hardly move in Friedrichshain or Neukölln these days without permanently scanning the ground for dog dirt.</edu>
+  <edu id="e1" lang="ru" trans="promt">Можно едва двинуться во Фридрихсхайн или Neukölln в эти дни, постоянно не просматривая основание для грязи собаки.</edu>
+  <edu id="e1" lang="ru" trans="google">В Фридрихсхайн или Нойкленн в наши дни трудно двигаться, не просматривая почву для собак.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Вряд ли можно двигаться в Фридрихсхайн или Neukölln устаканится эти дни без постоянно сканировать почву для грязи собаки.</edu>
+  <edu id="e2" lang="en">And when bad luck does strike and you step into one of the many 'land mines' you have to painstakingly scrape the remains off your soles.</edu>
+  <edu id="e2" lang="ru" trans="promt">И когда неудача действительно ударяет, и Вы ступаете в одну из многих 'мин', Вы должны кропотливо очистить остатки от своих подошв.</edu>
+  <edu id="e2" lang="ru" trans="google">И когда неудача наносит удар, и вы входите в один из многих «наземных мин», вы должны тщательно очистить остатки от ваших подошв.</edu>
+  <edu id="e2" lang="ru" trans="yandex">И когда неудача делает удар и вы в одном из многочисленных 'мины' вы должны тщательно соскребите остатки с ваших подошв.</edu>
+  <edu id="e3" lang="en">Higher fines are therefore the right measure against negligent, lazy or simply thoughtless dog owners.</edu>
+  <edu id="e3" lang="ru" trans="promt">Более высокие штрафы - поэтому правильная мера против небрежных, ленивых или просто беспечных владельцев собак.</edu>
+  <edu id="e3" lang="ru" trans="google">Следовательно, высокие штрафы являются правильной мерой против небрежных, ленивых или просто бездумных владельцев собак.</edu>
+  <edu id="e3" lang="ru" trans="yandex">Поэтому повышение штрафов-это правильная мера против нерадивых, ленивых или просто необдуманны владельцев собак.</edu>
+  <edu id="e4" lang="en">Of course, first they'd actually need to be caught in the act by public order officers,</edu>
+  <edu id="e4" lang="ru" trans="promt">Конечно, сначала они должны были бы на самом деле быть пойманы на месте преступления чиновниками общественного порядка,</edu>
+  <edu id="e4" lang="ru" trans="google">Конечно, сначала им нужно было быть пойманным в акте сотрудниками общественного порядка,</edu>
+  <edu id="e4" lang="ru" trans="yandex">Конечно, сначала они на самом деле должны быть пойманы с поличным сотрудниками общественного порядка,</edu>
+  <edu id="e5" lang="en">but once they have to dig into their pockets, their laziness will sure vanish!</edu>
+  <edu id="e5" lang="ru" trans="promt">но как только они должны вырыть в их карманы, их лень будет уверенный исчезать!</edu>
+  <edu id="e5" lang="ru" trans="google">но как только им придется копаться в карманах, их лень обязательно исчезнет!</edu>
+  <edu id="e5" lang="ru" trans="yandex">но однажды им приходится копаться в их карманы, их лень обязательно исчезнет!</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="sup"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c4" src="a4" trg="a3" type="reb"/>
+  <edge id="c5" src="a5" trg="c4" type="und"/>
+</arggraph>

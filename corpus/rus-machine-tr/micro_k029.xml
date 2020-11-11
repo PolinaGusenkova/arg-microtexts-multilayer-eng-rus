@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k029" topic_id="over_the_counter_morning_after_pill" stance="con">
+  <edu id="e1" lang="en">No one should have the possibility to pick up the morning-after pill over the counter at the pharmacy.</edu>
+  <edu id="e1" lang="ru" trans="promt">Ни у кого не должно быть возможности взять таблетку от похмелья законно в аптеке.</edu>
+  <edu id="e1" lang="ru" trans="google">Никто не должен иметь возможность забрать утреннюю таблетку за стойку в аптеке.</edu>
+  <edu id="e1" lang="ru" trans="yandex">Никто не должен иметь возможность забрать утром-после таблетки рецепта в аптеке.</edu>
+  <edu id="e2" lang="en">Though there'd be the advantage of forgoing the embarrassment of a visit to the doctor or a nighttime trip to the walk-in clinic,</edu>
+  <edu id="e2" lang="ru" trans="promt">Хотя было бы преимущество воздержания от затруднения посещения доктора или ночной поездки в просторную клинику,</edu>
+  <edu id="e2" lang="ru" trans="google">Хотя было бы преимущество отказаться от смущения посещения врача или ночной поездки в прогулочную клинику,</edu>
+  <edu id="e2" lang="ru" trans="yandex">Хотя было бы преимущество отказа от смущения визит к врачу или ночной поход в поликлинику,</edu>
+  <edu id="e3" lang="en">women should still be informed about the risks and have a gynaecological examination before taking it.</edu>
+  <edu id="e3" lang="ru" trans="promt">женщинам нужно все еще сообщить о рисках и иметь гинекологическую экспертизу прежде, чем взять ее.</edu>
+  <edu id="e3" lang="ru" trans="google">женщины все равно должны быть проинформированы о рисках и пройти гинекологическое обследование, прежде чем принимать его.</edu>
+  <edu id="e3" lang="ru" trans="yandex">женщины по-прежнему должны быть проинформированы о рисках и гинекологическое обследование, прежде чем принимать его.</edu>
+  <edu id="e4" lang="en">Furthermore there's the risk that women could use the over-the-counter morning-after pill as a substitute for contraception.</edu>
+  <edu id="e4" lang="ru" trans="promt">Кроме того, есть риск, что женщины могли использовать внебиржевую таблетку от похмелья вместо контрацепции.</edu>
+  <edu id="e4" lang="ru" trans="google">Кроме того, существует риск того, что женщины могут использовать внебиржевую таблетку в качестве заменителя контрацепции.</edu>
+  <edu id="e4" lang="ru" trans="yandex">Кроме того, есть риск, что женщины могут использовать более-внебиржевом таблетки как замену контрацепции.</edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="c2" type="und"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+</arggraph>
