@@ -1,7 +1,7 @@
-arg-microtexts-multilayer
+arg-microtexts-multilayer-rus-eng
 =========================
 
-This repository holds a corpus of 112 short argumentative texts, annotated according to three different theories of *discourse structure*.
+This repository holds a corpus of 112 short argumentative texts in English with Russian translation (machine and human), annotated according to three different theories of *discourse structure*.
 
 
 Layers of annotation
@@ -15,32 +15,26 @@ Layers of annotation
 Source data
 -----------
 
-The original text corpus and the annotation of argumentation structures has been described in (Peldszus and Stede, 2015) and is made available [here](https://github.com/peldszus/arg-microtexts).
-The annotation of argumentation structure in this repository has a finer segmentation into Elementary Discourse Units (EDU), whereas the original annotation is segmented into coarse Argumentative Discourse Units (ADU). 
+The original annotated corpus is available [here](https://github.com/peldszus/arg-microtexts-multilayer).
+The translation of the corpus is available [here](https://github.com/kotelnikov-ev/ArgMicro_Russian) (part 1).
 
 
-Code 
-----
-
-The code for producing the dependency conversion, the alignment of the dependency structures of the different discourse theories and graph plotting will be made available here soon. Stay tuned.
-
-
-License and Citation
---------------------
+License
+-------
 
 The corpus, the annotations and the associated code are released under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. You can find a human-readable summary of the licence agreement here:
 
 https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-If you are using our corpus for research purposes, please cite the following paper:
-
-    Manfred Stede, Stergos Afantenos, Andreas Peldszus, Nicholas Asher and Jérémy Perret
-    Parallel Discourse Annotations on a Corpus of Short Texts
-    Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016), Slovenia, Portorož, May 2016
-
 
 References
 ----------
+
+1. Fishcheva, I., Kotelnikov, E. 
+   Cross-lingual argumentation mining for Russian texts
+   Proceedings of the 8th International Conference "Analysis of Images, Social networks and Texts" (AIST 2019), July 17–19, 2019, Kazan, Russia 
+   Lecture Notes in Computer Science. Vol. 11832. Springer, 
+   2019
 
 1. Manfred Stede, Stergos Afantenos, Andreas Peldszus, Nicholas Asher and Jérémy Perret
    Parallel Discourse Annotations on a Corpus of Short Texts
